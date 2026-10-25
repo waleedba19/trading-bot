@@ -1,0 +1,67 @@
+{
+  "timezone": "Africa/Tripoli",
+  "utc_offset_hours": 2,
+  "note": "THE ONLY place session times live (Libya has no daylight saving). Markets: 03:00, 09:00, 14:00; TradeReady 15:00 = one hour after the 14:00 open, ready to trade. Edit here, then: python scripts/sessions.py --write ; powershell -File D:/AlphaCode/feed/register_tasks.ps1 ; tests fail if a workflow or a PC task disagrees.",
+  "grace_minutes": 45,
+  "tick_every_minutes": 10,
+  "tick_minute_digit": 7,
+  "catchup_hours": 20,
+  "workflows": {
+    "sentiment": {
+      "start_minutes_before_open": 130,
+      "end_minutes_before_open": 90
+    },
+    "warmup": {
+      "start_minutes_before_open": 90,
+      "end_minutes_before_open": 15
+    },
+    "deliberate": {
+      "start_minutes_before_open": 45,
+      "end_minutes_before_open": -45
+    }
+  },
+  "sessions": [
+    {
+      "name": "Morning",
+      "open": "03:00"
+    },
+    {
+      "name": "Midday",
+      "open": "09:00"
+    },
+    {
+      "name": "Afternoon",
+      "open": "14:00"
+    },
+    {
+      "name": "TradeReady",
+      "open": "15:00",
+      "only": [
+        "deliberate"
+      ],
+      "window": {
+        "start_minutes_before_open": 40,
+        "end_minutes_before_open": -30
+      }
+    }
+  ],
+  "pc": {
+    "run_minutes_before_open": 15,
+    "clean_minutes_before_open": 30,
+    "clean_extra": [
+      "18:00",
+      "22:00"
+    ]
+  },
+  "fixed_jobs_not_sessions": {
+    "news": "20 */3 * * *",
+    "watchdog": "0 * * * *",
+    "strategy-research": "17 * * * *",
+    "ci": "0 5 * * *",
+    "outcome": "55 20 * * 1-5",
+    "daily-learning": "15 21 * * 1-5",
+    "vibe-research": "40 21 * * 1-5",
+    "scan-ic": "0 6 * * 6",
+    "alert": "on workflow completion"
+  }
+}
