@@ -34,6 +34,7 @@ RULES = (
     ("research/reports/learning/daily_learning.json", "Daily learning", 30.0),
     ("research/reports/quality/data_quality.json", "Daily learning", 30.0),
     ("research/reports/vibe/latest.json", "Vibe-Trading research", 50.0),
+    ("research/reports/news/latest.json", "News", 9.0),   # every 3 h; 9 h = two missed runs
     ("research/reports/scan_ic.json", "Scan IC", 192.0),   # weekly measurement
 )
 

@@ -33,7 +33,7 @@ class EvidenceGateTest(unittest.TestCase):
         self.vibe = self.dir / "vibe"
         self.vibe.mkdir()
         self.scan_path = self.dir / "asset_scan.json"
-        self.now = datetime(2026, 10, 23, 18, 0, tzinfo=timezone.utc)
+        self.now = datetime.now(timezone.utc)  # vibe_evidence ages files by the real clock; a fixed date made this test fail 48h after it was written
 
     # ---- fixtures -------------------------------------------------------
     def _decision(self, age_hours=1.0, pairs=None, generated_at=None):

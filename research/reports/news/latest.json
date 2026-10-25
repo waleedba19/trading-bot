@@ -1,0 +1,2942 @@
+{
+ "generated_at": "2026-10-25T19:24:54Z",
+ "keep_hours": 48,
+ "feeds": [
+  {
+   "feed": "fed",
+   "ok": true,
+   "items": 20
+  },
+  {
+   "feed": "ecb",
+   "ok": true,
+   "items": 15
+  },
+  {
+   "feed": "sec",
+   "ok": true,
+   "items": 25
+  },
+  {
+   "feed": "bbc-business",
+   "ok": true,
+   "items": 55
+  },
+  {
+   "feed": "bbc-world",
+   "ok": true,
+   "items": 31
+  },
+  {
+   "feed": "nyt-business",
+   "ok": true,
+   "items": 49
+  },
+  {
+   "feed": "cnbc",
+   "ok": true,
+   "items": 30
+  },
+  {
+   "feed": "investing",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "feed": "cointelegraph",
+   "ok": true,
+   "items": 30
+  },
+  {
+   "feed": "coindesk",
+   "ok": true,
+   "items": 25
+  },
+  {
+   "feed": "guardian-business",
+   "ok": true,
+   "items": 38
+  },
+  {
+   "feed": "gnews-bitcoin",
+   "ok": true,
+   "items": 100
+  },
+  {
+   "feed": "gnews-fx",
+   "ok": true,
+   "items": 68
+  }
+ ],
+ "ok_feeds": 13,
+ "items": [
+  {
+   "ts": "2026-10-25T19:17:18Z",
+   "title": "ECB official sees digital euro as key to protecting EU ‘sovereignty’ - Cryptonews.net",
+   "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9NZUYtS1BnZ1g5NEJlWWlZOEFtaWFXZThQZmdLay1SZUFjUDJucjh2UmhaYVlkdlBORXBKa1lCMTFqd0dqSUEtNVdOR2VOb0JWUlpieE1R?oc=5",
+   "source": "gnews-fx",
+   "tags": [
+    "EURUSD=X"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T19:17:16Z",
+   "title": "BloFin CEO Matt Hu Expects Shallower Bitcoin (BTC) Crashes After 53% Bear Market Drop - Cryptonews.net",
+   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5mNmRFU0JPMHRhVVA2UExoNDM3VGE2QVlnQTJ4RUpkOWZiU0l4dUxBY0hCRlhQZlVQQUpnMDR0MVFOSVNsak1BZmJzc2s3M3YwVzBYZnNkT3M?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD"
+   ],
+   "tone": -1.0
+  },
+  {
+   "ts": "2026-10-25T19:16:51Z",
+   "title": "Bitcoin value faces bearish hourly pressure as daily trend stays neutral - Cryptonews.net",
+   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5YQWl1ZkRVa0VCdUlhX3R4UkV0WFhFeFBmX0F0ZDNrNW9FQ3RfNUFWR0NvQV9CMG5NUDVyRzdyb1lJVFZjNG9rVjZoMWZPOWphMVhtYUVqaDc?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T19:14:27Z",
+   "title": "Death toll in Nigeria village raided by gunmen rises to 48, police say",
+   "link": "https://www.bbc.co.uk/news/articles/cq1kdlm1ze7do?at_medium=RSS&at_campaign=rss",
+   "source": "bbc-world",
+   "tags": [],
+   "tone": 1.0
+  },
+  {
+   "ts": "2026-10-25T19:06:55Z",
+   "title": "Week ahead: Fed and ECB Decisions, US GDP and PCE Data - AskTraders.com",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQN3R5a2tYejlESzFjZzl3TGN0dFBFZ19QbEFkaHNwTjhuQ3lsVS0xcUZmU2lXZGk4ZWtEYWZJLV8zdWtrQzVCNjh1STRYazRWNGNpNWNnSkNyWDRwM1dKa3pnYkVfd2RPVjFHQlc4V1hjWUVpbVU4Y0Q3RlFkU1ItekVFdTZRY25EbUVtb09QYUVxOWs?oc=5",
+   "source": "gnews-fx",
+   "tags": [
+    "EURUSD=X",
+    "USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T19:05:59Z",
+   "title": "Bitcoin Is Down 3% in October and Ethereum 12%. Which Should a First-Time Buyer Pick? - 24/7 Wall St.",
+   "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOZ0pvOE9HMy04NTRHMnlKdHBwS3VSdjR5aHRxUVlxc2d1QnVzYnBvekJVNVFHUVJGMXNsaktVRGZ5ZWluVTc2cW5oQlRTS210MEF3TF9WSGZqUjVBdmdQVGI5SXhDZE9kWHdMRzBKb1lBUmN3WlhFTGFzeWVIU0M2MTd0Uk4ySm1UTk5sTzkwb0o5MzZkSjEyMmQzTGUyRFRNMk9sQ05qQzczZ3J1S09hMDA3Tk9WcVQtRHc2RGFadlloMTFYZ09BS202M0hjbjBTaXhGTnFMZw?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD",
+    "ETH-USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T18:51:28Z",
+   "title": "Will gold hit $5,000 again? What experts expect for 2027 - USA Today",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQRmNuRGNna3E1QVlPNDRRZjZhMDdpMUJVeXRfVHVyVXk3Z0xDc0M2b25hSVVkTjVwbWIwdG5xdlEybDRqdjBUMnhURnFTc2ZFdkQ4RWZFMG5OV3VOOVJOTDZnSmZZR3dUVVY2N3NRSnkyTkRHT1RoVDYxRGZOdFlSYXhaSzd3UndJTTBLMURNYXRZbmlycGJzdFFvMA?oc=5",
+   "source": "gnews-fx",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T18:37:00Z",
+   "title": "Bitcoin vs Ethereum ETFs: The Gap Is Getting Hard to Ignore - CryptoPotato",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOanpraXNBSVdYS2J4alZmYkgzdnZGc0JRdElfMWxHaVJFWEZlVDhfQXlyaGd1S3ZjYjJzQlJJaGFvTmhpbGFCd0FQSXBrT25oMl9jeExPYk9JTS05UlRoenlBQUlnbERfOG1tb2VadEt6ek9tUVVhSUJpZXM1OE1PU2VfelFFdzRKN2l5Ng?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD",
+    "ETH-USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T18:33:12Z",
+   "title": "Crypto Overview: Bitcoin, ETH and XRP Face Risk-Off Markets as Remittix Recruits Testers for 18-22% APY - StreetInsider",
+   "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNYWRLYk1uZ3JXclVrNDFqV2x0VWgyQlFQOGJuUFcyMjRDNThXak5GNFozejhhRFNNOU4za0RIMUlLVm1hek1heUVDRlJVMnhRd0hUby1sME5NX2VHMW84QVl6MllzTkdaT3M3NFFoQW9VMkt0SWhxVUF4VDREQlFyLU14NFFEUC0zVy0zRzBsZWRfWUtDVW9HWlpIZENmNHdsU2tvWXhfVXNLS05JeVZzVUd1ZmQzR3hVYXBiSHZXS2ctQ0pFZjVoMmdkWjg5eDMtQUJOaEhTa3k1WGJaWV9vQ1ZNVFpJNmN3U1BJWG45SHBCYW5JeXNDZmU4ZWlYZw?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD",
+    "ETH-USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T18:29:00Z",
+   "title": "Venezuelan opposition leader María Machado returns after months in exile",
+   "link": "https://www.bbc.co.uk/news/articles/cq8ez592pp0eo?at_medium=RSS&at_campaign=rss",
+   "source": "bbc-world",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T18:18:49Z",
+   "title": "Ukraine disputes Elon Musk’s claim that its military violated Starlink terms during drone operations",
+   "link": "https://www.cnbc.com/2026/10/25/ukraine-musk-starlink-terms-dispute.html",
+   "source": "cnbc",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T18:15:00Z",
+   "title": "Zcash-Linked Funds Post Biggest Inflow Since September as Bitcoin Sags - BigGo Finance",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0wN05jVE9PZk1acjBid1gwUmNncHB5cmhuUTBfVFdXcWRlaEk4eXRQeGQwUHdTT0R6akVCLUYyUVNTYWNIbXhTOHVaV2N0UnJYUGZWYllFVWVYcGZORmVMeTlMYnJLT09TT09HaTRBTVlTTE4yOWc?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T18:15:00Z",
+   "title": "Tether Signs 15 Mining Firms to Common Software Standard as AI Moves Into Bitcoin Data Centers - BigGo Finance",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1mUFVuZUlEZTAwem4ydXZFeWtndUh2ZllFN1VqdlYzcW8ya3F2OUx2NW9Bcm85N0RwRmRjWUxZRW1Ub3VPTkJLRVRaR01jYVZBZDhfVEJiZW1Cc3B6SXdiWTdpc1pUa2J0WVo5N0ZmeGZKNTNXZ1E?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T18:12:38Z",
+   "title": "Crypto News Today: Another Iran Shock Could Slam Bitcoin and Ethereum as AlphaPepe Enters the Next Shiba Inu Race - StreetInsider",
+   "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNT3lza1dla21ZdDRVZ1FteGhibmgwMGlWcmF3YzNtMjRpTXJ1Qk1RTjdOZVFEbHZwNzVNZi05aUVHY0hTMFJRakc3VDVvaDkzSXlQOGlUZFhLTENybk9Ob3J5c0JpVk1USkNtbjEwLU1vclFOOVAzYW9QTzZxNmN3TW02T19uZUkxV0lNanI1MGJzMHhJYkJObWxQWExoZm5BVEVRN3I3cW9JNVFjNkQ2X1BoY0liVkl5OFdyTjJtV3I4STVxenVKUjJXZTVrWE5uU1hrM3k4d1hpS0dKMEplWkZiTU8zZXpxLTl4RDk5QjFMdGRXM1dMaklQZHNXVl9fWm1vLWNn?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD",
+    "ETH-USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T18:08:42Z",
+   "title": "Hotels, resorts can retain 15pc forex earnings from foreigners - The New Nation",
+   "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9YVS00enltc0JwUGlhdHZjckpOeV9iQUdzS0lCSlg5VzlUOFlLR3JwS0Rtd0xMU1ZOUGxZNjZDSEFKUXhWX2g3eU5CdklfMjQ?oc=5",
+   "source": "gnews-fx",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T18:05:00Z",
+   "title": "Bitcoin Rebounds Above $80,000 Hours After Peter Schiff's $75,000 Crash Call - BigGo Finance",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE53NmdFZlpGT1J4YzdOVHZiQl94ODFZaWlUamJ4SEVTZThaOUx6Wktac0RBUUtZLTdRdzFZMFdtOHhwY2xfOGpqM1p6TVhiNnVENEY1Z253TGRHc0FUa05fcnp6UEo4YmVZelFGMWRpdFVFOEE5UEE?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD"
+   ],
+   "tone": -1.0
+  },
+  {
+   "ts": "2026-10-25T18:05:00Z",
+   "title": "Tesla-SpaceX Merger Would Put $2.5B Bitcoin Hoard Under One Roof, With No New Buying - finance.biggo.com",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE04eEh2dlI1TFItR196czBnY2dObGd0Z0dIWFMzWWhHRF9GaWNieS1aZjY0OXNNVC1tb203RWpmTG4xMUp5d3dMNnFBZkFMMU0wOVNLSHYxd1hmdXpVR3A0N2JReUFkV20wVWJyWndTeW81SlFsMEE?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T17:54:37Z",
+   "title": "Monero (XMR) and Zcash (ZEC) Beat Bitcoin This Week. Can the Privacy Coins Keep It Up? - 24/7 Wall St.",
+   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPOU5WZVNTZklwSHV4UTVCSXdHNmlZcDd4UXBYeHpac003QkNnbDBhRF9XRi13NDFMUTROU3VuNnc1TV9XY09BTXd0dF9Ea2NsdWJNUTZlVFVSRzJ1SWZqZHNDN1U3Z3pPV2tHWndnMm9UY0RYNWNhdjZJZGswazlaaGxVbW82UGhOOXpJZTVMMFlFZzllOXJDR0JUUW1adWIySmRsRExJNEdFaHBPR0p5MENlVU9NUWF0Z3d6V2RROHZ0UmN2Vi1YS09jUHNNeW90bURYZmRR?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD"
+   ],
+   "tone": 1.0
+  },
+  {
+   "ts": "2026-10-25T17:54:00Z",
+   "title": "Fed Week Puts Stocks, Bitcoin, and DXY on Collision Course Before $11 Billion Expiry - BeInCrypto",
+   "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE05YkhUU19EQXhyY1AtRWFoMDRrMVRNdXh0N2tQY3g1UW00WXlWWFVibV9QcmlsTzlaYTJlS3FoMzIwNzhoSkRncVU2TnpBOE1GYTlfS2dPN3otUklqbHg5MFlMbkdGWnhPY28zYnJ1Zw?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD",
+    "USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T17:42:44Z",
+   "title": "Heatbit Bitwater Turns a Water Heater Into a Bitcoin Miner - Tech My Money",
+   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBId040OGlqcDdKbHlpWFphMkJoaFV0X0dFUG0xanBnU0ZqOGRNTWR6VWg1VmpyWkFtOXJ3X2tPZk92dkJTTXJGZG5YRmFtRklSNTMxemY5T2kydzAyWEEyU2lVUzgzYWRiX1VCUmhEMEE3OEFCdjg0YUlxQm4tQdIBfkFVX3lxTFBId040OGlqcDdKbHlpWFphMkJoaFV0X0dFUG0xanBnU0ZqOGRNTWR6VWg1VmpyWkFtOXJ3X2tPZk92dkJTTXJGZG5YRmFtRklSNTMxemY5T2kydzAyWEEyU2lVUzgzYWRiX1VCUmhEMEE3OEFCdjg0YUlxQm4tQQ?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T17:36:46Z",
+   "title": "Crypto Update: Bitcoin Swings Around $80K as Remittix Invites 100 Earn Testers With Weekly Payouts - StreetInsider",
+   "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQR0xJNWU3TENEU2JtUDlnN0hubUUwZ01rRUVBM0ZENmw3RVV0VnRGSWpsQ0JOOUp4cTh3ajd0SzhCbE5PWFljQ1Zxd2c5ZmctTUVDdU1QQzNsSjFRd0xBTDY2aS10VG9oWmlvWHI5dVYyWktQS3JNcllZRE1jQ1IzaXRXS1pDSmVyRTI1TnE5bTd1RWM4OTZ4MzdoSEx1eG1GZURBVXFXTjRjWlZCaHBWLWpTRkh6SkxHNy1wX1N5ZGpoNnJjbkJpYTQ5M29HWktEdWhaZ3RESGI1aEItd3lJWUJfOHIxYjA0c1M5YnBlX0QyMVlq?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T17:25:15Z",
+   "title": "China and Britain Both Want the $5 Billion in Bitcoin From the Qian Fraud - Startup Fortune",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQN25XcVg0WDk5aklUa1lqc1pxdndidzhVMjVPejd5RTF5cXJGWDNjT2dabzZqN1A3c3BNOFB0UEpNMUVqcHVYanBPeGNQRWhPWDJYUE5fQms2elk1aWI0QkZpY3NkQUYyTEJBbl9RVWZ0V3FQT2phNGRhQnJ5Nk1KN0lNakxWOVlfUXRfMEJ0RjhKbExoaGw2a0ZMclN4anYtcHc?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD"
+   ],
+   "tone": -1.0
+  },
+  {
+   "ts": "2026-10-25T17:25:07Z",
+   "title": "The Guardian view on Oxford Street’s pedestrianisation: cities should be designed around people, not cars | Editorial",
+   "link": "https://www.theguardian.com/commentisfree/2026/oct/25/the-guardian-view-on-oxford-streets-pedestrianisation-cities-should-be-designed-around-people-not-cars",
+   "source": "guardian-business",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T17:21:48Z",
+   "title": "Bitcoin to $75K Before a Massive Rally? Analysts See a Familiar Setup - CryptoRank",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWTFPYkJ6Qk56NVk5ZnVGVGNteXlUaUx6NzFGNm9JSHRLdGFhUWNveVlya25QREo5MDRfSmRUVTlpTVBjSUw1Y0h2UFYyaEd1T3lKLThidHVtaUJnamFnZWRTUndEbHVYc0JyMXFSeUt3UTZoQjduZFI3Y1FtUDV5V0NzUDUwNFRYWDNMOGdqaURGc2szWW5ZeURyVXJaNjdwU3NuS0ZIRXg?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD"
+   ],
+   "tone": 1.0
+  },
+  {
+   "ts": "2026-10-25T17:21:48Z",
+   "title": "Ether loses 13% in a month, Bitcoin under 5% - CryptoRank",
+   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQVklDUXVSSEhkRlVmLXlUYVVjTWhQc3kyUXQyb2xWY192aHozbUl6UUhmUmNLa3YwRnprQU9OQmNQTk52SzZNaWNkRkgwQVdyeEJEcmJRdGVPQnJnRXNyNEIzTE1CeUlWNkpSMjNzV05wMDBVeG8wWTFVZTBQNXdadA?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD",
+    "ETH-USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T17:16:13Z",
+   "title": "‘You Can See Everything’ Gives ‘Clayface’ a Run for Its Money at the Box Office",
+   "link": "https://www.nytimes.com/2026/10/25/business/media/elizabeth-holmes-clayface-box-office.html",
+   "source": "nyt-business",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T17:14:22Z",
+   "title": "XRP Held Flat This Week While Bitcoin, Ethereum and Solana Fell. Is It Breaking Away From Bitcoin? - 24/7 Wall St.",
+   "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPS3lEbTI1UzZfOUJ6MDZFRS1GTzdWQ1N5QTlxYzIxc2FGWHh3d29qb3dTcGdXWXE0WXJlTENLQzU1R2FuN0tDY1R1WW1rUm02aHdmV1FQNU4zSzl3Wnk2Y0MtVGRiZDBOOFJ1bFk5UDdHSUFSVHdxRUxxVUV6alRpNUxfZnczQ3dBZnk5ZzNweGljMUNEc2x2bm1LU0xibjNlWFdVRHVwbmEyTkgxSnBFS1U5S0J1M19NUkJ2WHZWM1U3akEzb3FtWm1TNG5US242S0hLc0VET2NoN0ZYeDdTX3pSc0dJcEpTdHc?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD",
+    "ETH-USD",
+    "SOL-USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T17:11:34Z",
+   "title": "Tech firms should pay the creators whose work they use | Letter",
+   "link": "https://www.theguardian.com/technology/2026/oct/25/tech-firms-should-pay-the-creators-whose-work-they-use",
+   "source": "guardian-business",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T17:00:35Z",
+   "title": "If Tesla Merges With SpaceX, How Many Bitcoin Would Elon's Companies Hold? - Benzinga",
+   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNanhPbXBtVElGQzdMT3NHZXBoQ09ZSWtocFN6aGRjeGUyOGJxaEg1NFdfSVRSbTA1SzlPZGswX1BnWmJvWmY2ZW51R3lqWUJfaXJnN3JhdVNITnk5ZXJYMjhBY2hVOG1qT25tSDRnQ0xlZlRzMnhBZU5oOHhuZVF3UXB2QWRpYW85bEVBOFpjM0UzcjRlT3RhQjVnOHRObEIxOUptVFVDaXU5MkhCMklGTEJSNnNWUEQ4MlNJSFJVU2s5UXp2SWNTNU52QjZBZw?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T17:00:21Z",
+   "title": "How to Straddle the MAGA Divide",
+   "link": "https://www.nytimes.com/2026/10/25/business/how-to-straddle-the-maga-divide.html",
+   "source": "nyt-business",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T17:00:00Z",
+   "title": "The Fed thinks it’s fighting inflation. It’s starving the cure - Washington Examiner",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPY1RVQzhCY3dfS0dqb0VnaTFaN01KNkx1aTVlOTV2RWVXUTN1QmVLajFiWmhqR040QXIxQWhVaUhBakI2eVFpSFpOQ0lDVEZvUUhPbzU4RWlyaFV1cFdnREpNX1JJY0tpNTlLcEc4SEk1QktfVnFCN0JUakRHbGRQQlZqTnI5WDM2VnI3cVJ2dUxCRl92R2o3U3dpUjlCWEk?oc=5",
+   "source": "gnews-fx",
+   "tags": [
+    "USD",
+    "rates"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T16:59:15Z",
+   "title": "U.S, Canada “very close” to trade deal, White House’s Hassett says",
+   "link": "https://www.investing.com/news/economy-news/us-canada-very-close-to-trade-deal-white-houses-hassett-says-4971239",
+   "source": "investing",
+   "tags": [
+    "politics"
+   ],
+   "tone": 1.0
+  },
+  {
+   "ts": "2026-10-25T16:55:59Z",
+   "title": "XRP Held Flat This Week While Bitcoin, Ethereum and Solana Fell. Is It Breaking Away From Bitcoin? - Yahoo Finance",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQN2hTcnBXQmo0RjRRVHRMS0M3YXI4TnBiVVZJeGd5YmZtWTd2TG9ZVWJCREw2S1cyWDFQQlg3aGRod2t5TWo1S3VBeFppWHA3bTdURDZ5TVFYcnQwZVJYVFpIcG9MbUNsTXdxQzBnYkxrMjNvVG95MWp2OHp5YmlhOS1ESmVxUGE2cmtzTU8xY2xoRzQ?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD",
+    "ETH-USD",
+    "SOL-USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T16:53:43Z",
+   "title": "Caryle Murphy Has Died. She Earned a Pulitzer for Reporting in Kuwait.",
+   "link": "https://www.nytimes.com/2026/10/25/business/media/caryle-murphy-dead.html",
+   "source": "nyt-business",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T16:48:40Z",
+   "title": "Virtuals Adds Automated Options Trading for Bitcoin and Ether - www.tokenpost.com",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBHaDJKUEwyYTVMTFZJc0F3MVQ5d3ZLazlvckE5Y0pCRGV6dXpwZ3FSdms5OU1xcTRzUFB0SWwxRTdaV0U5SzQzVFVFY2lIUjJNMnJ3VXZtOTFzRTA?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD",
+    "ETH-USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T16:43:11Z",
+   "title": "Bitcoin buy-and-hold strategy underperforms trend following in 10-year backtest - KuCoin",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUjlkaUd0a3YxVGZWbUZuMHV6WlVRY0t3N0VMX1JIUE1jei03QW5FbzJ0a3M1RW1iTVFCR0luaGJpOElUeGIzM1JtaGlZemttR29mVDAwaWR5Z3RQSEdUdlN3MnEwSGhROVhjZFkybjYzU3BUNTVIekhiUG9FSGMzaFBGY1dMZkZPOVZlUXdOOG44VU43d0JpeXhLS2NyU19NdUFnYWRtTlJmZ2hYM2Y4YTNRZw?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T16:42:42Z",
+   "title": "Audi defends plans for a $4 billion Georgia plant amid VW restructuring, tariffs",
+   "link": "https://www.cnbc.com/2026/10/25/audi-georgia-us-plant-tariffs-volkswagen.html",
+   "source": "cnbc",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T16:40:07Z",
+   "title": "Hamilton Enhanced Bitcoin DayMAX™ ETF declares CAD0.215 dividend - TradingView",
+   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOdXhQNGJ4a2ZnclROUjlMRUREakNubTRxd1lsMk1GZEFFc0NuUFpBQ20xTXgzTFJTTDdfTWQwVzlONzN3MHdMSlJtMXFCTDhpRDdKMktLTkNoNTVpMFJaQ2dEaHRWeUlHWG16Sk53c1dfa1I0NzlKcV9peWo5TE5mR29NWGk2dUdqMEduYk53QkhaUHU2MXVBVk5MOGViNnlZcUVYSHMtbHVLbzV3S25hRV9uUGM5aE1mYjNDdXhkWlFTU3Ry?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T16:36:49Z",
+   "title": "Crypto Price Prediction: Bitcoin’s Market Share Takes Focus as Remittix’s $33M Raise Meets a 300M RTX Burn Plan - StreetInsider",
+   "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxPVGdJYS1Pc041NW42Sm9XclJ4cTFYS1lnYmRjTlRPZ2xhdS10LUdqdC1HZkNIYWhtVnRmWjdDWkFWZ3IyTWg0UTVzLVI0TGUyRE1Pcnh5Mk5kVDZ5VmIzeUU1bm41Zm9EMDRidVJsQm1CNW9KUzVnZW1qVjYycDBnenNSdjdjdEFuMHBOWDdJQmI4M1hvc3N0LXNEWTZ4UWh5dUdDMHR5RFREWnVYR2hva1VVc1VkWGJyY056dE5vcDU5STZBNEZpVlE5X2JLWC0wZnd6QndZcXg3NjJjTTJIcEk3QXhHZGQ3bVh5LVVhOS11RFhGRUZ6bW02Tm5vcnlvSjkzY0FLMkxCMG5PT2kxYTNZT3R4Y05qamNv?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T16:34:37Z",
+   "title": "Bitcoin Analysis: BTC Slipped Below $80,000 Again. Is $77,600 the Next Stop? - 24/7 Wall St.",
+   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQLXFPRFZTWWlraFpwdHo4ZEF1NjdBYXZuODFING9XUFh4ekpSMkxtbndLcGpfcWg3NVdEQXhxdkZ5d25tWEtXT0hqMXVaekZmcjBGbEVVdW1Hanh6eW9NdmMydlp2c1ZVUExXOVdVZ2syUEwxenRod3BLc2VTbVp0azBpdGJlbmNkR1B4S1dyUTVuWW44RnJXZk5XQ25sR0FMUmJ2Y2JSYnZOQlh4cHdfQ09ZOE15SkRnNElKZjVvWE9GZkJzQVJj?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T16:34:00Z",
+   "title": "Bitcoin Price Prediction: What’s the Most Likely Scenario for BTC Next Week? - CryptoPotato",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQODFMNGNFS3FYX09TOTJMQkRNaXJOZnVXTUhTZGdtb3VkZHd3Z0JIMG5wUDNNdmt6V0w4MUEtSFI5Si01em5KVkJ0V0U4c18xX2llY1RUNElWWXV1SnBQV1FHdFJjWWFKdkFrTzZWQ056bDN6YlhicU5hdERiUERjR3ljeDFGaXFvZGpTSDFBSk5ETEhvT09oRnpydTU5azJ4R0dz?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T16:32:38Z",
+   "title": "Strategy Booked an $8.3 Billion Bitcoin Loss Last Quarter. Could Q3 Show a Gain? - 24/7 Wall St.",
+   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPak1SWUh3S0UwN0pnU3g0dE9kbnpuWVhlWGtqQnp2UG5KTGp6b3pRa0didnNlNFpoRFphdEQ0TVBrVzBXQmg3aGpYQXhLZ2FQVENrTGhTNFROcjJQQzZGVnplQ1ZEa180bWU2T1l0TEhRazVoV3ZicmllSnI3RThYOTgtOGc0bEg3Y19CcHB2V3Z4OEVZSmZwdEF0SXRhSXh5MUN1ellfc1ZlWmxIOVJOUUhpU29lWEVKVXZCUWtFYXpjdVNjcFlIT1dhd1FQcTFHcnc?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T16:32:07Z",
+   "title": "Bitcoin Analysis: BTC Slipped Below $80,000 Again. Is $77,600 the Next Stop? - Yahoo Finance",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNUldzQTQycWptZDdQUVJrcVJLckw1cWNlTUtZQTgtREY3SVVmQzZaXy1IeTF6RG1sTGlQc0xMcWJpZXFIZDlONVFBb1NPbWF4QVd6dkxNQ1oxR0VyVWxreE5uQWEzUTVBbm0xTWJJZ1VmM1BSczIyTkFsNnZhcW1mQndGbDMzV1BNOHB1eTNRNnpfUDctTTRDcXAzc21OUExm?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T16:31:50Z",
+   "title": "EUR/USD consolidates at the lows as France's budget and US CPI remain in focus - investingLive",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOZnRJR2RkTUlsMnpnRmhqUkNETlBhWVFKSjdmeG5lRzRwdXNyd05LOG9BSEFXakUwMTdNRGJjVHJVRXlHbnI5Qlk0VmRyUE1MRnNWZl93d2R3cGsyeTBPRHduZzFDZkdaUklPVmh0YkJyRGQ1Sk8wUENRc25PZW5KTzFxXzJJdFJVOXpYWmpMei1wZmRuVlpzbEFEbFVMcndFTV9IQjhzYWpVb2R1N2R2aA?oc=5",
+   "source": "gnews-fx",
+   "tags": [
+    "EURUSD=X",
+    "rates"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T16:31:00Z",
+   "title": "$Bitcoin (BTC.CC)$ bouncy ball - Moomoo",
+   "link": "https://news.google.com/rss/articles/CBMi1wJBVV95cUxQVEZhZXAtTk85RjM3ZEV4M3oyaGdpUUJaUTg1ZnNWdFMtUEJOSEc4V1k1aHg3dmFMYzVBWDFkRFRTZ2ZuRk1kZGI4NzVKeHpwMFktMmtUMkt0QmpaeTJIVGFVcnVCQ2o5eUpza094UXkxM1hjb0NPOGs1NG53Z1pFazNFSW9ESVA5OG9GTEQ3R0YxbVpac3BuZW1JeTZ2ZlpkS01wSHByN28wZHlrNDJ1d3M4NTQxU2lDZVlzdFI3Q09xLW92NjlFYTJ2Q0dhX05sNTg4NS1CS2NONF82X2JTdUpXREM1ckYwaTFKT2pYQXEtMzVYTlhibVYwMDEwSE5nenR6NWFOTHlUTXFnSzNXQTFSN2NvWGY1ODhnXzdXc0QwLWRweU1acUVoQW1OLXZibXlDWnFwM2RORzVYZjg3Um16VlBFNFJ6TDdOWVlCZ1VEREtFaG1z?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T16:29:16Z",
+   "title": "Strategy Booked an $8.3 Billion Bitcoin Loss Last Quarter. Could Q3 Show a Gain? - Yahoo Finance",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNSVVJMERmUXF6NTFsTHFFV1V0WG1KcnJuWk41b1BNOEFNRTRVeTQ0T0wzN2Raa0VvSVNlWUs1NEFwa3Jtbnd2MlBYXzhKSkxuZExKMGxXWU5paEZHOG8zZ1QydWZvcUVBVGJSejg1U1dDNlo4U1hnakVwQnlvMi03YmwxYjdqdHZ4MTg5aVdTRnFqNURDalJN?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T16:28:01Z",
+   "title": "synchronic's Profile - Forex Factory",
+   "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9jNkhjZUhudGRHZW92S1ZIb3NhNHFkQlI4aTVHWTZ3TXdzQzZVR05KUE1hTTZIWDJtdUxnQlduVGVzazA3b2tOajdGd2dVbHVl?oc=5",
+   "source": "gnews-fx",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T16:10:00Z",
+   "title": "Bitcoin to $75K Before a Massive Rally? Analysts See a Familiar Setup - CryptoPotato",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOMlRxZVRRaGJIMFBLeE13a2xzWVFBZmR5TXdjWks1bnhJamVqMVBXOVp3c3NDbVk2N3lBZ2NBdlVWN2RpY2NaU2lXV1pPWUNlYnpZWmt3aktmZzVsS2thTHNBUHZuTmlFaE9FejhWZl9xSkFPLUFOZV9IczRQZ19YbkVVYWEtN29sMTlHTDR0MnJuT2p1NnE1cQ?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD"
+   ],
+   "tone": 1.0
+  },
+  {
+   "ts": "2026-10-25T16:05:46Z",
+   "title": "U.S. Midterms in 9 Days: What Will Happen to Bitcoin? Polls and the $80K Battle - CryptoQuant",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1TV21ZMXRxUWtzOUZLT0hiM1VKd1ExZnpNS3liQXFBeFNtb3ZfV3VhNHN4RXFKVmF6ZXc5YjRldzYyck91N3ZLQlhJNDJmbTVIbkxNTTdGWlg2REpMYlVjTkRPbUx5ZHBoMWdMZW5mdy1iREEtZUE?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T16:05:15Z",
+   "title": "Early reports suggest record high turnout in Serbia elections",
+   "link": "https://www.bbc.co.uk/news/articles/c6jdmj1ej715o?at_medium=RSS&at_campaign=rss",
+   "source": "bbc-world",
+   "tags": [],
+   "tone": 1.0
+  },
+  {
+   "ts": "2026-10-25T16:03:43Z",
+   "title": "Meet your 2026 Teen Miss Jefferson County, Chloe Pitts - ECB Publishing, Inc.",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQMTZFRWtMaVB2QzgyM0ZKclhKNkFsZGN0NDNNSkh5SGFtcTZ0TmxDSXJRTFVfcnExSFVJSlZXNFctMmM5aTh3TDdRYlRib29GTGN6eDlrTFFLSW95d19pekFtWEFRWTdlS2ZBRTB6bk0yOEtaMmNkT1YySVhXNXdsMkV1WmRidHc?oc=5",
+   "source": "gnews-fx",
+   "tags": [
+    "EURUSD=X"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T16:02:48Z",
+   "title": "Is The U.S. Top Bank About To Start A Recession? Harrison Barnes (csaxm6oNfV) - Unisba Media",
+   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE01cndFYVIxX1JaVnBoSTVRUjdSUHZzeGtVazdxUWNRcWZ2Z0l5azgybXVOdlpsaEhFVElmd2YycGthdVB2Tk1yR2Jwb19iYkVCOXh4Sjd2QnY0czhGTllkX1k2T25QbEdhSjRxNQ?oc=5",
+   "source": "gnews-fx",
+   "tags": [],
+   "tone": -1.0
+  },
+  {
+   "ts": "2026-10-25T16:00:26Z",
+   "title": "Is Ethereum setting up to outperform Bitcoin in November? - AMBCrypto",
+   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQM2FVc0hpZUVnMVg2eU9INkExemEwMWE0V0VfQ0VVaWdLenAzYWpObHlCX0xCRmZxbXEyWGF6ZktZYlplWU1NbWdzaW9lNTQzbkxrVEtqd0IxTHJsNkVHUkV5a3cxaG96ZDJOQkNFdDdFNjM5dEc5N3Fua1hVcnhMYVVUbEZSdw?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD",
+    "ETH-USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T15:50:05Z",
+   "title": "Crypto Analysis: Even Bitcoin Cannot Escape the Market's Lack of Direction - FOREX.com",
+   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPQmZ1TmVsVENUUHQxdlVTOVRLRXFmOHVNcGV1bmI4b21qOUoyMjZiYmpxTVpJbklVRHRUNm80T2w3WlJROXVxTEhFVmRLWFdXM3dwckYzYmVBdHhYZ28xNHlDZXB6N29rWXJiSUM1eHJ1aEluRS16UTFGblAzeWEzYmpPQy1YR3FMOWtvQXZVVWI5bG42Qm00dmVaTFdiNXZsMUM0ZnJFMnhJYkdDNHlnTUtsUGJseFhMbzNnNDhVcW1EWjJBa1NxTdIByAFBVV95cUxPQmZ1TmVsVENUUHQxdlVTOVRLRXFmOHVNcGV1bmI4b21qOUoyMjZiYmpxTVpJbklVRHRUNm80T2w3WlJROXVxTEhFVmRLWFdXM3dwckYzYmVBdHhYZ28xNHlDZXB6N29rWXJiSUM1eHJ1aEluRS16UTFGblAzeWEzYmpPQy1YR3FMOWtvQXZVVWI5bG42Qm00dmVaTFdiNXZsMUM0ZnJFMnhJYkdDNHlnTUtsUGJseFhMbzNnNDhVcW1EWjJBa1NxTQ?oc=5",
+   "source": "gnews-fx",
+   "tags": [
+    "BTC-USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T15:50:03Z",
+   "title": "Crypto Analysis: Even Bitcoin Cannot Escape the Market's Lack of Direction - FOREX.com",
+   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSFhwdlk5S3hHem53TDRsbjJvd3BWV1NWMjFrRmtIY3hSTDJkWVFiMXFFc2Y1TG5WT3ZqSENMUmNtTWNOYTN1UHFLZFhXVHZ1RHc4OVFpU0h1U3RHdkxvTWJRQkxQUWdqMXk2cWUzN0VUOFFLTXpuaEJBbWdZSEZLT3BXd2V4U092U0Z1UkJqNURWMGlkeWg5VHFGSXhKNTRXVGxCSjRrdnZ1SjFOWnZGa041VEd3OEdDeE52Q9IByAFBVV95cUxPQmZ1TmVsVENUUHQxdlVTOVRLRXFmOHVNcGV1bmI4b21qOUoyMjZiYmpxTVpJbklVRHRUNm80T2w3WlJROXVxTEhFVmRLWFdXM3dwckYzYmVBdHhYZ28xNHlDZXB6N29rWXJiSUM1eHJ1aEluRS16UTFGblAzeWEzYmpPQy1YR3FMOWtvQXZVVWI5bG42Qm00dmVaTFdiNXZsMUM0ZnJFMnhJYkdDNHlnTUtsUGJseFhMbzNnNDhVcW1EWjJBa1NxTQ?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T15:50:01Z",
+   "title": "Bitcoin Price Prediction: BTC's Next Big Rally or Remittix's First? November 24 Sets Up a New Crypto Showdown - TechBullion",
+   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOS0lGTFJtZ29LbGVEX0VtTUVvWjMxZGt5dDF4eEpPajV3V1hyWGxMendqM2pXb2VpdGF3d2lXWXZXMG9TTWdicFVVMnFCRzQ1SE1jSGQ0bVI5TGxXUnJWWE96M2c1VHNrQkZ2c0FuYk9qcXRJZTVZOHo3Q0FDV2tacEt1V0NEZlROai1HejBsY3Q1MWFiRVVYeXppRkxiVFp2SjZpejBKbHZTek5pUTZuUjlrQWJqYVNLQzZMaG12QkVTd3hNSjJ1X1Fn?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD"
+   ],
+   "tone": 1.0
+  },
+  {
+   "ts": "2026-10-25T15:48:15Z",
+   "title": "Oppenheimer sees web, commerce software Q3 backdrop improving, AI worries linger",
+   "link": "https://www.investing.com/news/stock-market-news/oppenheimer-sees-web-commerce-software-q3-backdrop-improving-ai-worries-linger-4971234",
+   "source": "investing",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T15:42:50Z",
+   "title": "Bitcoin may be nearing the end of its current correction, down 10% from its peak. - KuCoin",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQUGpzSDY1T3dkbG0xWXo2MHRZVWEtbUc0Ti1hSXF0U0k1ZWdWNS1DdkZoQ202TWM2aExYanpDYzhWR016T05QRkpHeFNzUjdKUmNwMF9JWkgyUEpMcFUydkdhNDU0cUJySmgxaWJZVGdYMlRzVlBRRVdLeEYxbmR2Z0g2MXhrOGVUR29EOUtnUGcycmZoZktuQWlIcHBiZw?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T15:39:14Z",
+   "title": "Crypto News: Bitcoin and XRP Face Oil’s $117 Close as Remittix Invites Earn Testers With Weekly Payouts - StreetInsider",
+   "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNRGticjRKbUhvNWlDb3Fpbm1neWVZM0lWSlRnVFlucm1nWDJqazV4SFZfNTlsWW16YnFXTmJqSGRrdF9YRU1QTWZhSmpmTU5ZMGg2RWdUYWJjQUktNGR2dXNCQ0psR1M3THdERkg0Z0xvR0o0WlZocS1SZ0tKQ1lJaWN5Nk9qNzNBNFlxZm9LVmE3M2dBYl9aUnVzSi1NMk1xYmd5V2RSTm9COXp3U1ljd2NlcEw4M3h3Zmc5c082SWNlTjl2OElYWERyNmtsQXFCc1A1UzdMbGFGWjhPYlBsZV9EVlA0WWJCcW11cDJUcWZERTNxaF9hUHlseDU4eWtvY1RUd3d3?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T15:39:14Z",
+   "title": "Bitcoin News: Tesla-SpaceX Merger Talks Put Their BTC Holdings in Focus as Remittix Plans a 300M RTX Burn - StreetInsider",
+   "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNX1puSVdNT3pXelRJTmlHUjJLU2VnWC16eE1ucUhpSG5tUmtiRGxrSGxJNUF0c1dzblExN3VSZjBNeTNlWHBvdVJOUWpUZjFQWHl6RUtOSWJBMWJ0SmM1NUVwU20wODRRNmRnTGdwTVpvZ3RXUVB1Z2djOUxFcmQ5ejR3dlNQell6R0dpNzk5TjAwN2pRUzF0dmdTNEpILVBJc1hsYnZ2bmpJektmcEdpZURtSDE4SEdsM3JvWWRjNFQtNlp2dEo1OE40SEtfU1pfeFlJYTd1c3JCcU1DbVExYXRZeU56WGtyWW5Vc3k1SlpJR3BMdkdrT0pMNA?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T15:36:17Z",
+   "title": "Merchants allowed retaining 15pc of forex - New Age BD",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNWU1CQlNFN3c2YUNyQnhXM1dKYk9SdTFiTjZZSUN5ME1zWUVLeHNfX2RIc3c0LVlJTmV1SVlfcjJLeGJESGJEenkwVjc1Rk1hTGNlRlZBamlqRVh6TWIxWmdXOHV0ZXZqM3U2TGdRbzlULVJTaVpUZFNNS0tpWnM1TmtEYkNkQjdoNm5oMENncw?oc=5",
+   "source": "gnews-fx",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T15:34:35Z",
+   "title": "EUR/USD, FTSE Forecast: Two trades to watch - FOREX.com",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOaDRhQzRzUTJNTEdheERQcUdHOUI5RFZjZDB1OFJHNU1xTGFpTlFBU2xuejhFTG5CZFVQQmxrMmdxNnhMN3ByS1RFdl9MVVdhNUJjMkIxR1JfdW1mZlhyNTEyU1VibFlrM1NZTHhJaThtTDZTZXNrZzRMNGlBYUdiT09fT1JKd1lUMGE5X1hjVThzQQ?oc=5",
+   "source": "gnews-fx",
+   "tags": [
+    "EURUSD=X"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T15:34:03Z",
+   "title": "Will a $20 Billion Bitcoin Windfall Fuel a Massive MicroStrategy Short Squeeze Oct. 29? - 24/7 Wall St.",
+   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNSExvVEN2SldlLXdsSGVDU21lUUZzWGZLMTJNdXBkZWxBTVZVcGNBc2R4Wmg0WEppUXhfM1pQZ3FPVThwc21PMk1aMXhlZlpfQVE5dGhDVzVZcjREOTdzbDlYd3FlYWpsQl9fejRJZEhVRldiZGtfUV90RUF0LWJqeVpuN2VlODAtV19taFUtSldiOEVYTGFSWERjbUFMR2FTcDhGT1N5TUphZDNBM2ViV1AzeS0yaEFmR1YyV1VNaHpjdWJEd0FR?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T15:33:31Z",
+   "title": "C.E.O.s Say the A.I. Rollout Is Going Well. Employees Feel Differently.",
+   "link": "https://www.nytimes.com/2026/10/24/business/dealbook/ceos-say-the-ai-rollout-is-going-well-employees-feel-differently.html",
+   "source": "nyt-business",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T15:32:51Z",
+   "title": "Suspect in deadly Paris suburb shooting sent for psychiatric observation",
+   "link": "https://www.bbc.co.uk/news/articles/c6e3xek2457wo?at_medium=RSS&at_campaign=rss",
+   "source": "bbc-world",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T15:32:39Z",
+   "title": "Crypto News: Oil Ends the Week Near $117 as Bitcoin Holds Around $80K and Remittix Plans a 300M RTX Burn - StreetInsider",
+   "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOMlhIYVpFLW5McDFoUUpjYllKaDVEVHJORzJ6eGRINm9ydHhrNWtDTjdaaTdGWVZfcnRFSE5HV1pSUFl6TFl0TEJEUXFwaDAxQkczci1yalUyUVV1SlBsUzgwV2FZMjlVakp3Z2I3MmtfazZNSnZKaWhEOER2R1FoWkk1VFhIWWlwUjN3M0d1eERlVFhRQ3lvRDNLdVZZWk9oajZLcng3S0x6bHBXN3ZvWmVyTFlCaXU4TVl0Z0x5SU1nVTJXN1BCNDlnQl85bXF5bkpBdXpnekJuSlMybG1aNVZOX2lEWlJUY3E1UmFrbC1mYXdGbU00NXlEUmVzSVU?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T15:31:01Z",
+   "title": "Electrum 4.8.3: flaw in bitcoin wallet closed - CryptoTicker",
+   "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5ZSS1ib3FRV2tjS2JXX2lma1VhRDJvb3E1WnotT01XSEZTRDV5ZE14d3VwU3A5TDhUTFk0dlNjYVNGNXYySDRJeENUYXZoQ24tS3JxSTNOcUpDUjh0NjZhQ2lFd1BEbHpfX3hRS3Z2ZlFKMWdMR1EtdE9fYw?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T15:30:20Z",
+   "title": "Audi to Build Factory in Georgia, Trump Says",
+   "link": "https://www.nytimes.com/2026/10/24/business/audi-factory-georgia-trump.html",
+   "source": "nyt-business",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T15:30:12Z",
+   "title": "Fed, ECB Expected To Hold Rates Next Week, But December Hikes Still In Play - Benzinga",
+   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQWGc2YXBjX2J0T21OSlJDS2x3eWM0UU9RT3hzd3ZGS2NSRUVtMmJheVJxTXVnYXNvSXJTVmZCWEhNN2pSQXFDMGpndUxTYlFkdHVLNm5iQVhOY2JQVHpIMDBMN0VuTnFiWEJWeDg2ckVRUEw0Rk9jcVRlTS1xRmlpdVVTQm1sRV9Icl9zMUFnUmRtaWVQZ3RhS0l1WVVnM1FaN0ZVTExJaW1FZkE2anVGdGdSNF9oRm1lTWswNkZMcDdjZ3IyU29ST3RWb00?oc=5",
+   "source": "gnews-fx",
+   "tags": [
+    "EURUSD=X",
+    "USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T15:18:36Z",
+   "title": "EUR/USD weekly outlook: FOMC and ECB to set the tone - FOREX.com",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOaGRqNXpQNEFQZFdkaXRUVTQxTFdaUHgyX0ZwQUZDTjhkbWVPSlNNY1RleHdacFVtYjZaTnhIMHcxZmhsTTczOWhzQ09tUzU2Q29uUkhVQ29EOEF2Y1VZdkllLWZ3NnpRNmFJQzNGc0plVWJvQVhwbWp6d3lnU1N2VFk0VDVpZllQVVZXVEVJZ3FJSmlsTUpvY0pBVmlNaE9sM3p1M3pKNWdVNDTSAasBQVVfeXFMTmhkajV6UDRBUGRXZGl0VFU0MUxXWlB4Ml9GcEFGQ044ZG1lT0pTTWNUZXh3WnBVbWI2Wk54SDB3MWZobE03Mzloc0NPbVM1NkNvblJIVUNvRDhBdmNVWXZJZS1mdzZ6UTZhSUMzRnNKZVVib0FYcG1qend5Z1NTdlRZNFQ1aWZZUFVWV1RFSWdxSUppbE1Kb2NKQVZpTWhPbDN6dTN6SjVnVTQ0?oc=5",
+   "source": "gnews-fx",
+   "tags": [
+    "EURUSD=X",
+    "USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T15:18:08Z",
+   "title": "Bitcoin steadies near $80,400 after weekend selloff, Fed decision looms - Investing.com",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQRXZVZEVCMUtTUlRZamx6bFBENDBLTDNzUWlGMVliWXNaSVBEUzBGVkFfQVVhVzV2cnJwUmxNQ1cxd2tSMDhKX2VEbmExVzJwcTdOQlBfMWJ4SFluVWpvWHZKRkE4Y2JOQzBnVW16TTRxOThMbXFYTWpfeU5aUmJNdDRKZVVvTlRIRE5uUmlUSkg4OHlWUFJKZVBaN2FsZGhfMlJxd0VUZ28xekE5WGw2WTBobnpxNW1EUkNiOXJ3?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD",
+    "USD"
+   ],
+   "tone": -1.0
+  },
+  {
+   "ts": "2026-10-25T15:16:54Z",
+   "title": "Federal Reserve Interest Rate Predictions Next Week: October 27–28, 2026 - Norada Real Estate Investments",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPaUpDZXNBYUVfN1paZGJuNHd4RkMtVW0zdHpXQ2ZTaU0tc3dVbTRHSnlHMmk5UXM1cHZmbzUtamNjdDQ3aW1rZFlsQjhaMXdDNm1VZDk3VHlnMXRuOGJkazNXREx3anVtZnk4RUpVSEhteXJ0d09HYmloUndES3luWnF5UDJBaWhZVzI3MWxnNGFVanBULU41dXhYVTZRRXl3T296YjJuZTgyTHh2Wmc?oc=5",
+   "source": "gnews-fx",
+   "tags": [
+    "USD",
+    "rates"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T15:15:19Z",
+   "title": "Will a $20 Billion Bitcoin Windfall Fuel a Massive MicroStrategy Short Squeeze Oct. 29? - Yahoo Finance",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNM0R6VXpOS1VDZkJhSUJlaHhDcHdzdGRrTTFLbDhNZ2xlUlA4dVNrVHJPa2hMbDRHMGFDcW5MLWJzNE5GOEpLVnlQRndHb0ZFcFcybmFrZFpXMnk2cnRxc245NGVEV3RfZXhySFVMc2M3QWxoVm00UU42T3hVLWt5ZEFacGpMWGdTd29ZNDhlWDExbXFTZ3V2ejYwWVA4UQ?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T15:15:19Z",
+   "title": "Will a $20 Billion Bitcoin Windfall Fuel a Massive MicroStrategy Short Squeeze Oct. 29? - AOL.com",
+   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQWDV3UTJIQTI3bzhtanlYRUFsWl9sTzhQV0dhUEtTNnBYY2ltQ3N5Yi16V0dUOVJvWkpOUG5LR1djUHp2MFNLUklRcUc5QUN6YkdrSlJubU1zajNiUmNGUHJ0WmV5Y0VUM0I0LXYwbE1nbTJfdFlhdmR6Y19qYkI4UmxR?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T15:11:00Z",
+   "title": "ECB official sees digital euro as key to protecting EU ‘sovereignty’",
+   "link": "https://cointelegraph.com/news/ecb-official-sees-digital-euro-tool-to-protect-eu-sovereignty?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "source": "cointelegraph",
+   "tags": [
+    "EURUSD=X"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T15:10:11Z",
+   "title": "Bitcoin Price Today: Weak Bounce Puts $75K In Play If $80K Breaks - Coinpedia",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOUEdjNTlyenNtWVdHTHZ6eldGSTdscXZfRzNWV3l3aXRySzB2WEFReHBsRk0xV2ZFdWtINENUaXhhZXpyRzh1T1BKTmZVZjlMR2JPTTN3SXFZTGp3RTdHYk5YblBLSVlzME5oQ01BYlljUVFEYTBGaVRVaGdURWQtVk5aejV1TEJGWDVRUlR1MXBhTjA1RzVBQktDQkZzeFUtc0ctNNIBqgFBVV95cUxNejUxT0dhemhMdmNGQjdDMjBKdk1aR2lXTnF6TXhzMEctZ1JPdGdFc19pZ1l2YThFN0M1MElmdktKa2NfR0NtVHY1dktKN051alJkRzRpNXhlNEUteDZVbVJYRVA5ZGFRYVJhYU1lbTdhb2JsSUFLRzJYODNya0lILW1YMGVleGRZbEZRbXlzWmdUS3Vud2VhWlc4Zk1iRUM2c0tnSFlFWjZiZw?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD"
+   ],
+   "tone": -1.0
+  },
+  {
+   "ts": "2026-10-25T15:00:00Z",
+   "title": "Latvia targets tokenization rules in 2027 with commercial property in focus",
+   "link": "https://www.coindesk.com/business/2026/10/25/latvia-targets-tokenization-rules-in-2027-with-commercial-property-in-focus",
+   "source": "coindesk",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T14:58:26Z",
+   "title": "Here are 4 big things we're watching in the stock market this week",
+   "link": "https://www.cnbc.com/investingclub/2026/10/25/here-are-4-big-things-were-watching-in-the-stock-market-this-week.html",
+   "source": "cnbc",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T14:55:14Z",
+   "title": "Trump says there will be no strike on Iran today; Qatari delegation in Tehran",
+   "link": "https://www.investing.com/news/economy-news/yemens-houthis-renew-threat-against-riyadh-airport-as-flights-set-to-resume-4971006",
+   "source": "investing",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T14:52:01Z",
+   "title": "How the ECB Will Help France - Robin J Brooks | Substack",
+   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBPbjkwLXlvbU9DWUNCa0NvdDlUYjVUeTFzd0xTaE9tbWZZM0owM1NQZ3hpS3BqUEE3ZWwwYkNkSzVkRGxOdk93V3BzWEpCWGdtYWpiN29zMzZ3OEg5ODRNWTV5eDZpckxCeG1iV3J2dGlKQnMxTlVj?oc=5",
+   "source": "gnews-fx",
+   "tags": [
+    "EURUSD=X"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T14:49:00Z",
+   "title": "Can the Federal Reserve Keep Rates High Without Breaking Something? - CryptoPotato",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPcG1oYmtBUGg5eDZJanJfRHhZQmswR2QxY3JYVVhJMi1JMHA4YnZHWVd1OUpfczR0MjNEdFBaenV4YTg5OS1oNGw5RXMwZzlzV0pTc3UtU0pLVjdhZmRhd0RoelZ5SjRlcjdpZWppZ2FMNTZ4aVFrLVlRRlZESUlCU1pNUUl3RjBJanJqS2JhdUxsdG16TDhn?oc=5",
+   "source": "gnews-fx",
+   "tags": [
+    "USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T14:47:57Z",
+   "title": "Gold outlook: Metal rebounds but downside risks persist - FOREX.com",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNRUNSSVJLR2NfWkthNUdrOTBuNGQyc2NuZHIzQ0NqbGpmSGZaUFJkWHVqSXg2Zm9PWHMxWkRsTjFZZXRHc090cjJwNXlnY1BPN3Z2X1hJRWZrMEttbkVkTlpvYmw4QURtTEpWYW9MbklrRUJGNU44dmNmb0ZWREJ0b3p2UWJTekZlN2hlMG9IdVBwWGd6anMzRUluZlpuN1VlQ1JB?oc=5",
+   "source": "gnews-fx",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T14:45:00Z",
+   "title": "Weekly Forecast: Eight Global Markets Reflect Different Technical and Economic Pressures - Forex Factory",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOcTRYaUhZcTNkUG9UUTFhY3BZWVdwZi1aVGZLWWhUMzhNY1pIQWNXa0RVMml1NWtNSzNGQTRjYW5ieG8tZ3RwVjZydy1tSDR6MzNwdjQxYUJWVE1YWTRJbDJqaG9remdZSy1RaEtTMV9WT2dBS3lOdGVtd0NyMVRDT1ExUGV5SkVpcW9HUktrY19vV09rLTdqX2NhV244TzlHXzU4V0ZvVC1Jd9IBrwFBVV95cUxNUDJUQ3ZSTUlMVUhLMHVlbUNzazVsajdsOVVlOVJ2UDlDa3FVa2ZBYWM0UjJIQm5HQkRkNl8wOU1VT2JZNEFRVVJnUEQ3Z3RRMHo2TDd6UDdFMjlqcHFaUFVpMjFxX2JuLUl4RXVuTHp4VXMwYS10WF9HRWtIWk5kQ0FPeFJZck5LUjRKUXBraGxTU3owSVdiYXRWV2ZfVUcxZFVZVDNraWxSeF9reUNN?oc=5",
+   "source": "gnews-fx",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T14:44:38Z",
+   "title": "Worst-Performing Altcoins This Week as BTC Battles to Hold $80K: Weekend Watch - CryptoRank",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOSjlHRGZuMVd5YmxEQjRqZFRMdWFWN0hXX1lqTTdEaUZYMnlBT2xMZjVzRGhlcWhiZTNrUW5KOWpqMEs0Y1RSdk1qaXRxdUNDOW16SkQ4cVl0RGl6VWJId3dGU2RwN01EdjNMcUNOTFlFVFNkbFNWdlJWQ2Q3LVZsbzNaeF9lOTFnZnlaZ0xuNERLamJIVk5DRkQ3V1MtMEM1cUtVNm1oMmNwd1BCUEt2MENoRjM?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T14:39:47Z",
+   "title": "Gabon says access to social media restored after eight-month ban",
+   "link": "https://www.bbc.co.uk/news/articles/c6x2w0ngejneo?at_medium=RSS&at_campaign=rss",
+   "source": "bbc-world",
+   "tags": [
+    "regulation"
+   ],
+   "tone": -1.0
+  },
+  {
+   "ts": "2026-10-25T14:34:22Z",
+   "title": "Bitcoin (BTC) Price Prediction: $74K Liquidity Gap Puts $80K Support to the Test - Brave New Coin",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPa3FfaFcxOGE4WXdTbm9nOHo1YnBzNGc0b0UwMFV3bm5TWE1Wc0JjNkU1WWdfbGVDcW83SXBsYkwtb084TzBKLUJLYi1jY29PSV83TG40QVZ2RlFxa24zRGVoTzhhSW1vWFBsazVXbVE4NnIwNXN6NnNRVm5WbTZOV0FFajdYV21DY0dta1JmNURINWhLajRQSnNaTW1zZjE5TlBGRU9fZV8?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T14:33:29Z",
+   "title": "Strive CEO Matt Cole posts a chart of Bitcoin holdings, may reveal BTC purchase data next week - KuCoin",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQVGNuNDVWc2d4RXpGeVMwYThYTFBoRkpYUXpQWGtVcWtiMTRuOWRFd0FEeHpOS2treDZMREQ2dk9CcVR0TS13N2hVcUJiendHeC1fLVNRSHoxamdxNzFYbk5mTXVFLWxKTENzTmlaZkZYX3NzVnZxSmxLN2RXd25ibGhZYWNzdE82NVBHR2tWd3Zndlo3VXRqeER2OHpNYjdzekNsTXVfQ2FoMVlfNlh2NW5QOHVHOEcy?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T14:30:16Z",
+   "title": "Evernorth takes a page from Michael Saylor's Bitcoin playbook with new $80 million XRP funding plan - CryptoSlate",
+   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZHEyQWdzbTNEU2dIOXdWRHgySUN6WG4zMmJFSFc0Zlh5ak1QVm84ZmpXc2pmRUVqVGx2XzM4NzFieTNrRk5uZWw2Sm9WSkl2R1BadTFRZl93SWxtZFpxOXNqSEZ4QjdtVGoxVy1FNzBXUktMRWNjTmNGNlF5REJadHgtbzNVZGR5TGtxSm45ZTdteVVnaEdrZHM1Si1FWjZtcXhsN1BRUkVodTFEaWtrN21HeXVKc29uYTlhQ2g5NA?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T14:23:10Z",
+   "title": "Bitcoin price battles $80K as major altcoins post double-digit losses: Market watch - Crypto News",
+   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5fUmpIVGc0WnAwSXhxa3ZMSFFEelFNUHlDQjlvNC1kNGRZam91NEZoVWZsVXIzaGJ1aDBncUsxemp6dTk2RDBSZ0xZVEhJeU1SZGZqdVVnanNueEN6OENra2txT29xZ3l0Nkl1SmZPc2drOHAyRVo1X2xBNmkyUQ?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD"
+   ],
+   "tone": -1.0
+  },
+  {
+   "ts": "2026-10-25T14:16:44Z",
+   "title": "Heatbit Says Your Water Heater Should Be Mining Bitcoin, and Now It Can - Gizmodo",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQcXExRkdtanZEQTVTMUtKMVdZeGVlMV9OcHY3ekctYnZxMTd0ZTlJUjNBbU5HU1c3T0t6WEVXV094RjFvX2hZbHh2QkdhUWp6TmJiMXRQSU1RcWdiOG5jM0dfT3A5eVc1cmJnLXZROHg5YjVqdXhXOWNzM1pJQ3BGN0toczRBc1dnWEhCdkszdWRqbHkyWTRxOW5zbkx1Y0RfMW5B?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T14:14:30Z",
+   "title": "Crypto News Today: Swiss Retail Bitcoin ETF Approval Meets Remittix’s $0.28 Entry and November Launch Countdown - StreetInsider",
+   "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOMGlKY2Z3cmREZjhDeDBBNjJVYUVNZDE5dWtYc0M3RHF5TlBTS3F3Y2VRR1lraEVpX2RzZmlsSWhDRE5VM1hHWVdSLWN6MFJad3A2eTIwQjlHTlJIZlhRVHRrYzU3MlA4MXlrS0h0ck0tZkYwWjdvLXZnVlUxbkFWNHdqbHNhSmY5TEdsU1ppMjAxbEtwY1JLb1F4N2xlSVF0V040a191dkZUX3BJMHpSTUNYQllWSHU3M25WNWxzekV2TGs1UzRsYWVTQXBPLWhiQU1VNlZZZVcyZGtpeGRUbjRGSl92RlRsaE51YWJGVEJWLWFzbjhCQnhBVDM3bmZSNUVhUGhRaWFpZTJ3aEdmOA?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD",
+    "regulation"
+   ],
+   "tone": 1.0
+  },
+  {
+   "ts": "2026-10-25T14:14:23Z",
+   "title": "In pictures: Initially peaceful protests across France over inequality again descend into violence",
+   "link": "https://www.cnbc.com/2026/10/25/france-protests-paris-cost-of-living-inequality.html",
+   "source": "cnbc",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T14:05:00Z",
+   "title": "Bitcoin Faces A Critical Test At $80K Before November - Cointribune",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPTmFnc0lVanRVTEUtRzVqMGwxXzhZeUlra3VHVmE0TE5QaHdzcGdxX2M1cHc2VXl6ZTFIT2Fxd0pxQ0FsWkZGTGNTd1BLY1JaaXNrWFhMRElXSmNNaXRxT3FxUzJma3F0SHVuUi1aWE41YTlYWE9tOHViN29CU2xFWDRjOWpPUE55ZmJHbw?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T14:01:03Z",
+   "title": "Bitcoin ETFs Snap Two-Week Losing Streak Despite Late-Week Slide - Decrypt",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOM2RIdEYxUkFCazBpXzVzUUItWUNnNURnUTRTNTRXV1AwX3dPUjlwNnBJQ3lFNnJ5Qmp5YlozVFYzLWVqbjV2X1JEemU3WEdjRl9Ea2cwTjRvaHR6R1Nwb3RmdC1xcUdnMFdOd05RdTBqWVF0c0lVSVducnpIUlQzWVZ3R3c5T2tFOXdqOTBnR2tZU3Jh?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD"
+   ],
+   "tone": -1.0
+  },
+  {
+   "ts": "2026-10-25T14:00:05Z",
+   "title": "All aboard the TrainTok trend: spotters and staff boost rail content online",
+   "link": "https://www.theguardian.com/technology/2026/oct/25/traintok-trend-train-spotters-rail-staff-videos",
+   "source": "guardian-business",
+   "tags": [],
+   "tone": 1.0
+  },
+  {
+   "ts": "2026-10-25T14:00:01Z",
+   "title": "I paid off $11,000 of credit card debt in 18 months while still traveling, shopping and living my life",
+   "link": "https://www.cnbc.com/make-it/2026/10/25/pay-off-credit-card-debt.html",
+   "source": "cnbc",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T13:54:23Z",
+   "title": "Audi defends decision to stand by Trump on $4 billion US factory in Georgia",
+   "link": "https://www.investing.com/news/stock-market-news/trump-set-to-announce-plan-by-audi-to-build-us-factory-in-georgia-source-says-4970975",
+   "source": "investing",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T13:52:30Z",
+   "title": "$Bitcoin (BTC.CC)$ work the way up. interesting how something in march 2025 lines up with this weeks points 4 hour. perfectly structure wise - Moomoo",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNYlRSSVlyS0JYRXZxTURTOEhLdDhROFRJMWx6T0RkQnBHbThZNkZrQzJGMnM0RmMwN29FbENXTjdSQVN1Z3RxQVRRRDlzN3M1OWZYeWdCbFltM1FoWXNJSkZUbVh6X2RfM1o5MFZJVEU2ZE1DeExRb1YzeHF5ME12RC1iTDdZc1dQU2tIbU92RzdtN2ltRmljUkdDU0Q2WEtyUy1pWExaTERhdzdyZ05j?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T13:49:17Z",
+   "title": "Dow Jones Futures Set to Open Ahead of Busy Week of Earnings and Federal Reserve Meeting - SSBCrack",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNMHVON2JLUUV2UlFRa1laQjhvb3AzNFZrTEY4Nl9VNGpuZkRyZDJsMFRYQkRTZmRuZl8tbTZudHNHdE1KN1pjd2VwWl9CZnhFbzhXdzg4dXcwM0xLSlpQX19BRE1wb0JnczM3dWU5blRHN255Zy0xQkZ4ZDFJRFRub0xBWGdSSWNFLXZFTUZxZkF4dlhBMExTZkZVRl9SWXF3dGVLc25YaXo0NGVwYUg3RTUtRkpVdw?oc=5",
+   "source": "gnews-fx",
+   "tags": [
+    "USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T13:44:00Z",
+   "title": "Bitcoin To Hit $100K In Months, $300K In Three-To-Five Years, Mike Alfred Says He'd Bet $1M - Stocktwits",
+   "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOYlFLRUZVQmwzNGpvQnpHY19EYnQxY1NYckNURE95czltbEdDbUU2a002LUNBVm83OXZHT011eDhtMUJuYm8tS1JacTRabG1kWUdCN0E0WkNTRjRkZmhyU3U4RUw1T0dQdkNxZDhQMHg1UEdpRzh5dkxqSldBalJiQ3UwclJXSlV2M2JNSy03WG5xVENSRHNscFNkbERad2czLUE3MjBjZXhFNnZkdTVjdzRjUFNhdVRxQ1g0WHpIeTBvdklIQ2NTSzhlOS1EazVWMXdMVEx0cGtGTmZZa0tBR1VSVVJqTlg5MW5Ga2I4blNuVEU?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T13:43:19Z",
+   "title": "Volkswagen to build $4bn Audi SUV factory in US despite job cuts at home",
+   "link": "https://www.theguardian.com/business/2026/oct/25/volkswagen-to-build-4bn-audi-suv-factory-in-us-despite-job-cuts-at-home",
+   "source": "guardian-business",
+   "tags": [],
+   "tone": 1.0
+  },
+  {
+   "ts": "2026-10-25T13:41:37Z",
+   "title": "Saudi Arabia says it intercepted missiles and drones from Iran-backed Houthis",
+   "link": "https://www.cnbc.com/2026/10/25/saudi-arabia-houthi-missile-drone-interceptions.html",
+   "source": "cnbc",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T13:39:24Z",
+   "title": "Gold, silver face fresh test as oil surge puts Fed policy decision in focus - Business Standard",
+   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOVkRiNnNVVll4WmhWakM1Q1dPUklOV0ZweGt4cGpWc3p5TUNDWWtrcHZMN0Q5SThRT01jSGpjb1lub3hlVUZIU0tIazFHNEROYlRKWENRUTR1aEx4V3N4ai1RN3Z4MXYxeE1hTzlPd0N3RVhmUEN5RkxNNkZwVzFYQ2tvVy16dDVnU3VseTV1dFlRTkNDd2ZDLTVITWZkX09Qc3ZIWE50X2pRTFc0bnhDdUg4X19NMFVEd19SRl9qekQ0b0VyNktfTUFnQUd6aTFFT2tRQUJMS0V0ZF9rZXfSAd4BQVVfeXFMTlZEYjZzVVZZeFpoVmpDNUNXT1JJTldGcHhreHBqVnN6eU1DQ1lra3B2TDdEOUk4UU9NY0hqY29Zbm94ZVVGSFNLSGsxRzRETmJUSlhDUVE0dWhMeFdzeGotUTd2eDF2MXhNYU85T3dDd0VYZlBDeUZMTTZGcFcxWENrb1ctenQ1Z1N1bHk1dXRZUU5DQ3dmQy01SE1mZF9PUHN2SFhOdF9qUUxXNG54Q3VIOF9fTTBVRHdfUkZfanpENG9FcjZLX01BZ0FHemkxRU9rUUFCTEtFdGRfa2V3?oc=5",
+   "source": "gnews-fx",
+   "tags": [
+    "USD"
+   ],
+   "tone": 1.0
+  },
+  {
+   "ts": "2026-10-25T13:38:01Z",
+   "title": "Should you travel together? Ask these questions before booking: 'It'll save you time, money and disappointment'",
+   "link": "https://www.cnbc.com/make-it/2026/10/25/travel-compatibility-questions.html",
+   "source": "cnbc",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T13:32:57Z",
+   "title": "Jefferies upgrades Dr. Reddy’s stock rating on margin outlook",
+   "link": "https://www.investing.com/news/analyst-ratings/jefferies-upgrades-dr-reddys-stock-rating-on-margin-outlook-93CH-4971223",
+   "source": "investing",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T13:31:05Z",
+   "title": "Rayner backs Burnham call for debate on return to free movement with EU",
+   "link": "https://www.theguardian.com/politics/2026/oct/25/burnham-rayner-labour-eu-free-movement-brexit",
+   "source": "guardian-business",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T13:27:32Z",
+   "title": "Does enough capital exist to finance everyone’s ambitious AI spending plans?",
+   "link": "https://www.investing.com/news/stock-market-news/does-enough-capital-exist-to-finance-everyones-ambitious-ai-spending-plans-4971221",
+   "source": "investing",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T13:23:49Z",
+   "title": "Bitcoin Miners Face an AI Crisis: Why It Poses a Risk to the Crypto Market. Binance overview - LIGA.net",
+   "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQZHktLW1EcDQ1TTEybFoyM2tnQTFwdEhOTkUxS2hJQldCX3c4STlSeWhUSnktNEY3M0VsX2hsZmRUVDBzUndFb1FKNWRHTmJwSHEtOWhBQ0pUOGV6UDAwVmU4U01SdEJwREY1UE4zRTNyLU8yOXpMeVJKTjhkdkNxNkhoSEdobFMwTGxfbWl6QXlYV2E1YlluRjBTVDl1UU5nVXZXZEl6a3hmWndscnBDMWI2SXRoTjlidVdNM0V1c2hmaER2WDVJZDNIS3dCYXAtYTFXRE9aa0I2d9IB3wFBVV95cUxPdldEX0p5NWpPOGs0NlYtODZTdUxCaGh4eWZwX3d4Q2s3T3BaTWlYWU1TWDlpOHB2Y3hoN3ptSWtyQTFOaFU0UHRGcDJNOE1qVzg1LTFXOFh6dXZqYWR2Y1ZpWnNYLTZmdjdaUUFqZ29rUU01QzFySXNQX0U5R1RXd2FJLTVON3paY0lNRVNSZjIwRTF6S1dFeS1uSkc1WnJaX0dTdmtoTUZzY0I2aFBWQTJGZ1ZDdFp6ZndkN2tsUTBPMVk1dW9SdU90bS0wLW8tcUpJa3VqNmdiMWdRSkxN?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T13:01:00Z",
+   "title": "With Oil Prices Rising, Bitcoin Remains Stuck Below $85,000. Here's Why I'm Still Buying Bitcoin Right Now. - The Motley Fool",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQWDh5bWw0MnI4Ynl3UDNMSC0zNU84bG5uaU5nNFlQRWVVVXlpNFZUS0ZJNWlucl92ZG1NTVV6MjFmSllKNmpCU0xfMUp1QmFYcnhibDB1U1c1aVVCZ0o2VFVZc2pDYjVYRUo5ZjJPejVpTHNrbnFDd0FxNEFoYUNZVDFlbnNldHVqSnR4QlBtMHUtUExKcjFFcQ?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T13:00:34Z",
+   "title": "Cutting ‘red tape’ is nothing but a red herring – and arguably counterproductive | Heather Stewart",
+   "link": "https://www.theguardian.com/business/2026/oct/25/cutting-red-tape-is-nothing-but-a-red-herring-and-arguably-counterproductive",
+   "source": "guardian-business",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T13:00:00Z",
+   "title": "UK banks face 10,000 complaints in 3 months over crypto restrictions",
+   "link": "https://www.coindesk.com/policy/2026/10/22/uk-banks-face-10-000-complaints-in-3-months-over-crypto-restrictions",
+   "source": "coindesk",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T13:00:00Z",
+   "title": "NC woman lost all her savings at a gas-station bitcoin machine. A new law could force refunds — but not until January - Yahoo Finance",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQeU52Y1NGT0Z6NjhqVVVJcjdjODVjZGlFMjUyWng0VkJtMEhadFdYNUZDVmlWdm5vLS1HZkhNTkdLc0ZMSHFOZDNzYU56UjJpbkNFVFUzcGQtV1JBVGxIRU5oSUhBb1Q5cUcySjZpcUcxY3BfQjN5ek1fNjVJR2k5bmxQUlBaX2FVYllqOElWTGtMUmNK?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T12:56:27Z",
+   "title": "Former ‘60 Minutes’ Boss to Join Video Journalism Start-Up",
+   "link": "https://www.nytimes.com/2026/10/25/business/media/bill-owens-60-minutes-emerson-collective.html",
+   "source": "nyt-business",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T12:53:00Z",
+   "title": "Why Bitcoin's Next Market Cycle May Look Very Different – BloFin CEO - BeInCrypto",
+   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOQ3N6YjZZZ2U1ektsWTNtQVpXNUswa3ZJOWEtN3RSRzlwbFlSV0tuX1hfNlEzVHlwMVR1ZmRaWFZqcGtUX0VIaEhPZWNQVFcwdjJlWUJsRFdjeThhQU9ZYm95RloyUFpoVFk4cUxCUjhkbDdaZVpsdWd4aFNORFNXUml3?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T12:47:16Z",
+   "title": "Bitcoin Bulls Predict $500,000 — 4 AI Models Assess Claim as AI Bubble Fears Grow - Yahoo Finance",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOSzY3b2hRdDhQZHZtZUpPajFwcEE5bktRbTQzRzF3UkJndG5YUDllRldldU53Ymx6Tjc2Q2NacmZheFhBZjJUUS1WNHdIOUhZNHhaSEt0SmZJM1NEZnpFem9UM3Bzc3JPSktNU3Z1VEhtNWxWYVRYVmFBVURiUGZVakNpSWltcjVuSnlrcTZxMDdkLUZSaThaZUpB?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T12:38:45Z",
+   "title": "Bitcoin Price News: ETFs Added $1B Earlier This Week as Remittix Recruits 100 Earn Testers - StreetInsider",
+   "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQcUY5OXBSbWtvTzlmVzg2b2xuOU5tYVJvOVZKR1RFbjFvVkFHY2FmUUNPRlFGSmtmZnlzU3B3czJRa2JHVWlEWmFjRmNVYmRWbjVpbnRkTEFXeEJySjNjM3BQYzZMLWNLSU5iOGZOaDVWdm9rZS16WGxZRkxPeUliOTU1Z29vOTRQcmM0cTlFbHc5cXoxQ0pKcWJ0Z25pNllhYWJfN3V3eTdBNWIyaUtiaW9nem9QMGg1ZG01TXFoQVlaMkFadG0wOFgzMlc0NC0xRGVvbzJUcUZkYmF4S2QtalZiMFNsQUw3aEE?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T12:32:13Z",
+   "title": "Bitcoin steadies near $80,400 after weekend selloff, Fed decision looms",
+   "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-price-today-btc-recovers-to-80800-ahead-of-fed-meeting-4971035",
+   "source": "investing",
+   "tags": [
+    "BTC-USD",
+    "USD"
+   ],
+   "tone": -1.0
+  },
+  {
+   "ts": "2026-10-25T12:30:00Z",
+   "title": "Analyst flags two commodities that may follow Bitcoin’s slide - www.thestreet.com",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOdkpoZG16SHhxYnZpaG1UU3lBRGw1TXNINkJNbjNUSnZxRmktM1BISkVPQWY2ZWRuWWsyVkNXQ0ROQjllNm05QVpqZEVNWld3QzNaaVY0U2RMZ28wSi1HRnJWU1NiamIyamZIbm15UVdOT256TmVqeTVOcE9adjZPSS1XQmxLc0pwVE1Cd1BmZ2JtTzFKVUlDbGp4T05RN3NMMjVF?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD"
+   ],
+   "tone": -1.0
+  },
+  {
+   "ts": "2026-10-25T12:21:00Z",
+   "title": "With Oil Prices Rising, Bitcoin Remains Stuck Below $85,000. Here's Why I'm Still Buying Bitcoin Right Now. - AOL.com",
+   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPaUtMRUF3UXhtajY0TVNpR1BtRVk3SVRrOEw0X0NRSGdrTG5WbnV6SVV4MTZwY1k1RGFtMFY1T1E5LWszUHFnNUMyajc4ai1tRTNaUUx3b0xwWGt2ODNuWThBVjdOVnA4bFlJaDB0aTVRbnF1cXJYYWl5ZGNvOGpqVGVLVQ?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T12:18:11Z",
+   "title": "Bitcoin price prediction: difficulty climbs 5 percent on Thursday - CryptoTicker",
+   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVXBDSnBPZFFxSGo0ZVNHOEpPb1BOckhUTWJ5ZjVEODhVUVpaNVlTTkQtc1V0b1VheHVQaGREY25ISWozVk56WmdGb2pFaENDaWlyYmR4eTExWGU3QWtMckZwZTVzMUpjbFpDaVQxZ18zY2lRU3RQRmpNLXYyZTZkV210ZDBzOUVk?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T12:10:52Z",
+   "title": "Hotels, resorts can retain 15% forex earnings from foreigners - Dhaka Tribune",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPa0Z3U1lhRGV1eDEzMUNBSGtRSVVKRWRSTEVoVFVnYjJtVDM0a05nb0paQURMV0RHQUlOdkFFSjJtMGFncnJzcHBZSm00WHlSeXExQlZmb1VjdmE0ZUhWdWJIYkVtUXNsQ2tLNm5tNjNFcTVCbmhmbDN6ckVWeGRXOHJuZmd1a3FTeWROemxoRGNkZjkwVnoya3B1ZE9MQkpLUG12V2x2Y0VrUdIBqgFBVV95cUxPa0Z3U1lhRGV1eDEzMUNBSGtRSVVKRWRSTEVoVFVnYjJtVDM0a05nb0paQURMV0RHQUlOdkFFSjJtMGFncnJzcHBZSm00WHlSeXExQlZmb1VjdmE0ZUhWdWJIYkVtUXNsQ2tLNm5tNjNFcTVCbmhmbDN6ckVWeGRXOHJuZmd1a3FTeWROemxoRGNkZjkwVnoya3B1ZE9MQkpLUG12V2x2Y0VrUQ?oc=5",
+   "source": "gnews-fx",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T12:04:02Z",
+   "title": "Meet your 2026 Miss Jefferson County, Aubrey Raker - ECB Publishing, Inc.",
+   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPbjNsdXJZVl95TTVScXBHdTJPMzIzRFBtRFNRclFlTEJhVGc3U09qUFhmWkZkNWdtUksxZFBSclJZUXEtQmpwTmN2MUVGbWNxUFBtUFFjX1hWRkNmNlNaUjVGeURHWkc5VEt5bjdXYUJsdVVOQlVrS0lqRkdncjg0QVRn?oc=5",
+   "source": "gnews-fx",
+   "tags": [
+    "EURUSD=X"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T12:00:34Z",
+   "title": "Bitcoin Forecast: BTC/USD Bounces off $80K, 9-Month Highs In Play? - FOREX.com",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOUHZtSWNDcEVUMm5zRnpMMFhEMlpNVGhIWlFrZkdGSjVlRjhuM0ZBY3hjR0JnSnVieXVRbi1VMjJiTmdORjQ3cGhXd1ZJaTRqazNKRXJnQUQtZ1ZFNFBpWWdxRGdINjQ0bzRrYVUwRFRqWU5XVXducVB1NEJRbEdEQ1dFY3c1ZVkxZkpYaEdUQ1ExanZnSk9mX3hEMElfd2owYVFCNmZ4eFZfUQ?oc=5",
+   "source": "gnews-fx",
+   "tags": [
+    "BTC-USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T12:00:07Z",
+   "title": "Novogratz Sees Bitcoin Upside, Pepe Surges and More: This Week in Crypto - TradingView",
+   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPdy1ISm9GQ0k3Vzh3Nlg5SFktdlVGejJKTUo0QU45R0REY3YxbU1ITTN0NllXMWIxLTVhY0lRLTRxNHF4amdMS2k3SGhHNElBZGtkekxLckVOaUNMdXJGbkhMT2MwNksyZzRIWGxPbk9KRDBWdW9tSjdlU1NSelhtaUFpZHFWQXExS3lNTUd3RTJSVXZ0dnhidklGbzFpLUxSbWw2MVlDWUZXYVlxbFFtMGpjUEFDQ291YWRjYnR5NFZxWDBPalE5OA?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T12:00:07Z",
+   "title": "Novogratz Sees Bitcoin Upside, Pepe Surges and More: This Week in Crypto - Benzinga",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxONmxMRmpXVlZYWGZWd2loRHN3VzMxVjJobm5tMXRzQVR5SVJRdlRIUHR6N2NpVW85WW5YWVlKbXVDZDV6SnBaVHBsMkhLQlJpbnVzNTBTaHdJSFVBNXJkYlVtMWRQWkoyUDVBRUF0R241MFNSS3VRd2M1bW1NTk9KdHMtckx2cjlSVVpRZG96WWlRQTFINnc?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T12:00:05Z",
+   "title": "Interest rates unlikely to reach 4.75% by next summer, say City economists",
+   "link": "https://www.theguardian.com/business/2026/oct/25/interest-rates-bank-of-england-rises-summer-2027",
+   "source": "guardian-business",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T12:00:05Z",
+   "title": "US military gives Elon Musk’s SpaceX access to sensitive tracking data",
+   "link": "https://www.theguardian.com/science/2026/oct/25/spacex-access-sensitive-tracking-data",
+   "source": "guardian-business",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T12:00:03Z",
+   "title": "What is the £100k income ‘cliff-edge’?",
+   "link": "https://www.theguardian.com/money/2026/oct/25/100k-salary-income-cliff-edge-tax-personal-allowance-children",
+   "source": "guardian-business",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T12:00:03Z",
+   "title": "As a young man, magazines were my window to the world. That wonder will be lost when all the shops have gone | John Harris",
+   "link": "https://www.theguardian.com/commentisfree/2026/oct/25/as-a-young-man-magazines-were-my-window-to-the-world-that-wonder-will-be-lost-when-all-the-shops-have-gone",
+   "source": "guardian-business",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T12:00:01Z",
+   "title": "What Democrats and Republicans fear most about each other: CNBC survey has the answers",
+   "link": "https://www.cnbc.com/2026/10/25/cnbc-survey-midterm-election-voter-fears.html",
+   "source": "cnbc",
+   "tags": [],
+   "tone": -1.0
+  },
+  {
+   "ts": "2026-10-25T12:00:01Z",
+   "title": "Marc Lore’s Wonder bets on Texas, automation and user-built restaurants as it mulls IPO",
+   "link": "https://www.cnbc.com/2026/10/25/wonder-ipo-texas-automation.html",
+   "source": "cnbc",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T11:56:47Z",
+   "title": "Unknown sender has written the same Bitcoin haiku to the blockchain 26 times - eGamers.io",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQbk9HaDIyc3A3eVNnemRoRnJfTDdOMmxoMlpIemFaTXM0TUxTamFCNXE3TWpPSE1TeWdUYmtnbU1WNHlYSk5rY0ZiUS1qTnF5cm9wR3poNmlUT3JaQk81M0ZxelRwV0J0VTd4RUdWbEhlNTRZNGVoM0ZLUnVuaDVtQ0pxQTVsYnl6bkhvVVlLaHZ3bWo5WG5ENm9ONlE?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T11:51:00Z",
+   "title": "NEAR Executive Says Network Is Better Prepared Than Bitcoin For Crypto’s ‘Black Swan’ - Stocktwits",
+   "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPZEFWWEVtbTRuYVlteWdCMEZQcnY2bW1Tdmh2RzFmcjRZZ1pqOUE1cHlnem8wMGgxb3JXanNSMkpINVFSbEpiS0tTeVpZOHJ0REhoT3B0ellOR0tneXhrSlJLV1dWZXRxVjBnWmN1cXRqQlJuLTB3RUhUaTFZdjgzTWNtaG5KVmkwc0JHdmFSQWtnSXZfdUN0em4zdTV3Y1lUQ0pyMmlEdUZKMmZwOGIwM1RuclpHQ25NSHNGcnVqRDVfZ2lXN3ZocDJvb3VIc1lhcm5yMHR5NmpBSVdrZnJkcDMxVWVvQmJqZ08w?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T11:42:00Z",
+   "title": "Netanyahu floats use of blockchain as solution to potential financial sanctions",
+   "link": "https://cointelegraph.com/news/netanyahu-floats-use-of-blockchain-as-solution-to-potential-financial-sanctions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "source": "cointelegraph",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T11:30:10Z",
+   "title": "4 Investments That Could Make Sense If the Federal Reserve Raises Interest Rates - AOL.com",
+   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOVlhrdHBKQWFxQWd0VlZnd0RCOUZ3QWotUEg4V1BTNVZPN2JlaHdzeWZfcHRYTFA0U1R4anM4ZFhnSGFNV1dkZURHaHNlZkpHbWxFOXZWT0dhV09YQ0Q1d3VZdUVxWEZoVWhuaDJWMzVWVlZWNW43M3RWcm9PNnNqMEVONA?oc=5",
+   "source": "gnews-fx",
+   "tags": [
+    "USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T11:16:14Z",
+   "title": "Medpace CEO August Troendle sells $1.59 million in stock",
+   "link": "https://www.investing.com/news/insider-trading-news/medpace-ceo-august-troendle-sells-159-million-in-stock-93CH-4971193",
+   "source": "investing",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T11:15:06Z",
+   "title": "1$:63.615 - Philstar.com",
+   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQYWVvVUZXS0ZZdVRJVXg4ZnV0V3NHSjZORzA1V0YtT0NIWUVDRUdjSGtCN3VMLTRGbVZQT3dwb1k0TnRXcDQ0S2hjekVHSV9XZjBLWXZkVkpyemM1WUtmUXJFZWtBWGZsay05ZEYwRXJfNl9WaDdGSHU5aUUtSGdoQlY2Z9IBigFBVV95cUxOajdkN1ZQcWNGVHNNNTJaOUxpamJsaVlrUjY2LTdENFRIS2hzNm9OTGdsYk4xRld4b3pHZ09OUmd4VGdZQURjZEZyelJfNDhHTzcyeDRQeElUdUpyMVlMcGtaaEM1T2Y1WUplV09wZ1oxeWFZbFpSb2tiUFB1NnB0WVVmenNpNE44NFE?oc=5",
+   "source": "gnews-fx",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T11:14:56Z",
+   "title": "NIP Parent Company Expands Bitcoin Mining to 13.85 EH/s - Skin.Club Community",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPOHdITEo4NFZ0SVJHaTk4ZFc2MFlxYXNTOGFPdGV6WTlyeVVGU0xLSlZ2SmZtVDVlU3kxYjZNWlJiNEtreXo0eEt4OExoMmlFRVo0NUpvLVVySHNCNjA3NFhhVDZNMUphRHhFT3VuOEwwUm1RbU9ib1lRYlZqYXVlMnNqa3FyM1BwTFUtcmNmdmNFaUVIRHc?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T11:11:21Z",
+   "title": "Public Colleges Are Passing the $50,000-a-Year Mark. For Locals.",
+   "link": "https://www.nytimes.com/2026/10/25/business/california-colleges-costs.html",
+   "source": "nyt-business",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T11:08:42Z",
+   "title": "ETF Investors Pouring Millions Back Into Zcash as Bitcoin Falls - Yahoo Finance",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQM2JSb3BwOHUyaWhaRHY1RjJaLTVLWk1ZdEswUzhra0NkSXNzTnNkVU45VDFMM2VSdUtYNlJReVVDTldkczVscXdQd2RuVWs2SzdScG9heDZHbGVFZzBZYUZ1Tjlla2VBQjJTNS0xQlNyV3VXZnp6TlZvU1NSRm0xOGRjcGJBaFkxbk1xNFB0M3lnY2VKUy0wTGxLb0lEcUZmWEE?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD"
+   ],
+   "tone": -1.0
+  },
+  {
+   "ts": "2026-10-25T11:08:00Z",
+   "title": "ETF Investors Pouring Millions Back Into Zcash as Bitcoin Falls - BeInCrypto",
+   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFAwM05HUmtob29XMEQ1N2VfVkhuV01COVJRUndnRWVHZmxfT2Fjd1V0cEluVno5bnRmMURzaUFjakhlUWRDTU55S0FEZ1VWZHlzSmtQTmZZSS1sRnFabzNHWDNGUTROWGxoQVhSMGN3LVdSUQ?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD"
+   ],
+   "tone": -1.0
+  },
+  {
+   "ts": "2026-10-25T11:04:42Z",
+   "title": "ArriVent reports phase 1 data for cancer drug ARR-217",
+   "link": "https://www.investing.com/news/company-news/arrivent-reports-phase-1-data-for-cancer-drug-arr217-93CH-4971187",
+   "source": "investing",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T11:00:32Z",
+   "title": "XRP ETFs buck Bitcoin and Ethereum outflows – Can price follow? - AMBCrypto",
+   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQVUtveG9xbFR5YTY0aEtwa0E3eDNoeDMyWm1HcXF6RVJDRGhWaU9UVHBRU1hiQ3NTOXVoakxJRDZPWFV4YXg4ajdSN21ZU3NDVm1LSEQ4ajNaNHZKRVVXaEJJajNaczNOZWR1V3hYZHpTYWs0aVJVMWx4ZVV2MVVwdkIxb013RHRfZjVr?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD",
+    "ETH-USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T11:00:24Z",
+   "title": "Earnings flood, Fed meeting will test rickety AI market rally",
+   "link": "https://www.investing.com/news/economy-news/earnings-flood-fed-meeting-will-test-rickety-ai-market-rally-4971185",
+   "source": "investing",
+   "tags": [
+    "USD"
+   ],
+   "tone": 1.0
+  },
+  {
+   "ts": "2026-10-25T11:00:00Z",
+   "title": "JPMorgan projects 10% annual Bitcoin returns over the next decade — but won't recommend buying it - Yahoo Finance",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPU3EtWnZ6WHo2Zm83emc4RklNdVE1d3RYUWxYbUhvczVlQzRIajRxOTdKTnpPTXkwajUya0ZvWWFjY3VoSDlxRkxvdGVWbkxvZGxVNXZPUUt5ZWVkYjIzS214NmFmVm9CM052UnFOZE8yLUFmcEw2aGdlcmwwUTNIODlfZmVZd0hLajJUS0xORHVmMzNJejdRMTZJWDhHQURhS0E?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T10:55:33Z",
+   "title": "El Salvador president says bodies found in Haiti are not those of hostages",
+   "link": "https://www.bbc.co.uk/news/articles/c8ly097zw1xwo?at_medium=RSS&at_campaign=rss",
+   "source": "bbc-world",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T10:53:00Z",
+   "title": "Hunter: Interview on 60 Minutes - Forex Factory",
+   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5VLTBIWTl5QmtPQV82Q2sxaUVQcXlBLWl2RnB6dUVwRW8wVUJPTGVEZmprSnBESi0zYnhTU2U5Q3FMcUxIcFN2cXVjUXprbFVvNWZ5WWlNWC1GdHU2WXlfcEw1ekZlVGtZa1d4UUlNTEJEQUxjYmlPWklLVVHSAYIBQVVfeXFMTzhBV1QzV2IyTEswbDFCNlgweUFZR3pSemVURmJ2UWhxcHNzYzRoN0NoRDhfck1CYS1ENEloLUdOYzFGSWJLdTNETWRyazdELUdQd09VRHByYkZHNEZqamkzZm5Qb0Q5dlJRMmNoY0hkdUdvMEtDa1ZRcm1OQ3N4eVgtUQ?oc=5",
+   "source": "gnews-fx",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T10:40:56Z",
+   "title": "Electrum wallet fixes security flaw after hackers steal Bitcoin - Crypto News",
+   "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9TQmJtT0FodUxsRG9iT1dDUHpoendaMEc5N1RVaDdNa1p1WUlQVmFuTHQ0YnhtYXhETXBTUEhMMkFIOVY4TzY3U2NWMWM4NXlWYmVyeHRGa0RaamtfWFRTdGZUR0NkcnoxMks4aGVWcEtIZ3hHV0RPeVFR?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T10:40:00Z",
+   "title": "Ringgit expected to trade in narrow range of RM4.07 to RM4.08 vs the greenback ahead of Fed meeting this week - The Star",
+   "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNU2h1WGpyc2g0aWZsSXVZZ2JhZVNaeUkydmlqcXlleWpuTEM5Qm1URDk4eUYzZW1ZcHpxTExObF9mLU9mUnZKbFNhNFlrSm11VEM3bkZ4NWJXZWE3M3QySWdtcE9zcHhEdDgwVHFRTEtPWTdYWmhfZUlLYkFMd0ZHc2d2UEpWUGJyUTVaSFFHUUhyN2Zoa2lGX19HaUMwd1NOQWxMeWpLNmlPclIxaWtRUzlOSlZpdGVhc2tyb3JoS202dkkzNWNxbmtqSlJVTGIzWDRXc3I3eHpHTFF1RHFtbDllUDF1V2J5Q2xmZVJjNmJRcFIwNUVrdkZjN2ZUTms?oc=5",
+   "source": "gnews-fx",
+   "tags": [
+    "USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T10:38:15Z",
+   "title": "More than 1,300 arrested as clashes follow another day of mass protests across France",
+   "link": "https://www.bbc.co.uk/news/articles/c95ynd587ynzo?at_medium=RSS&at_campaign=rss",
+   "source": "bbc-world",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T10:28:44Z",
+   "title": "Netanyahu Says Israel Mulls Crypto Ahead of Possible Sanctions - Bloomberg.com",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWHZ6VVBXaDh1SXE5ZTBFa3pJS2ExLWR4b1FFWVJVNlJqRThrWGlxRlVZd0ZKaEhlSnJKMGNPaktXODdmZFR2aWl3WUFlOXNMczFkNXN2SXktQWhvLVJEOFhSaHVaRU96NDlNVWZGdi1mRGo1NHFuSFJKQm1MRHg2NE5jbFVGOTEwd0NRRloxQTd1NlhydW9YaW8zMlRNcFNkVUtpeUNwUDM5MnBNYlozYUVDUQ?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T10:19:26Z",
+   "title": "Forex Forecast 26 to 30/10: What Markets Are Watching? - DailyForex",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMTNLdDktZDZGTDJJSEhFOHo4c3pNSzJFYTY1REYyY3RiYUY2eXNXQl9uZ1lBTVNsakw5MF9GclkxZUJubzdBZXVHbzhHQUt0aTVzb1c4MnR4UDcxOFNMdUZScG1ncmlEZ1o2VVZfVDlzRjhkaEFEejJkQ245Vmx0dzhGLWVtSUxlWG9NVE5qXzh2VkVxLU9KajdnV0o3dkRSbTdtWUhueHg1UVZDZW42aG1aUXE?oc=5",
+   "source": "gnews-fx",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T10:16:48Z",
+   "title": "FX week in review: TopFX and GTCFX CEO changes, Saxo sports deals, Plus500 buys Guru, IG gaming license - FX News Group",
+   "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQMVV2U1dJZTItTmZXNldWcUppdVhUUTJkSUZndURUSFZVaU1qOGs2QnRWWU9YNDhNUVZpRFNNQWhCX1NYWmUyYmFwSGpCOVAzLTdhczRKX3FpMVE4dm0xWGxEYkhDbTNCV3o5UF9QYURsX3ZxS2R5b2NoSXo3NzFnaDdPRjNxeGVSVE16V3dEQVVoVkhQbGloenRwZkJmTklzVEdNS0RLZlIyaEh5djlab09mV0NRYlY1VzRVM2h0RWJaNk1BYldGWmZzUzFUQWZSd0pCNUREZFd0NHdfVEZIM0l3?oc=5",
+   "source": "gnews-fx",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T10:13:43Z",
+   "title": "Live stock, index, futures, Forex and Bitcoin charts on TradingView - TradingView",
+   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4taVlmZWQ4U2hETF9RSi05cDc1dDEzZ2R4czhqajAxTDFuMVFDUjRORV9GcmxMNGs2cWJRaEVuWHQzcTFGUGNreEh3LWJsOGJacndMNEd3Q3ZrVEE1SGhhblBQZ1Q5V3g2S2c?oc=5",
+   "source": "gnews-fx",
+   "tags": [
+    "BTC-USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T10:12:00Z",
+   "title": "SEC Approves Leveraged Bitcoin and Ethereum Funds for Trading. But Are These ETFs Worth Buying? - The Motley Fool",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOUnVqNFZtMWdtM21HSVg5VVlNanRuNU45bWJjRXhDaWZCekNRWEtmaFRkNFJqZXRPOHRGZG9vZFBJUWpqa0N4UUxJYnREdTVNXzdGY3hhUzg5RmV1TFBoa0dFMV8wcHNyV3p3YmU2X0VNU0V0TDFTcUJDVldVT0ZReU5lYllPQ1BBVjZ0d1FhQ3JaWXZsRTRF?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD",
+    "ETH-USD",
+    "regulation"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T10:05:37Z",
+   "title": "Bitcoin ETFs Attracted $304.7 Million over the Week, while ZEC Funds Took in $41 Million - Incrypted",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQVnRXcWFHSEtNeUx6UWpNZl9GWklLZ3FpUloyMV9NanBvcGI5aFQxa2NMMUhGblFYUUJLb3k1cmxDWjZuckV2X09EY2psWUR6Sm9sekp4WlJrX1ZsWGtXdE1XUkU4aUowYVUzWUlaWElVUXZTYW0zOTJ3dmRzNVY1TXBZcWRrUjFMUVRVYmdUbzlmSjdXb1RJUEVvNXg1aWNaaGdialdWNnF5aGdqWmJ5Mg?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T10:03:17Z",
+   "title": "Budget to include £1bn for social and affordable housing",
+   "link": "https://www.bbc.co.uk/news/articles/cqm24j9y9zn7o?at_medium=RSS&at_campaign=rss",
+   "source": "bbc-business",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T10:02:22Z",
+   "title": "Week Ahead: Fed, ECB, BOJ and BOC Meetings; Brazil, Israel Votes; China's Fifth Plenum; U.K. Budget; U.S., Australia, Tokyo and Eurozone Regional Inflation Reports; Eurozone and U.S. GDP; U.S. Earnings Flood - www.christophe-barraud.com",
+   "link": "https://news.google.com/rss/articles/CBMivwJBVV95cUxNM0lEMi1jT0NfS0Vjdjk4SGtoaHRqTmtLU09UTEgyVmpUVUZpcVZ2RGtuNkJRYzdLc0t4TlZOZHlzdEoyUV8ySXNSQ3NVOWVsVjhTRFRFaWFEOEgxakNuQTBPbHAwbzZicmNzQjlURFZwRkxIZklndG9yS1UwY1Q3N195aThRZnlBZjhFWjVYWWVXTjhjRDlFY011QnlHcWdMNFVmbVNxTW1CYVdIMVJzZ2pBRmlpTjFKZnk3WGN4OXNkbTlJY1Q5T2pGOFd1WU5mMUZXZUZpUERTeDBYajNoYXBMZzZVaDhZXzlaRmVSTWI2ZzQ4aURIb3hHWEZCbmJxN2tCRUhQZ2l4M0U2RnRsbHIzU3czajNpTE5yR3pHYXdKdDhWUXRBTFBMUGVFbTVZbG5HdnJRb3JKNGtYV3FZ?oc=5",
+   "source": "gnews-fx",
+   "tags": [
+    "EURUSD=X",
+    "USD",
+    "rates"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T10:00:01Z",
+   "title": "Retail leads the way on paternity leave as government urged to improve offer",
+   "link": "https://www.theguardian.com/business/2026/oct/25/retail-leads-way-paternity-leave-government-urged-improve-offer",
+   "source": "guardian-business",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T10:00:00Z",
+   "title": "French Bond Rout Puts Crisis at Heart of ECB Succession Endgame - Bloomberg.com",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWmVHbVJTd296aDRKbXN0YVFxX0xJaEVFczdER3g3bzc5YlF6cUhMVmFhVkF0dGVaZTJMcC1renMtNWk1WjdpaU5KTjNjb3NaVmx3Q3l6MzhGSjN2alhHSWFjbVM3V09iV0J2UjZfV3NBSy1MMmZOMzJ1V3k2ZllJam1CQXd2bThIYmFrdGEtNjMzcE1LcHNTOVZQZVY2RWpIbFk1c0taeHJyOTNkU1ctWHdRbzU?oc=5",
+   "source": "gnews-fx",
+   "tags": [
+    "EURUSD=X"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T09:59:00Z",
+   "title": "Bitcoin Slips Below $80K As Peter Schiff Warns Of ‘Very Long Weekend’ For BTC Investors — Mike McGlone Says ‘Don’t Fight The Fed’ - Stocktwits",
+   "link": "https://news.google.com/rss/articles/CBMiogJBVV95cUxPRk9hUWs2OVg0Z0RrQVNWRDJhbEw3ZGIyUWo4YVNNdWtORVNlOE1BRk44S1pjVDQ4blNlem1adnZKNUlzamxFOWEtbUxKd3JxbzlwclBGc3dYajJCb3QyTDF5ZC1yamdHX3hjUEU2bnZOQ0xScG1Fc19RWWo1LTdvMGUwQzIzUkdVVGNPYTNNT0JpNWpsVFY3RmtiTkZyeURBS3N0UXhWQzVfbHZucnd5RnBpNU5lb1ZCRnBJSzl1MVpobWlGS092Ulg0dnVIczFJc1VhWlRhUVZqOXA2T1VWYUFpNmlCTUlRYmxGOGJiOHNqYzJNUGh1ak9RWUIxZzJ3T0diY0JjSkFxeExaUWNQQlB2TlJUMXBvZE8wRmx6TmZMZw?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD",
+    "USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T09:50:00Z",
+   "title": "Top 5 Things to Watch: Rivers Fall, Federal Reserve Action Uncertain - DTN Progressive Farmer",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNQjl3MzQzNDFDYzhmTi1RRXRSelczdks1UEUtYkVQR2ctRW9Qc1JJdTJic3lKSmtOU2h1UHVNZVFIOHktalZCRHBqMFhmNEFiQmdIMG9ublRTQUw2eEMwN1R0UjZTLUpHUEFSZHh4Y2ZRMFdIVUppU1BydVlHVjJrWGVoV1ZMTnJuc3FRMUE5NUdqQk1YbDN1N1h6NnZCMGtabjhTU05ZTkNEZnc3MGRnRg?oc=5",
+   "source": "gnews-fx",
+   "tags": [
+    "USD"
+   ],
+   "tone": -1.0
+  },
+  {
+   "ts": "2026-10-25T09:45:20Z",
+   "title": "Ethereum dips as Arthur Hayes sells holdings ah... - Pluang",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPOEtSWWZDbWNQTmxyOXUtaTFnWThzOU9YaVNkZ2M4MU1rNlFnT1d3U01MSm40cVJiRjlBSWhkUXFRUnU0V1hzVHI1bXVCZTNIQ1o1cUJBbUVnX2tJRDllbWxHYkdvb09vbGdvSERCM2tCUWxMbmRyNGxoUnhhNHgzQmVOeEUtTzJYeE1vWlNuTHhpcVhMTzUtLUktWHJVYndhNEtYQXFnaHd1clBMZy1feQ?oc=5",
+   "source": "gnews-fx",
+   "tags": [
+    "ETH-USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T09:43:14Z",
+   "title": "AI Is Rewriting Europe's Banking Rules as Smaller Firms Challenge Market Leaders, ECB Study Finds - Devdiscourse",
+   "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOV24tM3B6OXB4X2tUeFNKMmlnSTkwd0phZWV5NnpHVTRPWDhnX3YxbDhrSFRETS0tSjg3N3ZwTUd6SkZLOTRRNG9xMVlxZmYxYUVObmUxZ2FnM1hhZktRUEY1SFUzTjFiUTh4TE1SV3JkY21mOURXUklOTktqMjhsRmhJdmlBc2d4ZTBBN0Z0eE9qblM5d0hleDEyYnNhMDZjWTVkRkdQM3pEZmF1ZXpMRVRGenhZdDVSQnI3Q3JMdTd6SThleWgybUlCMUN3cVRnQ1dadFhUV0tMd1Ztb3pYVTNaMEXSAeQBQVVfeXFMTlduLTNwejlweF9rVHhTSjJpZ0k5MHdKYWVleTZ6R1U0T1g4Z192MWw4a0hURE0tLUo4Nzd2cE1HekpGSzk0UTRvcTFZcWZmMWFFTm5lMWdhZzNYYWZLUVBGNUhVM04xYlE4eExNUldyZGNtZjlEV1JJTk5LajI4bEZoSXZpQXNneGUwQTdGdHhPam5TOXdIZXgxMmJzYTA2Y1k1ZEZHUDN6RGZhdWV6TEVURnp4WXQ1UkJyN0NyTHU3ekk4ZXloMm1JQjFDd3FUZ0NXWnRYVFdLTHdWbW96WFUzWjBF?oc=5",
+   "source": "gnews-fx",
+   "tags": [
+    "EURUSD=X"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T09:32:00Z",
+   "title": "SEC Approves Leveraged Bitcoin and Ethereum Funds for Trading. But Are These ETFs Worth Buying? - Yahoo Finance",
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQcERwb1gtZDlLV2R2MFFHMDBOa29UZVFTVjFMaGxFNE53Wk55RUM2eGk3WUhxb0F0Q3hnUnRJV1B6LVR3Nzc3NEtndlh6ZG1RRm85T01VWF9TY3ZqaVM2czR1WlU2THExRUJDa3JwWHduTlBzeTRjQ1EtRFdqRUlOR1dOQUR0R1hZMEF3dW0wR3BCdmlmNTZqdTVucTNJQnFNQ1Ata3BvTQ?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD",
+    "ETH-USD",
+    "regulation"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T09:28:00Z",
+   "title": "Ethereum Faces Downside Pressure as Arthur Hayes Sells Holdings Ahead of Make-or-Break Federal Reserve Meeting - CoinIdol",
+   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE45SE53ZXlUb3pUNDd2NlVNLWJuUTZDWERrYnBfOHRTcVFqMVJNa0FIWFlKc0VTMzZtZUQxZWtWRm1lZUFzd0tvMDI2QkpPTHlDNmowc2VGcFpXRHNzOThBTExqa27SAWpBVV95cUxQNVVRbzlFbUREQS1DdUt1aW9tQlZOVlE0ZkEzcXI1UGdfVzZKQ1pMSHJZX2t6X1FHTF9Bd0xGcV9NVnF2MmJ4eG1YS01OaW80UHJSNDJWOUgxbWJBdE9nelNMZ2xKTmVYZHln?oc=5",
+   "source": "gnews-fx",
+   "tags": [
+    "ETH-USD",
+    "USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T09:25:00Z",
+   "title": "Bitcoin ETFs reversed course in a day. Who is buying when the funds sell? - Crypto News",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTVZib2VkNXhLNzhLclc1aW5pU0dlcGtLRXhSeE9fb0hfdTF5dklWcUg4bHNJMHhGbHVFRUpHNEpPVkhwUDM5MXgxLV9uMHk3MUZQUmhSbWpXcEZSRjB6NDhWRlBwR2F2VnlBd0wxX25sd2ZMSXVqQnpNY3luM1REdlNYNHdLY2hhNFIzNnFVWmVJMWVkS0dj?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T09:20:36Z",
+   "title": "BTC down 3% in a day: USELESS fell 7.9%, XPL 7.1%, XMR 2.5% for BYBIT:BRUSDT.P by SignalPilotLabs - TradingView",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPeG4waVZOXzdWay1ZeWNtd2ZfbE9iS1EzQjZUelpUbTVKMzdwRDVtYVJCVjY5TzBwcmJOLVhyNl85V2Z6cTB3SElaVmpKNjVxdzJNMVMyMVdEWDU5S0tLRGJlaHZmeElnX0sxQ29LdWZJeE9CSkdWc19RVm9aMW9ORFF3TUZmUzZZSlVVQzdsTmNobENlcDJCVmFpbjc0bmpGcjVPc1ZyQXk?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T09:14:38Z",
+   "title": "Mysterious Poem Appears on Bitcoin Blockchain - TradingView",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWUprcmtLd1paZXVUckEzUjhBNnA5Z21DTlRiS0lrd2NMNnlHQUtNT185QnpQZndmYlBpMGtSZlRzQ1RaVEZBMkJKUFdFVjRUUXRtaXZodkZ2ZDJuU0MzaGJqUGpxVV9sWDJNbnBQQ19iRTdvaWltYWVLalhKcDhMTDgwVE5ZU0wzVE9sTTBEX3M3aGU3V3dpbmY3V3FtZnYzZUlSR29B?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T09:03:15Z",
+   "title": "How the ECB Will Help France - Robin J Brooks | Substack",
+   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE55d2VmdTJvejhMVDVpRWJ4SFk0MjdHd0lremF4UkFXcF9ZUFJpUUdfVU85WDBsQVF1M3V3bkpzWXp4ZnQtVzJ6RzV3VGhxQ25LNFFRX1VweDdMR1dzbmJmTlRNUHNxMVV1VTVQNzE5OWo1QQ?oc=5",
+   "source": "gnews-fx",
+   "tags": [
+    "EURUSD=X"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T09:01:59Z",
+   "title": "My Co-Worker Is Losing It Over My Religion",
+   "link": "https://www.nytimes.com/2026/10/25/business/my-co-worker-is-losing-it-over-my-religion.html",
+   "source": "nyt-business",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T09:01:30Z",
+   "title": "The Long Life of the ‘Snacking Occasion’",
+   "link": "https://www.nytimes.com/2026/10/25/business/the-long-life-of-the-snacking-occasiong-glp1.html",
+   "source": "nyt-business",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T09:00:57Z",
+   "title": "Bust companies revived in ‘phoenix’ deals more likely to fail again, study finds",
+   "link": "https://www.theguardian.com/business/2026/oct/25/bust-companies-revived-in-phoenix-deals-more-likely-to-fail-again-study-finds",
+   "source": "guardian-business",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T09:00:57Z",
+   "title": "The boss whose twice-bust business appears to be back despite £3m debts",
+   "link": "https://www.theguardian.com/business/2026/oct/25/recruitment-boss-twice-bust-business-resurface-debts",
+   "source": "guardian-business",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T09:00:14Z",
+   "title": "Peter Schiff’s ‘$75K Bitcoin call’ meets a vital week: Fed, inflation, and ETF outflows loom - AMBCrypto",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdERhQWpYZDFOQ256cEs0MURaMkpwMkRHYWtJWUMwb2lHSkhHeV9BLXRUcmFlMmVRb2dXVmEwSWxtR1lGWEhpaWZsMndFcWdaVUF0VGEyc0VqcklDRHZzT0VOQ3Jkek9LaHVhUEFwT0NKaDFpSldYLVhLTlpaanR3MzBiVzJuQU51YkRLSi1aZU1kTzFNYU55UXhPdTkyek1sOTJ2aGljRl95SHdL?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD",
+    "USD",
+    "rates"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T09:00:00Z",
+   "title": "Musk says SpaceX restricted Ukraine's Starlink connection as service restored",
+   "link": "https://www.bbc.co.uk/news/articles/cvx28ljp8n4xo?at_medium=RSS&at_campaign=rss",
+   "source": "bbc-world",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T08:54:56Z",
+   "title": "Bitcoin recovered to $80,800 ahead of the Fed meeting - logos-pres.md",
+   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNUFlnWHhfM3lZMFJyVXRBOHNCOURXejNHcGsxUFliNWlUR3BsN1JUNjZleXE4Z1AtUFhxZEwwMU1nWVA5QzV3bzZqN09Rajdacjljeldjbms3SjM0SklOUlc0eXB3WEVfanNCR3pVTUNVRWRGbHprWnJrc0hEQThycHJ0ZlFqaFVtdGc?oc=5",
+   "source": "gnews-fx",
+   "tags": [
+    "BTC-USD",
+    "USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T08:49:00Z",
+   "title": "Weekly Outlook | The Federal Reserve's decision, along with U.S. GDP and core PCE, are set to make a big splash! Google, Microsoft, and Amazon will release their earnings reports in quick succession, as U.S. stocks enter the peak of earnings season; Dong - 富途牛牛",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNV2hBV1h1elBmMG4yTmJFV3lNejlGV19LV3ZSWlY5eHp5Sk9JdUY2SF9ERkFuZVd0eVFpcWtvM2UyQzNya3ZWZkVUcVVEYWNwUnl5ZTlWWnVnS3BSS0RwaG1rcG04STlOX3FZNkRieEFNRWQ4UjZQNFpVaXhIQXhlNURSY1Yya2J5NDZHYlNzWF9SdFN2TE1JRkVmQWFUVWdGQ0xkVA?oc=5",
+   "source": "gnews-fx",
+   "tags": [
+    "MSFT",
+    "USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T08:36:47Z",
+   "title": "'I cannot teach you integrity': How employee theft is hurting small businesses in Africa",
+   "link": "https://www.bbc.co.uk/news/articles/cmz98plpjzplo?at_medium=RSS&at_campaign=rss",
+   "source": "bbc-world",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T08:29:24Z",
+   "title": "Crypto Analysis: Even Bitcoin Cannot Escape the Market's Lack of Direction - FOREX.com",
+   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQQWR2Rk9mZnZiLWJmZkxkdGJob1M2T1FCNHVqYnpjM0FKdWc5aHNYRFVjdnF0MjdGRTBXRl9oeXpfaXE0RmYwamI0aHhHVXdGWWZMNktUcE15ZDM0SnRjNnhpaHdsWGpSOUVqUGNwTEpOVW1LQUJNeEFtczZnd0ppZmFWRVJwdEhvTFExRzhWbDg4NVoxeDAzNGxnb1ZnQ1p0S0R6YzZUay1fZUppWTVxMk9ldE4yUHpodXdrd2lnaE43cFVLNi14atIByAFBVV95cUxQQWR2Rk9mZnZiLWJmZkxkdGJob1M2T1FCNHVqYnpjM0FKdWc5aHNYRFVjdnF0MjdGRTBXRl9oeXpfaXE0RmYwamI0aHhHVXdGWWZMNktUcE15ZDM0SnRjNnhpaHdsWGpSOUVqUGNwTEpOVW1LQUJNeEFtczZnd0ppZmFWRVJwdEhvTFExRzhWbDg4NVoxeDAzNGxnb1ZnQ1p0S0R6YzZUay1fZUppWTVxMk9ldE4yUHpodXdrd2lnaE43cFVLNi14ag?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T08:26:01Z",
+   "title": "President Donald Trump Just Proclaimed, \"Tariffs Don't Cause Inflation, They Cause Wealth,\" but Data From Federal Reserve Economists Show Otherwise - Yahoo Finance",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTkxLNVhEY2o3MVhmdGxiNHhzQ0VLbmJoOTJ2NzdPOGt4UHhNMGF2c3pnbXlMRUFydTRjZzVaVDRobEV1c1JxTHJKaEd6QVoyLUVKdE51bmdUeXRQY0Q1WHJMNmh0bDVjY28xekNvUmZ5Wkw3WmswRi1Odm9IMDJSQU1NOWhhVzMxMHhKVF83LU84M1Z3Yzl3M2p4NEN1eGZ1a1FOYXZ3?oc=5",
+   "source": "gnews-fx",
+   "tags": [
+    "USD",
+    "rates"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T08:22:52Z",
+   "title": "Malawi imports 1,000 vehicles a month amid acute forex crisis - Nyasa Times",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNTG1IMmtBNld1OFU2R1l0YmhPbTdXVnkwdzhuNnNiRFlGdktMMEpxdGhJTWM3SUxBNWhLdFpBSG9tdG1IU0dSN2NMWFBnNm1yNE5oSDBvaDNVZS1OWUZPcmIyZUZLVi1zUG1nenRFNGY3ellrekc0S2ZXQmI5dVlBdkdJUkdRZ3V6OFVnTkFvXzlPdw?oc=5",
+   "source": "gnews-fx",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T08:06:48Z",
+   "title": "Inflation, earnings reports and the mood of consumers and the Federal Reserve fill out a busy week - WRAL",
+   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQU2dlWE1LWUxKdmJDa2xQSGcyWUJVaVlFLTlzT09Dcm5sNVNzbGZ3Y09kcDJ4WDkzS2x6ankwQ1VmTkV2Y0JCbjloV2VKVklmVlFITHh5VlVuVVp6UnRYaFpxTFltWlp5MDdCaWR0N0xKQWY3MjZWa2VESk1hRjVuMHVBVmpMU3JaTG5IWmR6cXVRYW9JYnVrRmM1Zjg2dzh0eGE0LTlkREY2emQ5QXZQdnJsTWtiRVJmRFNGYm1Bbml2ckhsQkQ5M1A2T05XUQ?oc=5",
+   "source": "gnews-fx",
+   "tags": [
+    "USD",
+    "rates"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T08:06:11Z",
+   "title": "What next for France as riots rattle markets? Three questions facing investors ahead of more protests",
+   "link": "https://www.cnbc.com/2026/10/24/france-riots-paris-unrest-debt-budget.html",
+   "source": "cnbc",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T08:00:57Z",
+   "title": "‘You can’t bring in robots’: the leather firm handmaking everything from wallets to cigar cases",
+   "link": "https://www.theguardian.com/business/2026/oct/25/ettinger-leather-handmaking-wallets-cigar-cases-walsall",
+   "source": "guardian-business",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T07:55:51Z",
+   "title": "Bitcoin’s 30-Day Trading Range Narrows to 6% From 13%, With Compression Holding Between $80,000 and $86,000 - bloomingbit",
+   "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE8zeXVwbmV1bHFXTzk0aFJaNmx2RGdmUlp6Zks2dWgtZ0VpZnhkM3VlR1FGWTI3eHBXMFFZcDZCZ0d4eTFhTkVIanRnU0Q5c0FsOUUtaA?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T07:15:38Z",
+   "title": "Rosebank: Life on the oil field at the centre of a political storm",
+   "link": "https://www.bbc.co.uk/news/articles/cqy8ljkle97ro?at_medium=RSS&at_campaign=rss",
+   "source": "bbc-business",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T07:12:21Z",
+   "title": "Heating oil costs 'more than double' ahead of winter",
+   "link": "https://www.bbc.co.uk/news/articles/c6n8de1jgrdvo?at_medium=RSS&at_campaign=rss",
+   "source": "bbc-business",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T07:09:56Z",
+   "title": "How families are cutting the cost of Halloween as spending grows",
+   "link": "https://www.bbc.co.uk/news/articles/c64g1kjgrl47o?at_medium=RSS&at_campaign=rss",
+   "source": "bbc-business",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T07:06:12Z",
+   "title": "Firms 'holding back' on new jobs ahead of Budget",
+   "link": "https://www.bbc.co.uk/news/articles/c62kep355q02o?at_medium=RSS&at_campaign=rss",
+   "source": "bbc-business",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T07:05:30Z",
+   "title": "Will a new code end 'rip-off parking charges'?",
+   "link": "https://www.bbc.co.uk/news/articles/ckjwe90z56ewo?at_medium=RSS&at_campaign=rss",
+   "source": "bbc-business",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T07:02:00Z",
+   "title": "Trump: There's a possibility we may strike Iran - Forex Factory",
+   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOOGdqYmJGUEdwVnhwd1JNVGdlamJaNTNzVGlFNnNEUXBLd2doZW5ucnROUVg0eTBaYjF2a1ZFOE04NDAtR2ZpSzd5aHBfdUsyc2NWdTYwenE1TEl6Z1drc0lCMGo1a0lPUnpfa0dMYUNIbGFHSmlmOVZKamZjZ09ZajRyU2d5ZDNiaUtMSk9uWEnSAZYBQVVfeXFMTXBTZkoyWE1NUEhSbHcwb1g5LWtobUJKOS1FZ2xfdHlZRTk5UndZcnhzU09WN1k3ekxEam42RHRzSkd3SHdMYmZtTGhjQnNIT1ZTR1R1TkFPeFBsUkk2clFCSGFsWDlnZjQ3dDFqN3hhTkFCNEtRMGVaSkh3UnNvcE1JZ3kwdTcyaG16cl9KanQxV0FlQ1hR?oc=5",
+   "source": "gnews-fx",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T07:00:57Z",
+   "title": "Nationwide to slash 275 jobs in latest round of cuts since takeover of Virgin Money",
+   "link": "https://www.theguardian.com/business/2026/oct/25/nationwide-to-cut-275-jobs-in-latest-round-since-takeover-of-virgin-money",
+   "source": "guardian-business",
+   "tags": [],
+   "tone": 1.0
+  },
+  {
+   "ts": "2026-10-25T07:00:56Z",
+   "title": "Cookie theft: how fraudsters get the digital key to your accounts",
+   "link": "https://www.theguardian.com/money/2026/oct/25/cookie-theft-how-fraudsters-get-the-digital-key-to-your-accounts",
+   "source": "guardian-business",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T07:00:00Z",
+   "title": "Bitcoin’s Fed Week Starts With A Fresh Rise In US Inflation Expectations - TradingView",
+   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNM2J2MXZXNi1DUUtxdHRrYUFXcUQ3MWVZS0RvMjFaYmNYcWhldzcxQ0pTS3pfbWJYR2xYVk9MRl9kX3RoaG5PczFZRzlZTGdBQ1FmN1ZLTHVMN2pFV3N4Qk1XT181NE1pelRkYjluTmtmbGw0QUtDMjVGa1NjUlNQemF0c282Szl4YWNoVWZxTGZtYjk5SUJaUVl2aUhmOWh5Y2ducWdRNmFBbVFtVXhQbll2bEstTkN1aDhoVERYbVlEdlllVkdZbGlR?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD",
+    "USD",
+    "rates"
+   ],
+   "tone": 1.0
+  },
+  {
+   "ts": "2026-10-25T06:57:57Z",
+   "title": "Bitcoin $80,853: Fed Statement at 7 p.m. German Time [2026] - shattered.io",
+   "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5oaGxMY2dKZDNaVTIwTk9fVXBWNlI0Q2V4ZTZQSXVrakhzQUVveHRUdWllbEVtaDlHU2tla3JpSkpKQ09Ccm9mY3Rvd05pM3E0NUctNng3MXBBQ1B1SW85NHVaOUE4aXNZUjd0OGotSjJHSk54cGtrZFVtNA?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD",
+    "USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T06:52:43Z",
+   "title": "Bitcoin Price: Fed Statement at 7 p.m. German Time [2026] - https://tech-insider.org/",
+   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPU3hDdzNEMGwycnVnLUV3T1dHbE5SSkdYeGVUY3BWb2M4NVk4dWJSNVBwbG5NQ1FtS3U2Vjd5MThzaFB6VzNha3dYMk9GTmMwN0g2QzZ4UXpMVFlnTUF2Q0QzcHhuLU1JNnRIdU1nOTJpeU96djJaWXZnVHg1OFJZSw?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD",
+    "USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T06:48:00Z",
+   "title": "Tether wins backing from 15 Bitcoin mining firms for AI automation tools - Crypto News",
+   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBKNWMtc01DdGhaaVR3Rzd4OHJ2NDE0NFV2Q215NEtVeDFxZ2hXWWw3THIweGtDNUdTSktYczI5VzNIY09ueGdWbjBNeWI4SUt4UFRMWHRUTjhLNXdpRTlRZHJIWGp6YVhUYzRQV1BXOG5EdVFsNlZacA?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T06:40:28Z",
+   "title": "Barima/Waini Cricket Association officially incorporated under ECB constitution - Guyana Chronicle",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOSFo2QzFEdmpMWnBQbDB2UmNQcmZ5SFU1QlBWNkxpOVhFX2dKdjR5NmQ4czdBRWIybjNPdjFYT3N2b0gxTG81eUM5cmFwQ1d0V0tQS0ROSHdqLWp6RDBxV254czNRb1V4a216ZzE4dEFydTZuM3lwZk96X3pBVlRPRzVUaW16RnQwTmoyU0RtN2VrR0J2cWFUY3N4bTloR3RpMjZKVUgwb3NXVWxkMjZRam0xMEp3SE1YQVpZ?oc=5",
+   "source": "gnews-fx",
+   "tags": [
+    "EURUSD=X"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T06:38:00Z",
+   "title": "Trump Says Iran Strikes Could Come Today. Can Bitcoin Hold $80,000? - BeInCrypto",
+   "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE4wYmMxUUF6dnhERmdLZWllUVVsNFdmZDk2V1lkbTFhYXY5S0JJWjBwdVFjbHlGc3p2cXUxNno1aWZlRTF6a2VPUzRjOVhvNnkzUEVtLUVvVE5tdGxHek1iUzZHMXhQUQ?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T06:21:23Z",
+   "title": "Budget 2026: No more fat to trim for 'squeezed middle'",
+   "link": "https://www.bbc.co.uk/news/articles/c6gel54940qno?at_medium=RSS&at_campaign=rss",
+   "source": "bbc-business",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T06:19:08Z",
+   "title": "Bitcoin Price $80,853: The Fed Statement Comes at 7 p.m. German Time This Week - CryptoTicker",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPdmFmbjE4NlU0TWZIMWhTcU4wN1ZIR2Z6Vzd2WUR3MkRRc3poRFAxRmJ0T1J6WFFRbTR4UDY4THBfNmgzZFlZcTBWZmxmX0dSd3cya1FsRFpZa0tjYzRleV84ZlFYcWo0b3p5UFVqVEJ6SEhORndLY1F2cGUxWnVUejhMSkN6dWs?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD",
+    "USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T06:04:14Z",
+   "title": "The Week Ahead: Fed Rate Decision Looming as Microsoft, Alphabet, and Amazon Report Earnings - TradingKey",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNVzkzdWt1dE9XQWRvZVdyRmJENW15NjNkYks2V0Rab1pNOE9QZFBXVWZHR0NVNURIQmYwc0dtcjZvXzVKZVhZWFQ4dFJVZ2lrTmhmVER3N0V4MXVWX2psZTB5eUR2SVVtWG5VbWpvajZGVVhMMEltSUVwQmFJY1ZlR0JLUVpsU2ZBaVJxeGJUbjBJU1JralRiZndDNGY5aVJtSWJhbG9ocmNGaVVyZ1Q5bllINTBIQjlBUTdz?oc=5",
+   "source": "gnews-fx",
+   "tags": [
+    "MSFT",
+    "USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T06:00:55Z",
+   "title": "Emirati-linked firms’ ownership of Manchester land ‘up 39%’ in ten years",
+   "link": "https://www.theguardian.com/uk-news/2026/oct/25/emirati-linked-firms-manchester-land",
+   "source": "guardian-business",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T06:00:15Z",
+   "title": "Four ways Labour could raise money in the Budget without hiking income tax",
+   "link": "https://www.bbc.co.uk/news/articles/c65yn9p55np2o?at_medium=RSS&at_campaign=rss",
+   "source": "bbc-business",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T06:00:07Z",
+   "title": "S&P 500 Forecast: SPX rises after SpaceX jumps, Meta up next - FOREX.com",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQem1oRnRDSUtGb3NFaEtfR2dyYmRTM04wdlcxTHp1c1BiYVNTYTV3TXdBX1p6WXFVa1h4VlFTakVRV2x4dU9waHlfZVIxUm1yT1N1N1IwNko4N09uYkdfLU5wVVB5UnJiTlVmWG1SNXJqS1RSRW5NdFE3QWZVNGZlQUh0dGREc1diU3pMQ0J3OEFMclZOU1h0aEswanFBZFpqTkZCbGRCTEZlYzQ?oc=5",
+   "source": "gnews-fx",
+   "tags": [],
+   "tone": 1.0
+  },
+  {
+   "ts": "2026-10-25T05:45:31Z",
+   "title": "Why is Ukraine so reliant on Starlink and can Europe plug the gap?",
+   "link": "https://www.bbc.co.uk/news/articles/c65yn97xe7ypo?at_medium=RSS&at_campaign=rss",
+   "source": "bbc-world",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T05:41:41Z",
+   "title": "How to Trade Forex From Pakistan, India or the Gulf - FindArticles",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQV291ZGJsOUdmYXFUOW92WnJiT2xIYWZ6Z28xVDFfMWtBTGlhWHN5M09SeFFJYjQwc0lGWlVobWsyTmd1bnR4MlJlcC1YLTUtWUEzSWdQaEs4LWYybDlBYXhERnVjNXRUT3FtMk15QnlwdG1aMC1taWNNSnlzbU1GTVFUR2o5WXfSAY8BQVVfeXFMTkU2UjhLZGVZby1VRDkySUVETTFMNGtnY1o3RG5DZkNpdGlTdC1zN0tBMDIzajVfb2tHLWs2SUFWa3Y1R1FjeFg0QTNva0RGUnVJRFZVV2tKODdlZ1hfWkdrR2Jfc2x2V2Y3d0czMm12cDIzYjdMcUlBZGpxU1JwQjZac0ZmeHN0azNBMU5weTQ?oc=5",
+   "source": "gnews-fx",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T05:24:00Z",
+   "title": "Bitcoin price today: BTC recovers to $80,800 ahead of Fed meeting - Yahoo Finance Singapore",
+   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMmdYNDJsOFg1WUhzV3RhODJLZjdERmFuOFFOUHZHY3Y4QldldWh5NUIzOThRRDRrT1NJMlpfTUxfRHVOT2VSSWlPUkhZWXBuV0NhWXNjYTdmdFNpaVE1bWlUeTFnS0gyMGZrM0Y4Mkg3U0VjZ210U3NpdnhjT1lpakx4eEppTG5C?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD",
+    "USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T05:20:44Z",
+   "title": "RBI Forex Reporting Rules: Impact on Freelancers and MSMEs - Vajiram & Ravi",
+   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBzWkZibWxLdF9PQXhuS1lpOG1VeWlqQXNCLTQ4eHZMS3d5TlU1MFlYNWZUSFB6YV9mTzJFYk1sS0N4ZzhCVXJLZW9QbS1aOVRGVllNSmdzUTFTcDNjTXkyZlAzbWZKTGlqcWExSUd0VTVVaTJvckE4cg?oc=5",
+   "source": "gnews-fx",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T05:15:52Z",
+   "title": "Israel to close West Bank crossings on election day as crackdown escalates",
+   "link": "https://www.bbc.co.uk/news/articles/c6y93ylpl5p2o?at_medium=RSS&at_campaign=rss",
+   "source": "bbc-world",
+   "tags": [
+    "politics"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T04:59:22Z",
+   "title": "Attovia Therapeutics, Inc. Stock Price Prediction: Today, Tomorrow, Next Week (ATTO) - Traders Union",
+   "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE41dmUtVFYwb0taUXgycThKcUl6XzFLX2lEUEJsdGpmX0hzMkFQWjFtc1NTdmQyZjFfeXVMUEoyaXB2Z3MyUVl0WkhEYnVWWlNIMXpVdVhvUWU3Y1EzMVQ5WkxfcmJlY1B3VVl5X3NtSmxyZmZ4RmZMTFg0VQ?oc=5",
+   "source": "gnews-fx",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T04:16:16Z",
+   "title": "Fed and ECB rate decisions, U.S. GDP data to watch in the coming week - KuCoin",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxORmxrdUZPOTJHdVkwUXRnTG8xZ1cxY3VkbGtGSWxhbmY0Mm05Q21JUzFMTzloekFnRkR2SVo1RzVWVzZmQ2w0ZG94VWlPWjk5akRXSHJGYWtsZEdzYkkyMUJfalVpaGZxRmRsMkJ4ZUc2MjlPa2lPaFVRRTIyS0F2Mkp5RmNqREtaeUFlNE9OQVBHWHBLeXVPcGNXeEdpc3c?oc=5",
+   "source": "gnews-fx",
+   "tags": [
+    "EURUSD=X",
+    "USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T04:00:00Z",
+   "title": "Bitcoin ETF Flows Trail Price Moves, DWF Study Finds - TradingView",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPQW1GdGJLdEJvTS1lTzFBTWpXRGtIVVBfbEoyLVh2NkY3XzBSR0dPN2ZVZzlOb2F2WVdGOEFiTkNLaDZQNjBrSW8zOGpxSVBLeFpCcVZwWDdHaVA1a0tWQTJiekcxTndQTWZTWnVURk9KUHRQNjRyNTdfaTdFVllZV3hIWHNaSWdPTWpJQk4zbmRhanVId1J5THVzSHFLaGdUUlNpMHVwc2lONFkwQmc?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T03:35:54Z",
+   "title": "Bank of Korea plans forex law amendment covering stablecoins as payment means - Forex Crunch",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQRmlsc2NldTBIcENEMERtNFdJVVFRWVVRQXpPRHg0TmU2dkE0OEFRQ1A4Nm51dXlmdUJMVFdra2MwTER5bXVEYmNnWGstUXA4M3BocjlaaU9fdi1Vc0RCUXRJNEFuOGVkamtkcmJMTklUUUZId2s4ZmFscUVLTDdXSWU5WXdIZ00?oc=5",
+   "source": "gnews-fx",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T03:18:02Z",
+   "title": "For Clues About How A.I. Will Change Work, Look to the Past",
+   "link": "https://www.nytimes.com/2026/10/22/business/economy/ai-economy-jobs-history.html",
+   "source": "nyt-business",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T02:47:58Z",
+   "title": "S&P 500, Nasdaq, Dow Forecast: Nasdaq Selloff Deepens as Dow Rally Stalls - FOREX.com",
+   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQZUVpVGlDOU1fdHRGcURmNlBNa3NfU282N21sTzg0SmVfbXk0ZWdlMEkzdzBZUDBDNEp1TFNQUG5MTlRobmlnWEtIVmdWWHN6Z05ZdlhydXIxTDlDRXAxd0pvRkFtZE53Q1NKRU96SzVmNGFpMFQwMUo2WnREaklSWS1LRm1aY2F1bUNNM19ENXBvUl9vWHJSN040SGRPdjVXMzZXSVpXYjBqb1dxVEJ3eWZhbFNLWGZuQWlDUUdESFBUNUFZWUE?oc=5",
+   "source": "gnews-fx",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T02:44:35Z",
+   "title": "WEF could appoint Lagarde as next chair as early as November: Sources - The Business Standard",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZU53emVTNGZfRTZLaElpLUd6YWVDRWxXVTlrdU42Nm5maENleUJFaS1ERC1ua0VTMDQ1UlNiZ0JkbGM1cC0teDQyM2VPUEFsQmtoUzhnWEs5UjN5VGtYb05FaEtpNDlsVHViRDVKYWlDNk1zYTdQQ1dTT05CRTB6b0lPRWNsaWU2LWZWY2h2V09WU21sQTNXWHlZLUVKSlJJQnFjNUJlcVlzMVU1a1llalVn?oc=5",
+   "source": "gnews-fx",
+   "tags": [
+    "EURUSD=X"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T02:28:00Z",
+   "title": "US Fed expected to hold rates as inflation, energy costs weigh ahead of midterms - The Times of India",
+   "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPV1JicDg2NWJQMmptNFJkTHh4SUFWM213b0dOYk0yT3hXemFCNGExb25rellPRFVaajNDWmxNR09KMVVLSE92M3J6WXRyMk9wSlY4ZE5sODk0N3QyMlhQUkpFRVFfTEFCQThVYnhPcXZwUmFxQW5XYjN3Zm1IeTBnSkFLalJGMzZ5VjdBQnpaN0l2eXM3SUM2NE5SVzhVXzJjVmZodG91YmJoUTRTVFNiMEVRdGpmcnR5b1V1X2JhdVNuZzV1WmdVRW9waE5iYkYyNGFFWVZVeUtveVEzbXBmTVNKeTF0TlpKbVJXVktoNmV3a2xDVTRBRHdzV3VDbFFuZ3hB0gGIAkFVX3lxTE1xN1dqM0U0Q2R4RmVrNWt2ODhHYUVUZm1NRTRFZDhsYVVyQURLWEVHY3BCTDRQVWFaenloZ1BwWnAyc0habjNzZ0l5TzBfN0JjZDI5d2FlZzBmbXQtT0FpREVySkxhYTNlYVNhUnlvV1hpYUVRZHFwaHFLRlNkbm9iR20wRU5KdGUwU2ZSYWctVjRWRGpZdWVweVZ6VE5VSTdVbW5Lak9xU2FxWWVJbzNveGl5aVVBRU5HUVBKOGJlNDk2MlZzM0ZXTzhoR3FSbnNTUl9Yb0Y2ejNRQ2pnUXNUc1BYbjZLUWNGRnZtRGltanYwSGdIWWpSaTJ0TmZDWFdWN0lSLVdPdQ?oc=5",
+   "source": "gnews-fx",
+   "tags": [
+    "USD",
+    "rates"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T02:27:15Z",
+   "title": "Obama attacks Trump as he campaigns for Democrats ahead of midterm elections",
+   "link": "https://www.bbc.co.uk/news/articles/cmj6jwe1j1gjo?at_medium=RSS&at_campaign=rss",
+   "source": "bbc-world",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T02:16:52Z",
+   "title": "Federal Reserve to Hold Rates in October, Weigh December Hike - 조선일보",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQTm10RFY2QnpXbDF6YnZQOTc5THpxRlBheE9QSFNQcnFEU0ZfN0o5Mkp4ZlNkaW1kekFjOGdWdzdDQmVRa2xlNExQRXNnT1YwdXF0SjRwSU80T0w2bnVSeHYtemlZYkVEbHA4TG9jVThjcGJ1SS1rdHBsaS1wZ2dmeVFmUFdYLTJQOERQNXpB?oc=5",
+   "source": "gnews-fx",
+   "tags": [
+    "USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T02:16:11Z",
+   "title": "S&P 500, Nasdaq, Dow Forecast: Nasdaq Selloff Deepens as Dow Rally Stalls - FOREX.com",
+   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxORkZ6Tnc3eEZGajNjUC1jYWhIVFBSdjN5UFhKeVZDc0xYVFA4a2dqQUhoWU9DblB3MXhpVVRCR2IwY2I5Qi1pNE8tRWxmclBvVHJBQnRnT3BPMWd0N25oa2U5TUJWc05XcXgzQVNBVHRXenAyOWF5T05RYThXMU8xYTI2SXliWVRGNjdvZDBic3V3RFBEdDhDU3ZFQ1duMTFTSVlva3hjb0wyZ2FJSXZUNDVFMDY3VEZQUXgyWlY4MHNaWFIwQXhXQkxIb1Q1VWxiMHfSAdIBQVVfeXFMTkZGek53N3hGRmozY1AtY2FoSFRQUnYzeVBYSnlWQ3NMWFRQOGtnakFIaFlPQ25QdzF4aVVUQkdiMGNiOUItaTRPLUVsZnJQb1RyQUJ0Z09wTzFndDduaGtlOU1CVnNOV3F4M0FTQVR0V3pwMjlheU9OUWE4VzFPMWEyNkl5YllURjY3b2QwYnN1d0RQRHQ4Q1N2RUNXbjExU0lZb2t4Y29MMmdhSUl2VDQ1RTA2N1RGUFF4MlpWODBzWlhSMEF4V0JMSG9UNVVsYjB3?oc=5",
+   "source": "gnews-fx",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T01:12:45Z",
+   "title": "How Trump Gave the Worst Polluters a Free Pass",
+   "link": "https://www.nytimes.com/2026/10/24/climate/trump-epa-chemical-air-pollution.html",
+   "source": "nyt-business",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-25T00:48:46Z",
+   "title": "S&P 500 Forecast: SPX falls, led by tech after Meta, Tesla earnings - StoneX",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPakxVVDI1b0tDV1ozbWZXd29kTFR0VU5QOU9USWFDeWtoWXVfY2dDS3NoWGFmWTNyTkxUQVNCaDVXTjJNSk85SmE5eVVSNlQxbmhVUkZLSTB6R2xiWDJYeE1GM1BHVDhQRGtwN3BlMC1taWlrX0JUYmZockc1c0hKVnV4VWRqLWlZWkZGRDExQjZVQ28tdFJIN2REQVFQSXVhQmMySnptRURVUTU0endoUFNMOGo?oc=5",
+   "source": "gnews-fx",
+   "tags": [],
+   "tone": -1.0
+  },
+  {
+   "ts": "2026-10-25T00:15:00Z",
+   "title": "Fed May Pause, Risks Do Not! - Forex Factory",
+   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5HVEl4ZzU1YWl1TmtZMm1JNGZwaENVR3lXbjAzakpKb3dLTmpUa09KeUtZTEp5QWVQM1hjb2szLVFHS1BkbE5RNEFZVF95TFp3M05oWXZlTVRncWh4c1l1RkU0VlYyT1dYQmxxMkFDUkNLbWMtQmw40gF8QVVfeXFMUE5Xdzh1N3pPcWE0Nk5HekJBc0VVTVk4NWxkd0hlSTcza05hdWhva1VJc1lzOFdleENjR3YtZDFHV0ZIQ3RrNWF4LTl3Z3BIOTY1UGxqYzI0VGhwSXRRSlBSeHF1WVZxU01COWNZczVpc1FpTUtIWjlCMVJNeA?oc=5",
+   "source": "gnews-fx",
+   "tags": [
+    "USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-24T23:55:22Z",
+   "title": "TikToker Mr Pips' girlfriend stashes 94 kg of gold from Vietnam's biggest forex scam - VnExpress International",
+   "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPLXpoNjh2eTlWWUdtY1A3RTdUU2ZkMkpzYWo2NEdIYU9NNkx0azhvRWtnU0xZaVYxTVBuOVB5XzlDTHk5ek0yVDlxZWxBbTl2WHh3OWpoMXE5NExYM3ZFOVM2aEhnY3pSem9wTzdhWUJlY1Yzc2pkS2xYWXBvTTZYN2RSSFgzNnFyOHA2eXBVdkt6RWtERWhHQlpSWnpGTlJHZVlNLVhYbkM0cEJiUlBCYkNiRDhiMllKQjhJMGtkX1hzS0hoeWJ0LXVVblNpY0tlTHgzS0FXOURudw?oc=5",
+   "source": "gnews-fx",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-24T23:40:00Z",
+   "title": "Which Cryptos Could Outperform Bitcoin Before the End of 2026? - 24/7 Wall St.",
+   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOTV9TWFBBbVZfZHlSeHlLOFpPb05mNHYzdmdjSS1ETmJmNzNZSXFBY0ZRSVBDdG1tQi1vc3dWQk9MdEVzV3hWNnF1cnJKemc5c3JHLWV2RFMtMW1Ia0dkWU9yWkxXeFQtaUQ0NThLRVpuTXk0SlFNRkp4bDcxeGM0bFRuaUdvVmJPRUJ5bjRLd1NIazBteS1rZzA0V2M2ejNLRnhFazVHR3BiTTZWVlAySGltX1Z5X3BHeFc4bg?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-24T23:23:06Z",
+   "title": "Another Victim Claims Amiin FX Scammed Him Sh455,000 In Fake Forex Mentorship Scam - Kenya Insights",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxORW9YUU1zcndhUUdTdTRNNXlBV1VfUGRTZ21hc0ZEWFN0UTc5c01idWlaQUluNG9FVENMY1JwX0RCb2tfQ3JrbGZiMWdFV0daeDZ3YU5ySFI5U1dtZW5WOVBValZvbWRoRHNtYjZueTJBM3A1aG9PTEdqcDM4QVJmOWJtZ0MyWF9jbUpPQUloVERnMHJyZU82cmUxX3JRVVJzaWNINnZLZWt6WlU?oc=5",
+   "source": "gnews-fx",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-24T23:18:16Z",
+   "title": "Noah Adams, Longtime Host of ‘All Things Considered,’ Has Died at 84",
+   "link": "https://www.nytimes.com/2026/10/24/business/media/noah-adams-dead.html",
+   "source": "nyt-business",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-24T23:09:28Z",
+   "title": "GBP/AUD falling wedge points to bullish breakout risk ahead of RBA minutes - FOREX.com",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZ3ljU0RNcUx3Sm52MU10YXE0VUxnTXR2TEZ3SmxuMWUwakVSSXcycU9wT3czS1RwV0kzTW9hUzQ3VlhxQUcyTTVJS3BmdlZMN0p6ZEhsV1RiZVpKSjlRODFGQkJUX1ZfbFdoVkZKQ1N3T3I5TzRMX3NQdWdvcldsdmVDSno0S1RiOEMtOWdTMGpBVzdMMFVzQ2lUTHFhQzRQbXZBc1lPVkJHbnFteXgzUmYzOEVsMzE3U3c?oc=5",
+   "source": "gnews-fx",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-24T23:03:21Z",
+   "title": "The bitter row over military service that could shape Israel's future",
+   "link": "https://www.bbc.co.uk/news/articles/cmvg7w0x742do?at_medium=RSS&at_campaign=rss",
+   "source": "bbc-world",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-24T23:03:09Z",
+   "title": "Why the King's Caribbean tour could be 'biggest risk of his reign'",
+   "link": "https://www.bbc.co.uk/news/articles/ckzd6gvg1r2jo?at_medium=RSS&at_campaign=rss",
+   "source": "bbc-world",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-24T23:02:51Z",
+   "title": "From Russian cages to Irish sanctuary: The five-year rescue journey of Bu and Tyapa",
+   "link": "https://www.bbc.co.uk/news/articles/cx62y9j1zyjvo?at_medium=RSS&at_campaign=rss",
+   "source": "bbc-world",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-24T22:58:43Z",
+   "title": "A shark went astray and captured Korea's heart - will she finally make it back to sea?",
+   "link": "https://www.bbc.co.uk/news/articles/c9zrdknlmpdlo?at_medium=RSS&at_campaign=rss",
+   "source": "bbc-world",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-24T22:08:47Z",
+   "title": "Who are the candidates in Brazil's presidential election?",
+   "link": "https://www.bbc.co.uk/news/videos/cm0e0del4jewo?at_medium=RSS&at_campaign=rss",
+   "source": "bbc-world",
+   "tags": [
+    "politics"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-24T21:59:50Z",
+   "title": "GBP/USD, Gold Forecasts: Two trades to watch - FOREX.com",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNdUpyX2RHYTYxazNNUXZFVFlEekx4Rzh0VHItU1FrZnk3MkpodkxyX0xxWEE3M2lqQlpQMmdSRnhXRFpqd2xEQk56T0prZEpGeV8tWWJHMkQycGRvamxqbmRfS3Q2SzZTT1o3aDBpU0RoU0hoRmZkQmNYSmJpbzNOQnZuQnBxUU9ROE04bDhFNA?oc=5",
+   "source": "gnews-fx",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-24T21:54:01Z",
+   "title": "Bitcoin Falls Below $80,000 as U.S. Pulls Staff From Middle East Posts - Northeast Times",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOQnp4XzF6NjNUOVY5WEhpc0NXdExOV2MtVXFYZWc3SHA4NGY4Y3VKZnFWbEFJWWFlM0kycXFMMUJPMFl3N2lQUHlDQzV1T3U3alpDLVdxNTQyXzZ3Y2xkeV9KREJETHdJdmJOdmxpMG5TZ05VNGpROXdiVTNNVnRZRWVTQXF0MHMyd200TU0wS25oSl9ZWlhRM05vQ1IzaTk1dTAzVHRESHFhTTQ?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD"
+   ],
+   "tone": -1.0
+  },
+  {
+   "ts": "2026-10-24T21:48:00Z",
+   "title": "Bitcoin or Gold: Which Is the Better Inflation Hedge With Prices Up 3.7%? - 24/7 Wall St.",
+   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNTlRSM2pQa28wNU5wX2ZGY3pZNE5KY3dMV2xpMlB0cndndzA4RDI0UHRuMldraDE0cWR1Y1FEaUdCLUZ3QmJrVWZsRHRYTnlHSG0zMGxLaEpuWEw0Qmtid3lfWVFobUpIdUV2ZG1DMlpzN0h2VW9JQTRBV3BSanBZSWtXMlIxZEc3QkRZNXBaczZ5bUFmS3Rqall3WWlQel83ZFZhdG1zMnRtdnEyTUNEb1p4OFRzelU2bW01QXVURDVJRDAtMlV0Mw?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD",
+    "rates"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-24T21:45:35Z",
+   "title": "Six Flags to Add Seatbelts on Roller Coasters After Rider’s Death",
+   "link": "https://www.nytimes.com/2026/10/24/business/six-flags-death-roller-coaster-seat-belt.html",
+   "source": "nyt-business",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-24T21:40:39Z",
+   "title": "Can Bitcoin Get Back Above $85,000 in November? - Yahoo Finance",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPNlhsWE5fQl85bGV5RFlhZHRUNVFFdU9jVUpOUTJIV21FYm9xZy0zZWE5WldzVm5URlR4UE5oVzJMdVktSElIa3hVSU9WX1JKak5oWmFGS01DdzZhNlBQSWY3WU51M1haR2EtS3JjYlVXWHdPdUF2TEUxc2VQbjJKRU9ScmFyRUlTekFJRVNTZmVKaEYy?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-24T21:40:00Z",
+   "title": "Can Bitcoin Get Back Above $85,000 in November? - 24/7 Wall St.",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQOEdOMUh6dTZBQ3paU2N2TkwxTlVjYjQyU016NUp3WV8yV2lMSUlJRjlqRVc5dEhia3V3bWJnMEtSRmhjQlNZLUM2YnE0TW96STcwX2g4a1I1MjBPOTRQbjNienVIZzBya2F3QzcyMlYxRXVkQTF2M2J0UW5WajZhOHJ2ZUx2TVNNN1ZrVlRVenZ3bGhOVHhGRXhkc2tDQ3hTZmJaWFJ3?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-24T21:35:39Z",
+   "title": "Markets.com - Markets.com",
+   "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1GRWYwM2gxT2VlWk9OMmlURnIxWVk3VW01MEs0aWlzRlRpNTRreHJxOVNONFYtV29SUkdrU3dUV0tyN1lPNzdKMG1ZOEo4UVFBdUVz?oc=5",
+   "source": "gnews-fx",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-24T21:07:01Z",
+   "title": "American embassies tighten security as Iran threat warnings intensify ahead of U.S. midterm elections",
+   "link": "https://www.cnbc.com/2026/10/24/iran-threats-us-embassies-middle-east.html",
+   "source": "cnbc",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-24T21:04:57Z",
+   "title": "Bitcoin Holds Above $80K Even as Its Daily Loss Reaches 1% - Bitcoin Foundation",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQX1FQcVhHckMtcXE5TGhZMmRwYjdHQzNxRGJ4dlhqRWFvNE5ZQjA5dWgtQ05TSkhoY2UxM0VZMml2NHhMTVBsWWJ6VXBTbE5fMDhSdDdrVElDYUJ2TGpGajlYZjVUMHNIRDJ5SHFXemhiLV8xMUMxYkxRR1hCT1I2M0dnUnA0bXlyU25sbHg0ZjI3a214U0tvbmkyS0RwUjczcGc?oc=5",
+   "source": "gnews-bitcoin",
+   "tags": [
+    "BTC-USD"
+   ],
+   "tone": -1.0
+  },
+  {
+   "ts": "2026-10-24T20:50:01Z",
+   "title": "Gold Does Something it Hasn’t Done in a Year, is Larger Risk-Off Afoot? - FOREX.com",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPdUZDd0dtYkNIb0hpUEtObmFQMmhDWHdoTEp2VGpLcHN4XzJwQ2VHajl1NUwyNU1sMHlPUjAxNndtYjBVcHNQX2w4SFlvUEV3eVk5cVVJMTgyY2E2QndHRjZ6emhnaHVZWDRmOGpqb0steDFuR1RlakREZjNPQ1BZUGJ6c05JZFlkc3hZZkk4OElEdFp3N29DSDJDZTRRNUMySk5SWGFya2JTX19IMFdMZ2JIMXI4akU?oc=5",
+   "source": "gnews-fx",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-24T20:43:20Z",
+   "title": "ECB Sees Eurozone Food Inflation at 3.4% in 2027 - CEO Magazyn",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPUUNOMWZFWnJWaDFCYS00LWd4RDhnSUtHUWFGU1dXUXVlaGMwQzByam90N2xsUFF1U1ROQngtQnJEb3BXZF9BeW80R25zUGt0LV90WC1HVFFJMXRoLUF2eXl0TFZLQW05MHZQaWVFaEg5SEpKaGlSV0ZaQ2hhQkRWY0FyWEhPU3BjTFZpOHpoM2Rodw?oc=5",
+   "source": "gnews-fx",
+   "tags": [
+    "EURUSD=X",
+    "rates"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-24T20:18:57Z",
+   "title": "IMC Rare Earths Ltd Stock Price Prediction: Today, Tomorrow, Next Week (IMC) - Traders Union",
+   "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9qTnp5WWg4SVM3RnA0amhmUFZkaXZGWHpKZ2k4NlhUbWVZUl9IZmNubUtzN2Z4d3dBd1ptME5iQ1VGaFJVbEd6dWJDeUR4U3cwc0x2cG1MS0FIYWQtNThqRV9sQmR1OC0yX2Y2REpyaU9FS0FFSEZGU3dR?oc=5",
+   "source": "gnews-fx",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-24T19:57:24Z",
+   "title": "Democrats, voting-rights groups challenge Trump's bid to block Alaska Senate certification",
+   "link": "https://www.cnbc.com/2026/10/24/alaska-senate-doj-certification-lawsuit.html",
+   "source": "cnbc",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-24T19:38:37Z",
+   "title": "What’s Priced into Brent at $117? - Forex Factory",
+   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNSk40RlVnMWlJdFh0NkRsNUZIcjdSZFE3WUNYWTJWLVZtMjlHaFBZSE1oZ2xyWlJIdkhhb3lhY21KenJCOGQ4UW9HSTEtTnFnYktGanYwdHdKRjRFc3pWMUk5U1BreUltT0lFVnRjUDd3aEY0cGxLcXhwZDhqRUVVN2l30gGCAUFVX3lxTE1KTjRGVWcxaUl0WHQ2RGw1RkhyN1JkUTdZQ1hZMlYtVm0yOUdoUFlITWhnbHJaUkh2SGFveWFjbUp6ckI4ZDhRb0dJMS1OcWdiS0ZqdjB0d0pGNEVzelYxSTlTUGt5SW1PSUVWdGNQN3doRjRwbEtxeHBkOGpFRVU3aXc?oc=5",
+   "source": "gnews-fx",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-24T19:37:35Z",
+   "title": "Fireworks and tear gas as protesters and riot police clash in Paris",
+   "link": "https://www.bbc.co.uk/news/videos/cm89zqw9lx1do?at_medium=RSS&at_campaign=rss",
+   "source": "bbc-world",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-24T19:12:51Z",
+   "title": "Vanessa Trump says she is cancer-free six months after revealing diagnosis",
+   "link": "https://www.bbc.co.uk/news/articles/cm1dwzvn6227o?at_medium=RSS&at_campaign=rss",
+   "source": "bbc-world",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-24T18:56:29Z",
+   "title": "Biotech stocks are surging. How investors can play the new drug innovation boom",
+   "link": "https://www.cnbc.com/2026/10/24/biotech-stocks-drug-innovation-rally.html",
+   "source": "cnbc",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-24T17:25:46Z",
+   "title": "Two rescued after Nairobi building collapse with five still missing",
+   "link": "https://www.bbc.co.uk/news/articles/c317kxyknwp2o?at_medium=RSS&at_campaign=rss",
+   "source": "bbc-world",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-24T16:00:00Z",
+   "title": "Strategy, Strive face balancing act between bitcoin buying and preferred stock dividends",
+   "link": "https://www.coindesk.com/business/2026/10/24/strategy-strive-face-balancing-act-between-bitcoin-buying-and-preferred-stock-dividends",
+   "source": "coindesk",
+   "tags": [
+    "BTC-USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-24T15:56:48Z",
+   "title": "Fire engulfs Hitler's mountaintop Eagle's Nest retreat",
+   "link": "https://www.bbc.co.uk/news/videos/cq98z9xxy2n2o?at_medium=RSS&at_campaign=rss",
+   "source": "bbc-world",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-24T15:53:30Z",
+   "title": "Fewer people are flying as airfare soars. Here's why airlines aren't worried",
+   "link": "https://www.cnbc.com/2026/10/23/airfare-airline-capacity.html",
+   "source": "cnbc",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-24T15:29:29Z",
+   "title": "Sam Fender tells fans high ticket prices for Proper Massive tour are ‘getting changed’",
+   "link": "https://www.theguardian.com/music/2026/oct/24/sam-fender-fans-high-ticket-prices-proper-massive-tour-getting-changed",
+   "source": "guardian-business",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-24T15:21:44Z",
+   "title": "Man arrested after fire at Hitler's mountaintop Eagle's Nest retreat",
+   "link": "https://www.bbc.co.uk/news/articles/cr93zwjw1k4qo?at_medium=RSS&at_campaign=rss",
+   "source": "bbc-world",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-24T15:21:06Z",
+   "title": "Block's new voice AI sounds eerily human, sparking awe and scam fears",
+   "link": "https://www.coindesk.com/tech/2026/10/24/block-s-new-voice-ai-sounds-eerily-human-sparking-awe-and-scam-fears",
+   "source": "coindesk",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-24T15:18:30Z",
+   "title": "Why popular airplanes are getting scrapped years early",
+   "link": "https://www.cnbc.com/2026/10/24/spirit-airlines-planes-scrapped-engine-shortage.html",
+   "source": "cnbc",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-24T15:11:24Z",
+   "title": "Crypto under weekend pressure, bitcoin slides below $80,000 on U.S. Middle East evacuations",
+   "link": "https://www.coindesk.com/markets/2026/10/24/crypto-under-weekend-pressure-bitcoin-slides-below-usd80-000-on-u-s-middle-east-evacuations",
+   "source": "coindesk",
+   "tags": [
+    "BTC-USD"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-24T15:00:01Z",
+   "title": "Retail investors are not more sophisticated than 30 years ago, says former hedge fund manager",
+   "link": "https://www.cnbc.com/2026/10/24/stock-picking-could-hurt-investors-warns-former-hedge-fund-manager.html",
+   "source": "cnbc",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-24T15:00:00Z",
+   "title": "Why McDonalds, Microsoft and Google saying no to tokenized stocks isn't a dealbreaker",
+   "link": "https://www.coindesk.com/business/2026/10/23/why-mcdonalds-microsoft-and-google-saying-no-to-tokenized-stocks-isn-t-a-dealbreaker",
+   "source": "coindesk",
+   "tags": [
+    "MSFT"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-24T14:38:47Z",
+   "title": "Argentina drops criminal probe into President Milei over crashed memecoin LIBRA",
+   "link": "https://www.coindesk.com/business/2026/10/24/argentina-drops-criminal-probe-into-president-milei-over-crashed-memecoin-libra",
+   "source": "coindesk",
+   "tags": [],
+   "tone": -1.0
+  },
+  {
+   "ts": "2026-10-24T14:36:01Z",
+   "title": "I quit my marketing job to walk dogs for 4 months: It's 'one of the most valuable professional experiences I've ever had'",
+   "link": "https://www.cnbc.com/make-it/2026/10/24/quit-marketing-job-walk-dogs.html",
+   "source": "cnbc",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-24T14:30:01Z",
+   "title": "Amgen says drug combo cuts risk of death by 58% in patients with aggressive lung cancer",
+   "link": "https://www.cnbc.com/2026/10/24/amgen-imdelltra-lung-cancer-data.html",
+   "source": "cnbc",
+   "tags": [],
+   "tone": 1.0
+  },
+  {
+   "ts": "2026-10-24T14:06:24Z",
+   "title": "Wells Fargo, Cisco, Marvell among latest firms objecting to OKXICE's tokenized stock plan",
+   "link": "https://www.coindesk.com/business/2026/10/24/wells-fargo-cisco-marvell-among-latest-firms-objecting-to-okxice-s-tokenized-stock-plan",
+   "source": "coindesk",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-24T14:00:01Z",
+   "title": "An ex-bookkeeper spent $375 to launch a sewing business: 'I hadn't felt so sure about something like that in a long time'",
+   "link": "https://www.cnbc.com/make-it/2026/10/24/sewing-workshop-business-stitch-lab-atx.html",
+   "source": "cnbc",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-24T14:00:00Z",
+   "title": "Bitcoin’s wealthy holders turning to loans and yield as investment habits mature: Xapo CEO",
+   "link": "https://www.coindesk.com/business/2026/10/24/bitcoin-s-wealthy-holders-turning-to-loans-and-yield-as-investment-habits-mature-xapo-ceo",
+   "source": "coindesk",
+   "tags": [
+    "BTC-USD",
+    "rates"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-24T12:54:30Z",
+   "title": "Attention, Passengers: High Airfares May Be Here to Stay",
+   "link": "https://www.nytimes.com/2026/10/24/business/airlines-ticket-prices.html",
+   "source": "nyt-business",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-24T12:50:46Z",
+   "title": "5 Takeaways From Our Investigation of Trump’s Waivers for Polluters",
+   "link": "https://www.nytimes.com/2026/10/24/climate/takeaways-trump-waivers-chemical-pollution.html",
+   "source": "nyt-business",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-24T12:48:32Z",
+   "title": "Berkshire shares shake the Buffett blues with new all-time highs",
+   "link": "https://www.cnbc.com/2026/10/24/berkshire-record-high-without-buffett.html",
+   "source": "cnbc",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-24T12:00:00Z",
+   "title": "U.S. Clarity Act failure gives Asia and Middle East a competitive edge, says Apex Group CEO",
+   "link": "https://www.coindesk.com/policy/2026/10/24/u-s-clarity-act-failure-gives-asia-and-middle-east-a-competitive-edge-says-apex-group-ceo",
+   "source": "coindesk",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-24T11:55:35Z",
+   "title": "Rising demand from families needing Christmas help",
+   "link": "https://www.bbc.co.uk/news/articles/cqp8gjz4k7g6o?at_medium=RSS&at_campaign=rss",
+   "source": "bbc-business",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-24T11:00:32Z",
+   "title": "The datacentre next door: on the frontline of tech’s latest David v Goliath battle",
+   "link": "https://www.theguardian.com/technology/2026/oct/24/the-datacentre-next-door-on-the-frontline-of-techs-latest-david-v-goliath-battle",
+   "source": "guardian-business",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-24T11:00:31Z",
+   "title": "No unions, low taxes: why some of Britain’s top chefs are opening outposts in Gulf states",
+   "link": "https://www.theguardian.com/food/2026/oct/24/uk-tsunami-taxes-top-london-restaurants-expand-abroad",
+   "source": "guardian-business",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-24T11:00:01Z",
+   "title": "Nvidia's role as AI financier faces first big test as neoclouds take market hit",
+   "link": "https://www.cnbc.com/2026/10/24/nvidias-role-as-ai-financier-faces-first-big-test-as-neoclouds-take-market-hit.html",
+   "source": "cnbc",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-24T10:59:16Z",
+   "title": "Trump is pushing a massive AI buildout. His own voters are wary of what comes with it",
+   "link": "https://www.cnbc.com/2026/10/24/trump-ai-data-centers-voter-backlash-midterms.html",
+   "source": "cnbc",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-24T10:58:30Z",
+   "title": "America by the numbers: How voters feel about the economy, inflation, AI and Trump",
+   "link": "https://www.cnbc.com/2026/10/23/america-by-the-numbers-how-voters-feel-about-the-economy-inflation-ai-and-trump.html",
+   "source": "cnbc",
+   "tags": [
+    "rates"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-24T10:00:30Z",
+   "title": "Fine ‘headphone dodgers’ if you will, but to really tackle antisocial behaviour, Britain should look to Japan | Emily Bratt",
+   "link": "https://www.theguardian.com/commentisfree/2026/oct/24/headphone-dodgers-antisocial-behaviour-britain-japan",
+   "source": "guardian-business",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-24T09:46:53Z",
+   "title": "Woman, 65, becomes second patient to die of Ebola in Kenya",
+   "link": "https://www.bbc.co.uk/news/articles/c6x2355448eyo?at_medium=RSS&at_campaign=rss",
+   "source": "bbc-world",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-24T09:38:28Z",
+   "title": "Three released without charge after fatal arson attack in Ireland",
+   "link": "https://www.bbc.co.uk/news/articles/cv0ld9571511o?at_medium=RSS&at_campaign=rss",
+   "source": "bbc-world",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-24T09:00:29Z",
+   "title": "Tinned food, loo roll and power banks: the Brits following advice to stockpile",
+   "link": "https://www.theguardian.com/society/2026/oct/24/tinned-food-loo-roll-power-banks-brits-stockpiling-government-advice",
+   "source": "guardian-business",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-24T09:00:29Z",
+   "title": "Can curry nights and canny advisers help Healey deliver a budget for everyday people?",
+   "link": "https://www.theguardian.com/uk-news/2026/oct/24/can-john-healey-make-a-dent-in-the-cost-of-living-crisis-in-his-first-budget",
+   "source": "guardian-business",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-24T07:00:27Z",
+   "title": "What essentials to keep, what rubbish to get rid of? Burnham, Badenoch, Farage don’t know either | Robert Hutton",
+   "link": "https://www.theguardian.com/commentisfree/2026/oct/24/burnham-badenoch-farage-essentials-truss",
+   "source": "guardian-business",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-24T07:00:26Z",
+   "title": "Five key tax talking points before next week’s budget",
+   "link": "https://www.theguardian.com/money/2026/oct/24/budget-tax-talking-points-explained-john-healey",
+   "source": "guardian-business",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-24T06:41:14Z",
+   "title": "Turmoil hits AI buildout as neoclouds face pressure, credit risks mount and Solidigm pulls IPO",
+   "link": "https://www.cnbc.com/2026/10/23/ai-turmoil-neoclouds-struggle-credit-risks-jump-solidigm-pulls-ipo.html",
+   "source": "cnbc",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-24T06:00:27Z",
+   "title": "More than third of post offices in TG Jones stores to shut by early 2027",
+   "link": "https://www.theguardian.com/business/2026/oct/24/more-than-third-of-post-offices-in-tg-jones-stores-to-shut-by-early-2027",
+   "source": "guardian-business",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-24T06:00:27Z",
+   "title": "Most levelling up projects still unfinished years after funding allocated",
+   "link": "https://www.theguardian.com/uk-news/2026/oct/24/most-conservative-party-levelling-up-projects-unfinished-funding-allocation",
+   "source": "guardian-business",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-24T06:00:24Z",
+   "title": "He wants to clean up the city and banish high prices. But who is ‘London’s Batman’?",
+   "link": "https://www.theguardian.com/uk-news/2026/oct/24/london-batman-litter-fuel-fredos",
+   "source": "guardian-business",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-24T06:00:00Z",
+   "title": "Piero Cipollone: Interview with Milano Finanza",
+   "link": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261024~ee2ba73cf3.en.html",
+   "source": "ecb",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-24T05:48:45Z",
+   "title": "Monet Painting Sells for $56 Million in France",
+   "link": "https://www.nytimes.com/2026/10/22/arts/design/claude-monet-painting-auction-paris.html",
+   "source": "nyt-business",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-24T05:00:23Z",
+   "title": "‘Comfort in a bowl’: porridge hotter than ever as fibremaxxers get their oats",
+   "link": "https://www.theguardian.com/food/2026/oct/24/comfort-in-a-bowl-porridge-hotter-than-ever-as-fibremaxxers-get-their-oats",
+   "source": "guardian-business",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-24T05:00:01Z",
+   "title": "What a day in customer service looks like — as AI changes everything",
+   "link": "https://www.cnbc.com/2026/10/24/ai-customer-service-jobs-work.html",
+   "source": "cnbc",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-24T04:45:43Z",
+   "title": "Franklin Templeton adds $150 million in fund shares to XRP Ledger, all in one wallet",
+   "link": "https://www.coindesk.com/markets/2026/10/24/franklin-templeton-adds-usd150-million-in-fund-shares-to-xrp-ledger-all-in-one-wallet",
+   "source": "coindesk",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-24T01:55:15Z",
+   "title": "Australian MP's condition improves after alleged car attack",
+   "link": "https://www.bbc.co.uk/news/articles/c670pr1ryxyno?at_medium=RSS&at_campaign=rss",
+   "source": "bbc-world",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-24T01:51:01Z",
+   "title": "Fearing Mass A.I. Layoffs, Some in Congress Eye Ways to Aid Workers",
+   "link": "https://www.nytimes.com/2026/10/23/business/ai-jobs-layoffs-congress.html",
+   "source": "nyt-business",
+   "tags": [
+    "politics"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-24T00:36:47Z",
+   "title": "White House lifts tariffs on some Canadian goods as midterm elections loom",
+   "link": "https://www.bbc.co.uk/news/articles/c60qk573yzz8o?at_medium=RSS&at_campaign=rss",
+   "source": "bbc-world",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-24T00:09:12Z",
+   "title": "How does the UK state pension compare with other countries?",
+   "link": "https://www.bbc.co.uk/news/articles/c3gr84w85glyo?at_medium=RSS&at_campaign=rss",
+   "source": "bbc-business",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-24T00:05:45Z",
+   "title": "UK to invest £100m in 'world first' AI Biosecurity Lab",
+   "link": "https://www.bbc.co.uk/news/articles/cqdjv8xllvyyo?at_medium=RSS&at_campaign=rss",
+   "source": "bbc-business",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-23T23:23:10Z",
+   "title": "France’s Avoids a Debt Downgrade From Moody’s, but Is Given a Warning",
+   "link": "https://www.nytimes.com/2026/10/23/business/france-debt-moodys-protests.html",
+   "source": "nyt-business",
+   "tags": [],
+   "tone": -1.0
+  },
+  {
+   "ts": "2026-10-23T23:11:31Z",
+   "title": "Are California voters about to impose 'world's first' tax on billionaires?",
+   "link": "https://www.bbc.co.uk/news/articles/ck4g1jg4n9dno?at_medium=RSS&at_campaign=rss",
+   "source": "bbc-business",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-23T23:08:23Z",
+   "title": "Student movement takes Serbia's Vučić to the wire in neck-and-neck election",
+   "link": "https://www.bbc.co.uk/news/articles/cm1dwz311476o?at_medium=RSS&at_campaign=rss",
+   "source": "bbc-world",
+   "tags": [
+    "politics"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-23T22:49:42Z",
+   "title": "Moody's holds steady on France's credit rating as country grapples with turmoil and higher yields",
+   "link": "https://www.cnbc.com/2026/10/23/moodys-holds-steady-on-frances-credit-rating-as-country-grapples-with-turmoil-and-higher-yields.html",
+   "source": "cnbc",
+   "tags": [
+    "rates"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-23T22:47:07Z",
+   "title": "Father who killed Oregon school gunman describes anguish over children he couldn't save",
+   "link": "https://www.bbc.co.uk/news/articles/crgj9ndwvj9jo?at_medium=RSS&at_campaign=rss",
+   "source": "bbc-world",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-23T22:27:06Z",
+   "title": "Trump's executive order targets mortgage insurance, refinance costs. What it means for borrowers",
+   "link": "https://www.cnbc.com/2026/10/23/trump-mortgage-executive-order-costs.html",
+   "source": "cnbc",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-23T22:24:36Z",
+   "title": "Who actually controls Ukraine's access to Starlink?",
+   "link": "https://www.bbc.co.uk/news/videos/cqy7lvv0lvzpo?at_medium=RSS&at_campaign=rss",
+   "source": "bbc-world",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-23T21:32:16Z",
+   "title": "Wells Fargo and five others object to OKX-ICE tokenized stock listings: Report",
+   "link": "https://cointelegraph.com/news/nasdaq-companies-object-tokenized-stock-listings-okx-ice?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "source": "cointelegraph",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-23T20:54:17Z",
+   "title": "IRS plans lower tax disclosure penalties, including for crypto: Forbes",
+   "link": "https://cointelegraph.com/news/irs-plans-lower-penalties-for-crypto-tax-disclosures-forbes-reports?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "source": "cointelegraph",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-23T20:49:09Z",
+   "title": "A Simple Way to Benefit From Rising Rates: Buy Money Market Funds",
+   "link": "https://www.nytimes.com/2026/10/23/business/interest-rates-money-market-funds-stocks-bonds.html",
+   "source": "nyt-business",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-23T20:29:40Z",
+   "title": "Ahead of Tight Race, Trump Swaps Tariffs on Some Canadian Goods",
+   "link": "https://www.nytimes.com/2026/10/23/business/trump-susan-collins-canada-tariffs.html",
+   "source": "nyt-business",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-23T20:06:37Z",
+   "title": "Scalpers offer Apple iPhone Duo buyers hundreds extra outside Beijing launch",
+   "link": "https://www.cnbc.com/2026/10/23/apple-iphone-duo-china-launch.html",
+   "source": "cnbc",
+   "tags": [
+    "AAPL"
+   ],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-23T20:03:29Z",
+   "title": "Global Oil Price Hits $116 a Barrel, Highest Since April",
+   "link": "https://www.nytimes.com/2026/10/23/business/energy-environment/oil-prices-iran-war.html",
+   "source": "nyt-business",
+   "tags": [],
+   "tone": 0.0
+  },
+  {
+   "ts": "2026-10-23T19:26:17Z",
+   "title": "Corruption is voters' top issue ahead of midterm election, CNBC survey shows",
+   "link": "https://www.cnbc.com/2026/10/23/corruption-midterm-election-cnbc-poll-trump.html",
+   "source": "cnbc",
+   "tags": [
+    "politics"
+   ],
+   "tone": 0.0
+  }
+ ]
+}

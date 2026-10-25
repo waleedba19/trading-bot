@@ -1,0 +1,33 @@
+name: Alert
+
+# Roadmap B: one issue per failing workflow, closed automatically when that workflow is green again.
+# The digest on the PC lists the open issues, so a red workflow is seen at the next session instead of days later.
+
+on:
+  workflow_run:
+    workflows: [CI, Warmup, Deliberate, Outcome, Scan IC, Sentiment, News, Daily learning, Strategy research, Vibe-Trading research, Watchdog]
+    types: [completed]
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  alert:
+    if: github.event.workflow_run.conclusion == 'failure' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Open, update or close the issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          WF_NAME: ${{ github.event.workflow_run.name }}
+          WF_CONCLUSION: ${{ github.event.workflow_run.conclusion }}
+          WF_URL: ${{ github.event.workflow_run.html_url }}
+        run: |
+          python scripts/alert_issue.py "$WF_NAME" "$WF_CONCLUSION" "$WF_URL"
