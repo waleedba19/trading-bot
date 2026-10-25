@@ -1,12 +1,19 @@
 name: Sentiment
 
-# Runs the sentiment collector (F&G + GDELT + Reddit) every 6 hours,
-# 24/7, even with the PC off.  Writes to sentiment/sentiment.sqlite
-# which the Trade Agent warmup reads for its GO/NO-GO verdict.
+# Sentiment collector (F&G + GDELT), once per session window, ahead of the Warmup
+# that reads it. Times live ONLY in config/sessions.json; the cron block is
+# generated (scripts/sessions.py --write). Runs with the PC off.
 
 on:
   schedule:
-    - cron: "0 */6 * * *"   # every 6 hours
+    # BEGIN GENERATED SESSION CRONS (scripts/sessions.py --write; edit config/sessions.json)
+    - cron: "57 4 * * *"   # sentiment session ticks (generated)
+    - cron: "7,17,27 5 * * *"   # sentiment session ticks (generated)
+    - cron: "57 9 * * *"   # sentiment session ticks (generated)
+    - cron: "7,17,27 10 * * *"   # sentiment session ticks (generated)
+    - cron: "57 22 * * *"   # sentiment session ticks (generated)
+    - cron: "7,17,27 23 * * *"   # sentiment session ticks (generated)
+    # END GENERATED SESSION CRONS
   workflow_dispatch:
 
 concurrency:
@@ -31,16 +38,30 @@ jobs:
           python-version: "3.12"
           cache: pip
 
+      - name: Decide whether this session runs
+        env:
+          FORCE_RUN: ${{ github.event_name == 'workflow_dispatch' && '1' || '0' }}
+        run: |
+          if [ "$FORCE_RUN" = "1" ]; then
+            python scripts/session_gate.py --workflow sentiment --force --github-env "$GITHUB_ENV"
+          else
+            python scripts/session_gate.py --workflow sentiment --github-env "$GITHUB_ENV"
+          fi
+          echo "gate: ${RUN_REASON}" >> "$GITHUB_STEP_SUMMARY"
+
       - name: Install dependencies
+        if: env.RUN_NOW == '1'
         run: |
           python -m pip install --upgrade pip
           pip install requests
 
       - name: Run sentiment collector
+        if: env.RUN_NOW == '1'
         run: |
           python -m sentiment.collector
 
       - name: Commit sentiment data
+        if: env.RUN_NOW == '1'
         run: |
           git config user.name "sentiment-bot"
           git config user.email "sentiment-bot@users.noreply.github.com"
@@ -49,6 +70,7 @@ jobs:
           bash scripts/ci_commit_push.sh "sentiment: run $(date -u +%Y-%m-%d_%H%M)"
 
       - name: Summary
+        if: env.RUN_NOW == '1'
         run: |
           echo "### Sentiment complete" >> $GITHUB_STEP_SUMMARY
           python summary_sentiment.py >> $GITHUB_STEP_SUMMARY

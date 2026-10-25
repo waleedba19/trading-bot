@@ -1,14 +1,20 @@
 name: Warmup
 
-# Runs the Trade Agent warmup before the US market open (14:45 UTC = 9:45 AM ET).
-# Fetches LIVE candles from Kraken before the verdict so the regime signal
-# is computed from fresh data, not stale committed cache.
-# Also runs at 00:30 UTC so the morning verdict uses fresh data.
+# Trade Agent warmup, once per session window (03:00, 09:00, 14:00 Africa/Tripoli),
+# finished before the Deliberate run of the same session. Times live ONLY in
+# config/sessions.json; the cron block is generated (scripts/sessions.py --write).
+# Fetches LIVE candles from Kraken before the verdict.
 
 on:
   schedule:
-    - cron: "30 0 * * *"      # 00:30 UTC
-    - cron: "45 14 * * 1-5"   # 14:45 UTC Mon-Fri
+    # BEGIN GENERATED SESSION CRONS (scripts/sessions.py --write; edit config/sessions.json)
+    - cron: "7,17,27,37 0 * * *"   # warmup session ticks (generated)
+    - cron: "37,47,57 5 * * *"   # warmup session ticks (generated)
+    - cron: "7,17,27,37 6 * * *"   # warmup session ticks (generated)
+    - cron: "37,47,57 10 * * *"   # warmup session ticks (generated)
+    - cron: "7,17,27,37 11 * * *"   # warmup session ticks (generated)
+    - cron: "37,47,57 23 * * *"   # warmup session ticks (generated)
+    # END GENERATED SESSION CRONS
   workflow_dispatch:
     inputs:
       all:
@@ -42,12 +48,25 @@ jobs:
           python-version: "3.12"
           cache: pip
 
+      - name: Decide whether this session runs
+        env:
+          FORCE_RUN: ${{ github.event_name == 'workflow_dispatch' && '1' || '0' }}
+        run: |
+          if [ "$FORCE_RUN" = "1" ]; then
+            python scripts/session_gate.py --workflow warmup --force --github-env "$GITHUB_ENV"
+          else
+            python scripts/session_gate.py --workflow warmup --github-env "$GITHUB_ENV"
+          fi
+          echo "gate: ${RUN_REASON}" >> "$GITHUB_STEP_SUMMARY"
+
       - name: Install dependencies
+        if: env.RUN_NOW == '1'
         run: |
           python -m pip install --upgrade pip
           pip install ccxt pandas numpy pyarrow requests yfinance
 
       - name: Fetch LIVE candles from Kraken
+        if: env.RUN_NOW == '1'
         env:
           PYTHONPATH: ${{ github.workspace }}
         run: |
@@ -65,12 +84,14 @@ jobs:
             || echo "::warning::live candle fetch failed - continuing on cached data"
 
       - name: Run warmup
+        if: env.RUN_NOW == '1'
         env:
           PYTHONPATH: ${{ github.workspace }}
         run: |
           python run_warmup.py --all
 
       - name: Scan for most profitable pairs
+        if: env.RUN_NOW == '1'
         env:
           PYTHONPATH: ${{ github.workspace }}
         run: |
@@ -85,6 +106,7 @@ jobs:
           python summary_scan.py >> "$GITHUB_STEP_SUMMARY"
 
       - name: Commit warmup report
+        if: env.RUN_NOW == '1'
         run: |
           git config user.name "warmup-bot"
           git config user.email "warmup-bot@users.noreply.github.com"
@@ -98,6 +120,7 @@ jobs:
           bash scripts/ci_commit_push.sh "warmup: run $(date -u +%Y-%m-%d_%H%M)"
 
       - name: Summary
+        if: env.RUN_NOW == '1'
         env:
           PYTHONPATH: ${{ github.workspace }}
         run: |

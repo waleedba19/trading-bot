@@ -120,12 +120,12 @@ def check_or_write(cfg, write):
     bad = []
     for wf, fname in WORKFLOW_FILES.items():
         p = ROOT / ".github" / "workflows" / fname
-        text = p.read_text(encoding="utf-8", newline="")
+        text = p.read_bytes().decode("utf-8")
         new = _apply(text, render_block(cfg, wf))
         if new != text:
             bad.append(fname)
             if write:
-                p.write_text(new, encoding="utf-8", newline="")
+                p.write_bytes(new.encode("utf-8"))
     return bad
 
 

@@ -25,7 +25,7 @@ PY_FILE_RE = re.compile(r"python3?\s+([A-Za-z0-9_\-]+\.py)")
 PY_MODULE_RE = re.compile(r"python3?\s+-m\s+((?:agents|research|sentiment)\.[A-Za-z0-9_.]+)")
 # Scripts that write env vars through --github-env (invisible to `echo` parsing).
 GITHUB_ENV_WRITERS = {
-    "scripts/should_run_deliberate.py": {"RUN_NOW", "RUN_REASON"},
+    "scripts/session_gate.py": {"RUN_NOW", "RUN_REASON"},
     "scripts/check_staleness.py": {"STALE_WORKFLOWS", "STALE_COUNT"},
 }
 INPUTS_RE = re.compile(r"\$\{\{\s*inputs\.")
@@ -145,6 +145,18 @@ class WorkflowContractTest(unittest.TestCase):
                     for name in ENV_COND_RE.findall(cond):
                         self.assertIn(name, written,
                                       f"{path.name}: step guards on env.{name} before it is written")
+
+    def test_session_workflows_are_gated(self):
+        """Ticks fire every 10 min: an ungated step would run the job at every tick."""
+        for name in ("deliberate.yml", "warmup.yml", "sentiment.yml"):
+            data = yaml.safe_load((ROOT / ".github" / "workflows" / name).read_text(encoding="utf-8"))
+            for job in _jobs(data):
+                steps = [s for s in job["steps"] if isinstance(s, dict)]
+                gate = next((i for i, s in enumerate(steps) if "scripts/session_gate.py" in str(s.get("run"))), None)
+                self.assertIsNotNone(gate, f"{name}: no session_gate step")
+                for step in steps[gate + 1:]:
+                    if "run" in step:
+                        self.assertIn("RUN_NOW", str(step.get("if")), f"{name}: ungated step {step['name']}")
 
     def test_jobs_have_timeouts(self):
         for path in WORKFLOWS:

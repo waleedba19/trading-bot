@@ -1,26 +1,16 @@
 #!/usr/bin/env python3
-"""Gate for the twice-daily deliberation schedule (PC off, GitHub only).
+"""Run-once-per-session gate for Deliberate, Warmup and Sentiment.
 
-Why: GitHub cron is best-effort on public repos -- slots get delayed or dropped
-(today's 00:30/08:30/16:30/20:30 runs were silently skipped). Ticking every two
-hours and letting this gate decide guarantees exactly two real sessions per day
-plus a catch-up if GitHub dropped both.
+Times live only in config/sessions.json (see scripts/sessions.py). GitHub cron is
+best-effort, so each workflow ticks every 10 minutes in the run-up to each open and
+this gate runs the job once per session window. Always exits 0 (never fails a
+workflow); writes RUN_NOW=1/0 and RUN_REASON to --github-env.
 
-Slots (UTC):  04:00  = 06:00 Africa/Tripoli (day start)
-              10:30  = 12:30 Africa/Tripoli (midday)
-
-Rules, first match wins:
-  1. --force (manual dispatch)          -> run
-  2. newest decision < 2 h old          -> skip (already ran this slot)
-  3. UTC hour in (4, 10)                -> run (tick delayed up to 45 min)
-  4. newest decision missing or >= 20 h -> run (catch-up; never strand a day)
-  5. otherwise                          -> skip
-
-Always exit 0: this gate must never fail the workflow. The decision is written
-to $GITHUB_ENV as RUN_NOW=1/0 when a decision path is requested.
+    python scripts/session_gate.py --workflow warmup [--force] [--github-env PATH]
 """
 import argparse
 import json
+import sqlite3
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -28,13 +18,13 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
+import sessions  # noqa: E402
 from check_staleness import content_time  # noqa: E402
+
 LATEST = ROOT / "user_data" / "decisions" / "latest.json"
 DECISIONS = ROOT / "reports" / "decisions"
-SLOT_HOURS_UTC = (4, 10)
-MIN_GAP_HOURS = 2.0
-CATCHUP_HOURS = 20.0
-SLOT_MINUTE_LIMIT = 45
+WARMUP_LOG = ROOT / "research" / "reports" / "warmup" / "warmup_log.jsonl"
+SENTIMENT_DB = ROOT / "sentiment" / "sentiment.sqlite"
 
 
 def newest_decision_time():
@@ -44,7 +34,8 @@ def newest_decision_time():
             data = json.loads(LATEST.read_text(encoding="utf-8"))
             stamp = data.get("generated_at") or data.get("asof")
             if stamp:
-                candidates.append(datetime.fromisoformat(str(stamp).replace("Z", "+00:00")))
+                parsed = datetime.fromisoformat(str(stamp).replace("Z", "+00:00"))
+                candidates.append(parsed if parsed.tzinfo else parsed.replace(tzinfo=timezone.utc))
         except (OSError, ValueError):
             pass
     stamp = content_time(DECISIONS)
@@ -53,36 +44,43 @@ def newest_decision_time():
     return max(candidates) if candidates else None
 
 
-def decide(now=None, force=False):
-    now = now or datetime.now(timezone.utc)
-    last = newest_decision_time()
-    age = None if last is None else (now - last).total_seconds() / 3600.0
-    age_text = "none" if age is None else f"{age:.1f}h"
+def newest_sentiment_time():
+    if not SENTIMENT_DB.is_file():
+        return None
+    try:
+        with sqlite3.connect(SENTIMENT_DB) as db:
+            stamps = [db.execute(f"SELECT MAX(ts_utc) FROM {t}").fetchone()[0]
+                      for t in ("fng", "gdelt_tone", "reddit_posts")]
+        stamps = [datetime.fromisoformat(s) for s in stamps if s]
+    except (sqlite3.Error, ValueError):
+        return None
+    return max(stamps) if stamps else None
 
-    if force:
-        return True, f"forced by dispatch (last decision {age_text})"
-    if age is not None and age < MIN_GAP_HOURS:
-        return False, f"already ran {age:.1f}h ago (<{MIN_GAP_HOURS:g}h)"
-    if now.hour in SLOT_HOURS_UTC and now.minute <= SLOT_MINUTE_LIMIT:
-        return True, f"slot hour {now.hour:02d}:00 UTC (last decision {age_text})"
-    if age is None or age >= CATCHUP_HOURS:
-        return True, f"catch-up: last decision {age_text} (>= {CATCHUP_HOURS:g}h)"
-    return False, f"outside slots; last decision {age_text}"
+
+LAST_RUN = {
+    "deliberate": lambda: newest_decision_time(),
+    "warmup": lambda: content_time(WARMUP_LOG),
+    "sentiment": lambda: newest_sentiment_time(),
+}
+
+
+def decide(workflow, now=None, force=False, cfg=None):
+    return sessions.decide(cfg or sessions.load(), workflow, now or datetime.now(timezone.utc),
+                           LAST_RUN[workflow](), force)
 
 
 def main(argv=None):
-    parser = argparse.ArgumentParser(prog="scripts/should_run_deliberate.py")
+    parser = argparse.ArgumentParser(prog="scripts/session_gate.py")
+    parser.add_argument("--workflow", required=True, choices=sorted(LAST_RUN))
     parser.add_argument("--force", action="store_true")
-    parser.add_argument("--github-env", default=None,
-                        help="path to $GITHUB_ENV; writes RUN_NOW=1/0")
+    parser.add_argument("--github-env", default=None, help="path to $GITHUB_ENV; writes RUN_NOW=1/0")
     args = parser.parse_args(argv)
 
-    run, reason = decide(force=args.force)
+    run, reason = decide(args.workflow, force=args.force)
     print(f"run={int(run)} reason={reason}")
     if args.github_env:
         with open(args.github_env, "a", encoding="utf-8") as fh:
-            fh.write(f"RUN_NOW={1 if run else 0}\n")
-            fh.write(f"RUN_REASON={reason}\n")
+            fh.write(f"RUN_NOW={1 if run else 0}\nRUN_REASON={reason}\n")
     return 0
 
 

@@ -1,24 +1,26 @@
 name: Deliberate
 
-# Two scheduled sessions per day, Africa/Tripoli local time:
-#   06:00 (04:00 UTC) - day start
-#   12:30 (10:30 UTC) - midday
-#
-# GitHub cron is best-effort on public repos and silently dropped most of the
-# old 6x/day slots (verified 2026-10-23), so we tick every 2 hours and let
-# scripts/should_run_deliberate.py decide:
-#   - run only inside the two slot hours,
-#   - never twice within 2 hours,
-#   - always catch up when the newest decision is older than 20 hours.
-# Manual dispatch always runs.
+# Three sessions per day (03:00, 09:00, 14:00 Africa/Tripoli) plus a 15:00
+# "ready to trade" refresh. Times live ONLY in config/sessions.json; the cron
+# block below is generated (python scripts/sessions.py --write) and CI fails if
+# it drifts. GitHub cron is best-effort, so ticks fire every 10 minutes in the
+# run-up to each open and scripts/session_gate.py runs the job once per session
+# window. A dropped or late tick changes nothing. Manual dispatch always runs.
 #
 # Reads market data + committed evidence; writes decision JSON. Never places
 # orders and never touches exchange credentials.
 
 on:
   schedule:
-    - cron: "0 */2 * * *"   # safety tick every 2h; the gate decides
-    - cron: "30 10 * * *"   # exact 12:30 local (10:30 UTC)
+    # BEGIN GENERATED SESSION CRONS (scripts/sessions.py --write; edit config/sessions.json)
+    - cron: "17,27,37,47,57 0 * * *"   # deliberate session ticks (generated)
+    - cron: "7,17,27,37 1 * * *"   # deliberate session ticks (generated)
+    - cron: "17,27,37,47,57 6 * * *"   # deliberate session ticks (generated)
+    - cron: "7,17,27,37 7 * * *"   # deliberate session ticks (generated)
+    - cron: "17,27,37,47,57 11 * * *"   # deliberate session ticks (generated)
+    - cron: "7,17,27,37,47,57 12 * * *"   # deliberate session ticks (generated)
+    - cron: "7,17,27 13 * * *"   # deliberate session ticks (generated)
+    # END GENERATED SESSION CRONS
   workflow_dispatch:
     inputs:
       pairs:
@@ -52,14 +54,14 @@ jobs:
           python-version: "3.12"
           cache: pip
 
-      - name: Decide whether this cycle runs
+      - name: Decide whether this session runs
         env:
           FORCE_RUN: ${{ github.event_name == 'workflow_dispatch' && '1' || '0' }}
         run: |
           if [ "$FORCE_RUN" = "1" ]; then
-            python scripts/should_run_deliberate.py --force --github-env "$GITHUB_ENV"
+            python scripts/session_gate.py --workflow deliberate --force --github-env "$GITHUB_ENV"
           else
-            python scripts/should_run_deliberate.py --github-env "$GITHUB_ENV"
+            python scripts/session_gate.py --workflow deliberate --github-env "$GITHUB_ENV"
           fi
           echo "gate: ${RUN_REASON}" >> "$GITHUB_STEP_SUMMARY"
 
@@ -145,13 +147,13 @@ jobs:
           bash scripts/ci_commit_push.sh "deliberation: run $(date -u +%Y-%m-%d_%H%M)"
 
       - name: Summary
-        if: always()
+        if: always() && env.RUN_NOW == '1'
         env:
           PYTHONPATH: ${{ github.workspace }}
         run: |
           echo "### Deliberation cycle" >> "$GITHUB_STEP_SUMMARY"
           echo "" >> "$GITHUB_STEP_SUMMARY"
-          echo "gate decision: in 2-hour ticks; scheduled sessions 06:00 / 12:30 local (04:00 / 10:30 UTC)." >> "$GITHUB_STEP_SUMMARY"
+          echo "gate decision: see the gate step; sessions in config/sessions.json." >> "$GITHUB_STEP_SUMMARY"
           echo "" >> "$GITHUB_STEP_SUMMARY"
           ls reports/decisions 2>/dev/null | tail -5 >> "$GITHUB_STEP_SUMMARY" || true
           echo "" >> "$GITHUB_STEP_SUMMARY"

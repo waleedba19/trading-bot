@@ -40,7 +40,7 @@
         "deliberate"
       ],
       "window": {
-        "start_minutes_before_open": 40,
+        "start_minutes_before_open": 25,
         "end_minutes_before_open": -30
       }
     }
