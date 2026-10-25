@@ -14,7 +14,7 @@ permissions:
 
 jobs:
   alert:
-    if: github.event.workflow_run.conclusion == 'failure' || github.event.workflow_run.conclusion == 'success'
+    if: contains(fromJSON('["failure","timed_out","success"]'), github.event.workflow_run.conclusion)
     runs-on: ubuntu-latest
     timeout-minutes: 5
 
@@ -29,5 +29,6 @@ jobs:
           WF_NAME: ${{ github.event.workflow_run.name }}
           WF_CONCLUSION: ${{ github.event.workflow_run.conclusion }}
           WF_URL: ${{ github.event.workflow_run.html_url }}
+          WF_BRANCH: ${{ github.event.workflow_run.head_branch }}
         run: |
-          python scripts/alert_issue.py "$WF_NAME" "$WF_CONCLUSION" "$WF_URL"
+          python scripts/alert_issue.py "$WF_NAME" "$WF_CONCLUSION" "$WF_URL" "$WF_BRANCH"

@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-10-25T18:47:02.213072+00:00",
+  "generated_at": "2026-10-25T21:32:07.865356+00:00",
   "all_ok": true,
   "any_ok": true,
   "sources": {
     "kraken": {
       "ok": true,
-      "latency_ms": 4514,
+      "latency_ms": 2828,
       "rows": 5,
-      "last_close": 80579.3
+      "last_close": 80370.6
     },
     "okx": {
       "ok": true,
-      "latency_ms": 1715,
+      "latency_ms": 1949,
       "rows": 5,
-      "last_close": 80687.2
+      "last_close": 80476.8
     },
     "yahoo": {
       "ok": true,
-      "latency_ms": 1266,
+      "latency_ms": 949,
       "rows": 7,
       "last_close": 347.7300109863281
     }

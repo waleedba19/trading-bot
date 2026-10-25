@@ -1,5 +1,6 @@
 import sys
 import unittest
+from unittest import mock
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -65,6 +66,13 @@ class AlertTest(unittest.TestCase):
         self.assertEqual(alert_issue.decide({}, "Outcome", "success"), ("none", None))
         self.assertEqual(alert_issue.decide(open_, "Warmup", "failure"), ("create", None))  # other workflow, own issue
         self.assertEqual(alert_issue.decide(open_, "Outcome", "cancelled"), ("none", None))
+        self.assertEqual(alert_issue.decide({}, "Outcome", "timed_out"), ("create", None))
+        self.assertEqual(alert_issue.decide(open_, "Outcome", "timed_out"), ("comment", 7))
+
+    def test_other_branch_never_opens_or_closes(self):
+        with mock.patch.object(alert_issue, "gh", side_effect=AssertionError("must not call gh")):
+            self.assertEqual(alert_issue.main(["x", "Outcome", "success", "http://run", "feature/x"]), 0)
+            self.assertEqual(alert_issue.main(["x", "Outcome", "failure", "http://run", "fix/y"]), 0)
 
 
 if __name__ == "__main__":

@@ -11,6 +11,7 @@ import subprocess
 import sys
 
 LABEL = "workflow-failure"
+FAILED = ("failure", "timed_out")
 
 
 def title(name):
@@ -20,7 +21,7 @@ def title(name):
 def decide(open_titles_to_numbers, name, conclusion):
     """-> ('create'|'comment'|'close'|'none', issue number or None)."""
     number = open_titles_to_numbers.get(title(name))
-    if conclusion == "failure":
+    if conclusion in FAILED:   # a timeout is a failure too
         return ("comment", number) if number else ("create", None)
     if conclusion == "success" and number:
         return ("close", number)
@@ -36,6 +37,10 @@ def gh(*args):
 
 def main(argv):
     name, conclusion, url = argv[1], argv[2], argv[3] if len(argv) > 3 else ""
+    branch = argv[4] if len(argv) > 4 else "main"
+    if branch not in ("main", ""):   # only the default branch opens or closes alerts: a green PR run must not close a red main
+        print(f"alert: {name} {conclusion} on branch {branch} -> none")
+        return 0
     repo = os.environ.get("GH_REPO") or os.environ["GITHUB_REPOSITORY"]  # a fork's `gh` defaults to the PARENT repo: always name it
     # REST, not `gh issue list --label`: that goes through the search index, which lags and caused duplicate issues
     issues = json.loads(gh("api", f"repos/{repo}/issues?state=open&labels={LABEL}&per_page=100", "--jq", "[.[]|select(.pull_request|not)|{number,title}]"))
