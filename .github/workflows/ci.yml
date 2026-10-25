@@ -44,5 +44,8 @@ jobs:
       - name: Preflight (syntax, JSON/YAML, hygiene)
         run: python preflight.py
 
+      - name: Session crons match config/sessions.json
+        run: python scripts/sessions.py --check
+
       - name: Unit tests
         run: python -m pytest -q
