@@ -29,7 +29,7 @@ from agents import universe  # noqa: E402
 SCAN_PATH = ROOT / "research" / "reports" / "asset_scan.json"
 OUT_PATH = ROOT / "research" / "reports" / "scan_shortlist.json"
 IC_PATH = ROOT / "research" / "reports" / "scan_ic.json"
-DEFAULT_QUOTA = {"crypto": 3, "equity": 2, "forex": 1}
+DEFAULT_QUOTA = {"crypto": 6, "equity": 4, "forex": 4}  # forex = EURUSD, gold, GBPUSD, USDJPY
 MIN_SCORE = 0.0
 
 

@@ -41,9 +41,9 @@ EQUITY_SYMBOLS = [
     "TSLA", "AMD", "NFLX", "AVGO", "SPY", "QQQ",
 ]
 FOREX_YF = {
-    "EURUSD": "EURUSD=X", "GBPUSD": "GBPUSD=X", "USDJPY": "USDJPY=X",
-    "AUDUSD": "AUDUSD=X", "USDCAD": "USDCAD=X", "USDCHF": "USDCHF=X",
-    "NZDUSD": "NZDUSD=X", "XAUUSD": "XAUUSD=X", "XAGUSD": "XAGUSD=X",
+    "EURUSD": "EURUSD=X", "XAUUSD": "XAUUSD=X", "GBPUSD": "GBPUSD=X",
+    "USDJPY": "USDJPY=X", "AUDUSD": "AUDUSD=X", "USDCAD": "USDCAD=X",
+    "USDCHF": "USDCHF=X", "NZDUSD": "NZDUSD=X", "XAGUSD": "XAGUSD=X",
 }
 # Yahoo has no spot XAU/XAG symbols; COMEX futures are the usable free proxy.
 YAHOO_FALLBACKS = {
