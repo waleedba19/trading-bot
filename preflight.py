@@ -38,7 +38,7 @@ MAX_BYTES = 2_000_000
 
 SECRET_PATTERNS = [
     (re.compile(r"AKIA[0-9A-Z]{16}"), "AWS access key id"),
-    (re.compile(r"sk-[A-Za-z0-9_\-]{32,}"), "API secret key (sk-...)"),
+    (re.compile(r"(?<![A-Za-z0-9])sk-[A-Za-z0-9_\-]{32,}"), "API secret key (sk-...)"),
     (re.compile(r"gh[pousr]_[A-Za-z0-9]{36,}"), "GitHub token"),
     (re.compile(r"-----BEGIN (?:RSA |EC |OPENSSH |DSA )?PRIVATE KEY-----"), "private key block"),
     (re.compile(r"(?i)(?:api[_-]?key|secret|token|passwd|password)\s*[:=]\s*['\"][A-Za-z0-9_\-/+=]{20,}['\"]"),
