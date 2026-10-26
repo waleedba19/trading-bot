@@ -1,0 +1,86 @@
+{
+ "horizon_bars": 6,
+ "cost_pct": 0.24,
+ "split": "2025-01-01",
+ "always_long_net_pct_per_trade": {
+  "train": -0.137,
+  "holdout": -0.243
+ },
+ "features": {
+  "old_score": {
+   "train": {
+    "n": 3286,
+    "hit": 0.484,
+    "net_pct": -0.097,
+    "t": -1.39
+   },
+   "holdout": {
+    "n": 1984,
+    "hit": 0.478,
+    "net_pct": -0.25,
+    "t": -3.34
+   },
+   "keep": false
+  },
+  "sweep": {
+   "train": {
+    "n": 277,
+    "hit": 0.538,
+    "net_pct": -0.154,
+    "t": -0.59
+   },
+   "holdout": {
+    "n": 166,
+    "hit": 0.536,
+    "net_pct": -0.363,
+    "t": -1.24
+   },
+   "keep": false
+  },
+  "structure": {
+   "train": {
+    "n": 1188,
+    "hit": 0.459,
+    "net_pct": -0.089,
+    "t": -0.68
+   },
+   "holdout": {
+    "n": 688,
+    "hit": 0.48,
+    "net_pct": -0.225,
+    "t": -1.61
+   },
+   "keep": false
+  },
+  "fvg": {
+   "train": {
+    "n": 2410,
+    "hit": 0.494,
+    "net_pct": 0.012,
+    "t": 0.14
+   },
+   "holdout": {
+    "n": 1498,
+    "hit": 0.487,
+    "net_pct": -0.265,
+    "t": -3.12
+   },
+   "keep": false
+  },
+  "combo": {
+   "train": {
+    "n": 2448,
+    "hit": 0.493,
+    "net_pct": -0.144,
+    "t": -1.74
+   },
+   "holdout": {
+    "n": 1498,
+    "hit": 0.502,
+    "net_pct": -0.229,
+    "t": -2.69
+   },
+   "keep": false
+  }
+ }
+}
